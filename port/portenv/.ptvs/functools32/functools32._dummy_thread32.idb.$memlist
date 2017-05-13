@@ -1,0 +1,12 @@
+exit
+__all__
+start_new_thread
+stack_size
+allocate_lock
+error
+interrupt_main
+LockType
+get_ident
+_main
+_interrupt
+TIMEOUT_MAX

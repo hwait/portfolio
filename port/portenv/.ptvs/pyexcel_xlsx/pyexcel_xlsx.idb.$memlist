@@ -1,0 +1,9 @@
+__FILE_TYPE__
+isstream
+write_data
+read_data
+__META__
+xlsx
+get_data
+__pyexcel_io_plugins__
+save_data

@@ -1,0 +1,17 @@
+xrange
+Matrix
+cairo
+_keepref
+ScaledFont
+_check_status
+PATH_POINTS_PER_TYPE
+Surface
+_iter_path
+_encode_string
+Context
+FontOptions
+_encode_path
+ffi
+FontFace
+constants
+Pattern

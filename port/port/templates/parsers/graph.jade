@@ -1,0 +1,28 @@
+extends layout
+
+block content
+    script(src="https://cdn.plot.ly/plotly-latest.min.js")
+    if country!=''
+        h1 #{country}
+     elif keyword!=''
+        h1 #{keyword}
+    table(class='table' cellpadding='5')
+        tr
+            td(class='col-md-2', valign='top')
+                table(class='table')
+                    tr
+                        th Countries:
+                    for x in countries
+                        tr
+                            td
+                                a(href='?c=#{x[0]}') #{x[1]}
+            td(class='col-md-2', valign='top')
+                table(class='table')
+                    tr
+                        th Keywords:
+                    for x in keywords
+                        tr
+                            td
+                                a(href='?k=#{x}') #{x}
+            td(class='col-md-8') #{graph|safe}
+    

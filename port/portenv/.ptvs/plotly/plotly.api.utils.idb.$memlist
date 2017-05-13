@@ -1,0 +1,7 @@
+basic_auth
+_to_native_string
+is_py2
+to_native_ascii_string
+b64encode
+builtin_str
+to_native_utf8_string

@@ -1,0 +1,17 @@
+find_root_visual
+time
+xcffib
+ConfigWindow
+os
+test_xcb_window
+pytest
+create_gc
+test_xcb_pixmap
+create_pixmap
+create_window
+cairo_version
+Context
+XCBSurface
+GC
+CW
+EventMask

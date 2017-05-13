@@ -1,0 +1,1595 @@
+﻿
+2017-04-12T13:24:31: Start analysis
+2017-04-12T13:24:31: [WARNING] Library was set explicitly - skipping path detection
+2017-04-12T13:24:31: IncludeModulesFromModulePath = win32com
+2017-04-12T13:24:35: Deleting 0 files
+2017-04-12T13:24:35: Scraping builtin modules
+2017-04-12T13:24:35: Command: c:\dev\portfolio\portfolio\portfolioenv\Scripts\python.exe "C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\PythonScraper.py" c:\dev\portfolio\portfolio\portfolioenv\.ptvs\ "C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\\"
+2017-04-12T13:24:41: Output
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\_codecs.idb
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\_collections.idb
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\_functools.idb
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\_heapq.idb
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\_io.idb
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\_locale.idb
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\_md5.idb
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\_random.idb
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\_sha256.idb
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\_sha512.idb
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\_sre.idb
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\_struct.idb
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\_warnings.idb
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\_weakref.idb
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\array.idb
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\binascii.idb
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\cmath.idb
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\errno.idb
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\gc.idb
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\itertools.idb
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\marshal.idb
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\math.idb
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\mmap.idb
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\msvcrt.idb
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\nt.idb
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\sys.idb
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\time.idb
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\xxsubtype.idb
+2017-04-12T13:24:41: Scraped builtin modules
+2017-04-12T13:24:41: astropy.CallDepth = 0
+2017-04-12T13:24:41: matplotlib.CallDepth = 3
+2017-04-12T13:24:41: pandas.CallDepth = 0
+2017-04-12T13:24:41: sympy.CallDepth = 0
+2017-04-12T13:24:41: Start group "c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages" with 1 files
+2017-04-12T13:24:42: Parsing "easy_install" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\easy_install.py")
+2017-04-12T13:24:42: Parsing complete
+2017-04-12T13:24:42: Analyzing "easy_install"
+2017-04-12T13:24:42: Starting analysis of 1 modules
+2017-04-12T13:24:42: Analysis complete
+2017-04-12T13:24:42: Saving group "c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages"
+2017-04-12T13:26:36: End of group "c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages"
+2017-04-12T13:26:36: Start group "c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip" with 233 files
+2017-04-12T13:26:36: Parsing "pip.basecommand" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\basecommand.py")
+2017-04-12T13:26:36: Parsing "pip.baseparser" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\baseparser.py")
+2017-04-12T13:26:36: Parsing "pip.cmdoptions" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\cmdoptions.py")
+2017-04-12T13:26:36: Parsing "pip.download" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\download.py")
+2017-04-12T13:26:36: Parsing "pip.exceptions" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\exceptions.py")
+2017-04-12T13:26:36: Parsing "pip.index" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\index.py")
+2017-04-12T13:26:36: Parsing "pip.locations" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\locations.py")
+2017-04-12T13:26:36: Parsing "pip.pep425tags" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\pep425tags.py")
+2017-04-12T13:26:37: Parsing "pip.status_codes" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\status_codes.py")
+2017-04-12T13:26:37: Parsing "pip.wheel" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\wheel.py")
+2017-04-12T13:26:37: Parsing "pip" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\__init__.py")
+2017-04-12T13:26:37: Parsing "pip.__main__" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\__main__.py")
+2017-04-12T13:26:37: Parsing "pip.commands.completion" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\commands\completion.py")
+2017-04-12T13:26:37: Parsing "pip.commands.download" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\commands\download.py")
+2017-04-12T13:26:37: Parsing "pip.commands.freeze" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\commands\freeze.py")
+2017-04-12T13:26:37: Parsing "pip.commands.hash" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\commands\hash.py")
+2017-04-12T13:26:37: Parsing "pip.commands.help" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\commands\help.py")
+2017-04-12T13:26:37: Parsing "pip.commands.install" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\commands\install.py")
+2017-04-12T13:26:37: Parsing "pip.commands.list" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\commands\list.py")
+2017-04-12T13:26:37: Parsing "pip.commands.search" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\commands\search.py")
+2017-04-12T13:26:37: Parsing "pip.commands.show" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\commands\show.py")
+2017-04-12T13:26:37: Parsing "pip.commands.uninstall" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\commands\uninstall.py")
+2017-04-12T13:26:37: Parsing "pip.commands.wheel" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\commands\wheel.py")
+2017-04-12T13:26:39: Parsing "pip.commands" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\commands\__init__.py")
+2017-04-12T13:26:39: Parsing "pip.compat.dictconfig" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\compat\dictconfig.py")
+2017-04-12T13:26:39: Parsing "pip.compat.ordereddict" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\compat\ordereddict.py")
+2017-04-12T13:26:39: Parsing "pip.compat" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\compat\__init__.py")
+2017-04-12T13:26:39: Parsing "pip.models.index" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\models\index.py")
+2017-04-12T13:26:39: Parsing "pip.models" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\models\__init__.py")
+2017-04-12T13:26:39: Parsing "pip.operations.freeze" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\operations\freeze.py")
+2017-04-12T13:26:39: Parsing "pip.operations" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\operations\__init__.py")
+2017-04-12T13:26:39: Parsing "pip.req.req_file" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\req\req_file.py")
+2017-04-12T13:26:39: Parsing "pip.req.req_install" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\req\req_install.py")
+2017-04-12T13:26:39: Parsing "pip.req.req_set" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\req\req_set.py")
+2017-04-12T13:26:39: Parsing "pip.req.req_uninstall" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\req\req_uninstall.py")
+2017-04-12T13:26:39: Parsing "pip.req" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\req\__init__.py")
+2017-04-12T13:26:39: Parsing "pip.utils.appdirs" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\utils\appdirs.py")
+2017-04-12T13:26:39: Parsing "pip.utils.build" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\utils\build.py")
+2017-04-12T13:26:39: Parsing "pip.utils.deprecation" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\utils\deprecation.py")
+2017-04-12T13:26:39: Parsing "pip.utils.encoding" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\utils\encoding.py")
+2017-04-12T13:26:39: Parsing "pip.utils.filesystem" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\utils\filesystem.py")
+2017-04-12T13:26:39: Parsing "pip.utils.hashes" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\utils\hashes.py")
+2017-04-12T13:26:39: Parsing "pip.utils.logging" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\utils\logging.py")
+2017-04-12T13:26:39: Parsing "pip.utils.outdated" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\utils\outdated.py")
+2017-04-12T13:26:39: Parsing "pip.utils.setuptools_build" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\utils\setuptools_build.py")
+2017-04-12T13:26:40: Parsing "pip.utils.ui" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\utils\ui.py")
+2017-04-12T13:26:40: Parsing "pip.utils" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\utils\__init__.py")
+2017-04-12T13:26:40: Parsing "pip.vcs.bazaar" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\vcs\bazaar.py")
+2017-04-12T13:26:40: Parsing "pip.vcs.git" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\vcs\git.py")
+2017-04-12T13:26:40: Parsing "pip.vcs.mercurial" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\vcs\mercurial.py")
+2017-04-12T13:26:40: Parsing "pip.vcs.subversion" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\vcs\subversion.py")
+2017-04-12T13:26:40: Parsing "pip.vcs" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\vcs\__init__.py")
+2017-04-12T13:26:40: Parsing "pip._vendor.ipaddress" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\ipaddress.py")
+2017-04-12T13:26:40: Parsing "pip._vendor.pyparsing" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\pyparsing.py")
+2017-04-12T13:26:40: Parsing "pip._vendor.retrying" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\retrying.py")
+2017-04-12T13:26:40: Parsing "pip._vendor.six" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\six.py")
+2017-04-12T13:26:40: Parsing "pip._vendor" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\__init__.py")
+2017-04-12T13:26:40: Parsing "pip._vendor.cachecontrol.adapter" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\cachecontrol\adapter.py")
+2017-04-12T13:26:40: Parsing "pip._vendor.cachecontrol.cache" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\cachecontrol\cache.py")
+2017-04-12T13:26:40: Parsing "pip._vendor.cachecontrol.compat" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\cachecontrol\compat.py")
+2017-04-12T13:26:40: Parsing "pip._vendor.cachecontrol.controller" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\cachecontrol\controller.py")
+2017-04-12T13:26:40: Parsing "pip._vendor.cachecontrol.filewrapper" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\cachecontrol\filewrapper.py")
+2017-04-12T13:26:40: Parsing "pip._vendor.cachecontrol.heuristics" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\cachecontrol\heuristics.py")
+2017-04-12T13:26:40: Parsing "pip._vendor.cachecontrol.serialize" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\cachecontrol\serialize.py")
+2017-04-12T13:26:40: Parsing "pip._vendor.cachecontrol.wrapper" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\cachecontrol\wrapper.py")
+2017-04-12T13:26:40: Parsing "pip._vendor.cachecontrol._cmd" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\cachecontrol\_cmd.py")
+2017-04-12T13:26:40: Parsing "pip._vendor.cachecontrol" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\cachecontrol\__init__.py")
+2017-04-12T13:26:40: Parsing "pip._vendor.cachecontrol.caches.file_cache" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\cachecontrol\caches\file_cache.py")
+2017-04-12T13:26:40: Parsing "pip._vendor.cachecontrol.caches.redis_cache" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\cachecontrol\caches\redis_cache.py")
+2017-04-12T13:26:40: Parsing "pip._vendor.cachecontrol.caches" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\cachecontrol\caches\__init__.py")
+2017-04-12T13:26:40: Parsing "pip._vendor.colorama.ansi" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\colorama\ansi.py")
+2017-04-12T13:26:40: Parsing "pip._vendor.colorama.ansitowin32" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\colorama\ansitowin32.py")
+2017-04-12T13:26:40: Parsing "pip._vendor.colorama.initialise" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\colorama\initialise.py")
+2017-04-12T13:26:40: Parsing "pip._vendor.colorama.win32" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\colorama\win32.py")
+2017-04-12T13:26:40: Parsing "pip._vendor.colorama.winterm" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\colorama\winterm.py")
+2017-04-12T13:26:40: Parsing "pip._vendor.colorama" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\colorama\__init__.py")
+2017-04-12T13:26:40: Parsing "pip._vendor.distlib.compat" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\distlib\compat.py")
+2017-04-12T13:26:40: Parsing "pip._vendor.distlib.database" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\distlib\database.py")
+2017-04-12T13:26:40: Parsing "pip._vendor.distlib.index" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\distlib\index.py")
+2017-04-12T13:26:40: Parsing "pip._vendor.distlib.locators" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\distlib\locators.py")
+2017-04-12T13:26:40: Parsing "pip._vendor.distlib.manifest" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\distlib\manifest.py")
+2017-04-12T13:26:40: Parsing "pip._vendor.distlib.markers" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\distlib\markers.py")
+2017-04-12T13:26:40: Parsing "pip._vendor.distlib.metadata" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\distlib\metadata.py")
+2017-04-12T13:26:40: Parsing "pip._vendor.distlib.resources" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\distlib\resources.py")
+2017-04-12T13:26:40: Parsing "pip._vendor.distlib.scripts" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\distlib\scripts.py")
+2017-04-12T13:26:40: Parsing "pip._vendor.distlib.util" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\distlib\util.py")
+2017-04-12T13:26:40: Parsing "pip._vendor.distlib.version" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\distlib\version.py")
+2017-04-12T13:26:40: Parsing "pip._vendor.distlib.wheel" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\distlib\wheel.py")
+2017-04-12T13:26:40: Parsing "pip._vendor.distlib" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\distlib\__init__.py")
+2017-04-12T13:26:40: Parsing "pip._vendor.distlib._backport.misc" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\distlib\_backport\misc.py")
+2017-04-12T13:26:40: Parsing "pip._vendor.distlib._backport.shutil" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\distlib\_backport\shutil.py")
+2017-04-12T13:26:40: Parsing "pip._vendor.distlib._backport.sysconfig" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\distlib\_backport\sysconfig.py")
+2017-04-12T13:26:40: Parsing "pip._vendor.distlib._backport.tarfile" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\distlib\_backport\tarfile.py")
+2017-04-12T13:26:40: Parsing "pip._vendor.distlib._backport" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\distlib\_backport\__init__.py")
+2017-04-12T13:26:40: Parsing "pip._vendor.html5lib.constants" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\html5lib\constants.py")
+2017-04-12T13:26:40: Parsing "pip._vendor.html5lib.html5parser" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\html5lib\html5parser.py")
+2017-04-12T13:26:40: Parsing "pip._vendor.html5lib.ihatexml" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\html5lib\ihatexml.py")
+2017-04-12T13:26:40: Parsing "pip._vendor.html5lib.inputstream" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\html5lib\inputstream.py")
+2017-04-12T13:26:40: Parsing "pip._vendor.html5lib.sanitizer" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\html5lib\sanitizer.py")
+2017-04-12T13:26:40: Parsing "pip._vendor.html5lib.tokenizer" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\html5lib\tokenizer.py")
+2017-04-12T13:26:40: Parsing "pip._vendor.html5lib.utils" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\html5lib\utils.py")
+2017-04-12T13:26:40: Parsing "pip._vendor.html5lib" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\html5lib\__init__.py")
+2017-04-12T13:26:40: Parsing "pip._vendor.html5lib.filters.alphabeticalattributes" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\html5lib\filters\alphabeticalattributes.py")
+2017-04-12T13:26:40: Parsing "pip._vendor.html5lib.filters.inject_meta_charset" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\html5lib\filters\inject_meta_charset.py")
+2017-04-12T13:26:40: Parsing "pip._vendor.html5lib.filters.lint" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\html5lib\filters\lint.py")
+2017-04-12T13:26:40: Parsing "pip._vendor.html5lib.filters.optionaltags" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\html5lib\filters\optionaltags.py")
+2017-04-12T13:26:40: Parsing "pip._vendor.html5lib.filters.sanitizer" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\html5lib\filters\sanitizer.py")
+2017-04-12T13:26:40: Parsing "pip._vendor.html5lib.filters.whitespace" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\html5lib\filters\whitespace.py")
+2017-04-12T13:26:40: Parsing "pip._vendor.html5lib.filters._base" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\html5lib\filters\_base.py")
+2017-04-12T13:26:40: Parsing "pip._vendor.html5lib.filters" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\html5lib\filters\__init__.py")
+2017-04-12T13:26:40: Parsing "pip._vendor.html5lib.serializer.htmlserializer" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\html5lib\serializer\htmlserializer.py")
+2017-04-12T13:26:40: Parsing "pip._vendor.html5lib.serializer" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\html5lib\serializer\__init__.py")
+2017-04-12T13:26:40: Parsing "pip._vendor.html5lib.treeadapters.sax" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\html5lib\treeadapters\sax.py")
+2017-04-12T13:26:40: Parsing "pip._vendor.html5lib.treeadapters" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\html5lib\treeadapters\__init__.py")
+2017-04-12T13:26:40: Parsing "pip._vendor.html5lib.treebuilders.dom" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\html5lib\treebuilders\dom.py")
+2017-04-12T13:26:40: Parsing "pip._vendor.html5lib.treebuilders.etree" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\html5lib\treebuilders\etree.py")
+2017-04-12T13:26:40: Parsing "pip._vendor.html5lib.treebuilders.etree_lxml" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\html5lib\treebuilders\etree_lxml.py")
+2017-04-12T13:26:40: Parsing "pip._vendor.html5lib.treebuilders._base" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\html5lib\treebuilders\_base.py")
+2017-04-12T13:26:40: Parsing "pip._vendor.html5lib.treebuilders" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\html5lib\treebuilders\__init__.py")
+2017-04-12T13:26:40: Parsing "pip._vendor.html5lib.treewalkers.dom" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\html5lib\treewalkers\dom.py")
+2017-04-12T13:26:40: Parsing "pip._vendor.html5lib.treewalkers.etree" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\html5lib\treewalkers\etree.py")
+2017-04-12T13:26:40: Parsing "pip._vendor.html5lib.treewalkers.genshistream" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\html5lib\treewalkers\genshistream.py")
+2017-04-12T13:26:40: Parsing "pip._vendor.html5lib.treewalkers.lxmletree" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\html5lib\treewalkers\lxmletree.py")
+2017-04-12T13:26:40: Parsing "pip._vendor.html5lib.treewalkers.pulldom" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\html5lib\treewalkers\pulldom.py")
+2017-04-12T13:26:40: Parsing "pip._vendor.html5lib.treewalkers._base" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\html5lib\treewalkers\_base.py")
+2017-04-12T13:26:40: Parsing "pip._vendor.html5lib.treewalkers" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\html5lib\treewalkers\__init__.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.html5lib.trie.datrie" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\html5lib\trie\datrie.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.html5lib.trie.py" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\html5lib\trie\py.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.html5lib.trie._base" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\html5lib\trie\_base.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.html5lib.trie" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\html5lib\trie\__init__.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.lockfile.linklockfile" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\lockfile\linklockfile.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.lockfile.mkdirlockfile" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\lockfile\mkdirlockfile.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.lockfile.pidlockfile" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\lockfile\pidlockfile.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.lockfile.sqlitelockfile" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\lockfile\sqlitelockfile.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.lockfile.symlinklockfile" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\lockfile\symlinklockfile.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.lockfile" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\lockfile\__init__.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.packaging.markers" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\packaging\markers.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.packaging.requirements" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\packaging\requirements.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.packaging.specifiers" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\packaging\specifiers.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.packaging.utils" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\packaging\utils.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.packaging.version" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\packaging\version.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.packaging._compat" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\packaging\_compat.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.packaging._structures" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\packaging\_structures.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.packaging.__about__" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\packaging\__about__.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.packaging" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\packaging\__init__.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.pkg_resources" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\pkg_resources\__init__.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.progress.bar" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\progress\bar.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.progress.counter" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\progress\counter.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.progress.helpers" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\progress\helpers.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.progress.spinner" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\progress\spinner.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.progress" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\progress\__init__.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.requests.adapters" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\adapters.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.requests.api" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\api.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.requests.auth" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\auth.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.requests.certs" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\certs.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.requests.compat" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\compat.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.requests.cookies" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\cookies.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.requests.exceptions" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\exceptions.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.requests.hooks" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\hooks.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.requests.models" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\models.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.requests.sessions" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\sessions.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.requests.status_codes" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\status_codes.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.requests.structures" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\structures.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.requests.utils" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\utils.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.requests" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\__init__.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.requests.packages" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\__init__.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.requests.packages.chardet.big5freq" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\chardet\big5freq.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.requests.packages.chardet.big5prober" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\chardet\big5prober.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.requests.packages.chardet.chardetect" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\chardet\chardetect.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.requests.packages.chardet.chardistribution" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\chardet\chardistribution.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.requests.packages.chardet.charsetgroupprober" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\chardet\charsetgroupprober.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.requests.packages.chardet.charsetprober" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\chardet\charsetprober.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.requests.packages.chardet.codingstatemachine" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\chardet\codingstatemachine.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.requests.packages.chardet.compat" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\chardet\compat.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.requests.packages.chardet.constants" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\chardet\constants.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.requests.packages.chardet.cp949prober" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\chardet\cp949prober.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.requests.packages.chardet.escprober" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\chardet\escprober.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.requests.packages.chardet.escsm" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\chardet\escsm.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.requests.packages.chardet.eucjpprober" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\chardet\eucjpprober.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.requests.packages.chardet.euckrfreq" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\chardet\euckrfreq.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.requests.packages.chardet.euckrprober" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\chardet\euckrprober.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.requests.packages.chardet.euctwfreq" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\chardet\euctwfreq.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.requests.packages.chardet.euctwprober" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\chardet\euctwprober.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.requests.packages.chardet.gb2312freq" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\chardet\gb2312freq.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.requests.packages.chardet.gb2312prober" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\chardet\gb2312prober.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.requests.packages.chardet.hebrewprober" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\chardet\hebrewprober.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.requests.packages.chardet.jisfreq" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\chardet\jisfreq.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.requests.packages.chardet.jpcntx" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\chardet\jpcntx.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.requests.packages.chardet.langbulgarianmodel" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\chardet\langbulgarianmodel.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.requests.packages.chardet.langcyrillicmodel" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\chardet\langcyrillicmodel.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.requests.packages.chardet.langgreekmodel" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\chardet\langgreekmodel.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.requests.packages.chardet.langhebrewmodel" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\chardet\langhebrewmodel.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.requests.packages.chardet.langhungarianmodel" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\chardet\langhungarianmodel.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.requests.packages.chardet.langthaimodel" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\chardet\langthaimodel.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.requests.packages.chardet.latin1prober" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\chardet\latin1prober.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.requests.packages.chardet.mbcharsetprober" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\chardet\mbcharsetprober.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.requests.packages.chardet.mbcsgroupprober" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\chardet\mbcsgroupprober.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.requests.packages.chardet.mbcssm" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\chardet\mbcssm.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.requests.packages.chardet.sbcharsetprober" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\chardet\sbcharsetprober.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.requests.packages.chardet.sbcsgroupprober" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\chardet\sbcsgroupprober.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.requests.packages.chardet.sjisprober" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\chardet\sjisprober.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.requests.packages.chardet.universaldetector" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\chardet\universaldetector.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.requests.packages.chardet.utf8prober" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\chardet\utf8prober.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.requests.packages.chardet" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\chardet\__init__.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.requests.packages.urllib3.connection" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\connection.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.requests.packages.urllib3.connectionpool" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\connectionpool.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.requests.packages.urllib3.exceptions" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\exceptions.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.requests.packages.urllib3.fields" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\fields.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.requests.packages.urllib3.filepost" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\filepost.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.requests.packages.urllib3.poolmanager" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\poolmanager.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.requests.packages.urllib3.request" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\request.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.requests.packages.urllib3.response" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\response.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.requests.packages.urllib3._collections" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\_collections.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.requests.packages.urllib3" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\__init__.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.requests.packages.urllib3.contrib.appengine" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\contrib\appengine.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.requests.packages.urllib3.contrib.ntlmpool" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\contrib\ntlmpool.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.requests.packages.urllib3.contrib.pyopenssl" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\contrib\pyopenssl.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.requests.packages.urllib3.contrib" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\contrib\__init__.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.requests.packages.urllib3.packages.ordered_dict" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\packages\ordered_dict.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.requests.packages.urllib3.packages.six" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\packages\six.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.requests.packages.urllib3.packages" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\packages\__init__.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.requests.packages.urllib3.packages.ssl_match_hostname._implementation" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\packages\ssl_match_hostname\_implementation.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.requests.packages.urllib3.packages.ssl_match_hostname" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\packages\ssl_match_hostname\__init__.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.requests.packages.urllib3.util.connection" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\util\connection.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.requests.packages.urllib3.util.request" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\util\request.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.requests.packages.urllib3.util.response" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\util\response.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.requests.packages.urllib3.util.retry" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\util\retry.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.requests.packages.urllib3.util.ssl_" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\util\ssl_.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.requests.packages.urllib3.util.timeout" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\util\timeout.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.requests.packages.urllib3.util.url" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\util\url.py")
+2017-04-12T13:26:41: Parsing "pip._vendor.requests.packages.urllib3.util" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\util\__init__.py")
+2017-04-12T13:26:41: Parsing "pip._vendor._markerlib.markers" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\_markerlib\markers.py")
+2017-04-12T13:26:41: Parsing "pip._vendor._markerlib" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\_markerlib\__init__.py")
+2017-04-12T13:26:41: Parsing complete
+2017-04-12T13:26:41: Analyzing "pip.basecommand"
+2017-04-12T13:26:42: Analyzing "pip.baseparser"
+2017-04-12T13:26:42: Analyzing "pip.cmdoptions"
+2017-04-12T13:26:42: Analyzing "pip.download"
+2017-04-12T13:26:42: Analyzing "pip.exceptions"
+2017-04-12T13:26:42: Analyzing "pip.index"
+2017-04-12T13:26:42: Analyzing "pip.locations"
+2017-04-12T13:26:42: Analyzing "pip.pep425tags"
+2017-04-12T13:26:42: Analyzing "pip.status_codes"
+2017-04-12T13:26:42: Analyzing "pip.wheel"
+2017-04-12T13:26:42: Analyzing "pip"
+2017-04-12T13:26:42: Analyzing "pip.__main__"
+2017-04-12T13:26:42: Analyzing "pip.commands.completion"
+2017-04-12T13:26:42: Analyzing "pip.commands.download"
+2017-04-12T13:26:42: Analyzing "pip.commands.freeze"
+2017-04-12T13:26:42: Analyzing "pip.commands.hash"
+2017-04-12T13:26:42: Analyzing "pip.commands.help"
+2017-04-12T13:26:42: Analyzing "pip.commands.install"
+2017-04-12T13:26:42: Analyzing "pip.commands.list"
+2017-04-12T13:26:42: Analyzing "pip.commands.search"
+2017-04-12T13:26:42: Analyzing "pip.commands.show"
+2017-04-12T13:26:42: Analyzing "pip.commands.uninstall"
+2017-04-12T13:26:42: Analyzing "pip.commands.wheel"
+2017-04-12T13:26:42: Analyzing "pip.commands"
+2017-04-12T13:26:42: Analyzing "pip.compat.dictconfig"
+2017-04-12T13:26:42: Analyzing "pip.compat.ordereddict"
+2017-04-12T13:26:42: Analyzing "pip.compat"
+2017-04-12T13:26:42: Analyzing "pip.models.index"
+2017-04-12T13:26:42: Analyzing "pip.models"
+2017-04-12T13:26:42: Analyzing "pip.operations.freeze"
+2017-04-12T13:26:42: Analyzing "pip.operations"
+2017-04-12T13:26:42: Analyzing "pip.req.req_file"
+2017-04-12T13:26:42: Analyzing "pip.req.req_install"
+2017-04-12T13:26:42: Analyzing "pip.req.req_set"
+2017-04-12T13:26:42: Analyzing "pip.req.req_uninstall"
+2017-04-12T13:26:42: Analyzing "pip.req"
+2017-04-12T13:26:42: Analyzing "pip.utils.appdirs"
+2017-04-12T13:26:42: Analyzing "pip.utils.build"
+2017-04-12T13:26:42: Analyzing "pip.utils.deprecation"
+2017-04-12T13:26:42: Analyzing "pip.utils.encoding"
+2017-04-12T13:26:42: Analyzing "pip.utils.filesystem"
+2017-04-12T13:26:42: Analyzing "pip.utils.hashes"
+2017-04-12T13:26:42: Analyzing "pip.utils.logging"
+2017-04-12T13:26:42: Analyzing "pip.utils.outdated"
+2017-04-12T13:26:42: Analyzing "pip.utils.setuptools_build"
+2017-04-12T13:26:42: Analyzing "pip.utils.ui"
+2017-04-12T13:26:42: Analyzing "pip.utils"
+2017-04-12T13:26:42: Analyzing "pip.vcs.bazaar"
+2017-04-12T13:26:42: Analyzing "pip.vcs.git"
+2017-04-12T13:26:42: Analyzing "pip.vcs.mercurial"
+2017-04-12T13:26:42: Analyzing "pip.vcs.subversion"
+2017-04-12T13:26:42: Analyzing "pip.vcs"
+2017-04-12T13:26:42: Analyzing "pip._vendor.ipaddress"
+2017-04-12T13:26:42: Analyzing "pip._vendor.pyparsing"
+2017-04-12T13:26:42: Analyzing "pip._vendor.retrying"
+2017-04-12T13:26:42: Analyzing "pip._vendor.six"
+2017-04-12T13:26:42: Analyzing "pip._vendor"
+2017-04-12T13:26:42: Analyzing "pip._vendor.cachecontrol.adapter"
+2017-04-12T13:26:42: Analyzing "pip._vendor.cachecontrol.cache"
+2017-04-12T13:26:42: Analyzing "pip._vendor.cachecontrol.compat"
+2017-04-12T13:26:42: Analyzing "pip._vendor.cachecontrol.controller"
+2017-04-12T13:26:42: Analyzing "pip._vendor.cachecontrol.filewrapper"
+2017-04-12T13:26:42: Analyzing "pip._vendor.cachecontrol.heuristics"
+2017-04-12T13:26:42: Analyzing "pip._vendor.cachecontrol.serialize"
+2017-04-12T13:26:42: Analyzing "pip._vendor.cachecontrol.wrapper"
+2017-04-12T13:26:42: Analyzing "pip._vendor.cachecontrol._cmd"
+2017-04-12T13:26:42: Analyzing "pip._vendor.cachecontrol"
+2017-04-12T13:26:42: Analyzing "pip._vendor.cachecontrol.caches.file_cache"
+2017-04-12T13:26:42: Analyzing "pip._vendor.cachecontrol.caches.redis_cache"
+2017-04-12T13:26:42: Analyzing "pip._vendor.cachecontrol.caches"
+2017-04-12T13:26:42: Analyzing "pip._vendor.colorama.ansi"
+2017-04-12T13:26:42: Analyzing "pip._vendor.colorama.ansitowin32"
+2017-04-12T13:26:42: Analyzing "pip._vendor.colorama.initialise"
+2017-04-12T13:26:42: Analyzing "pip._vendor.colorama.win32"
+2017-04-12T13:26:42: Analyzing "pip._vendor.colorama.winterm"
+2017-04-12T13:26:42: Analyzing "pip._vendor.colorama"
+2017-04-12T13:26:42: Analyzing "pip._vendor.distlib.compat"
+2017-04-12T13:26:42: Analyzing "pip._vendor.distlib.database"
+2017-04-12T13:26:42: Analyzing "pip._vendor.distlib.index"
+2017-04-12T13:26:42: Analyzing "pip._vendor.distlib.locators"
+2017-04-12T13:26:42: Analyzing "pip._vendor.distlib.manifest"
+2017-04-12T13:26:42: Analyzing "pip._vendor.distlib.markers"
+2017-04-12T13:26:42: Analyzing "pip._vendor.distlib.metadata"
+2017-04-12T13:26:42: Analyzing "pip._vendor.distlib.resources"
+2017-04-12T13:26:42: Analyzing "pip._vendor.distlib.scripts"
+2017-04-12T13:26:42: Analyzing "pip._vendor.distlib.util"
+2017-04-12T13:26:42: Analyzing "pip._vendor.distlib.version"
+2017-04-12T13:26:42: Analyzing "pip._vendor.distlib.wheel"
+2017-04-12T13:26:42: Analyzing "pip._vendor.distlib"
+2017-04-12T13:26:42: Analyzing "pip._vendor.distlib._backport.misc"
+2017-04-12T13:26:42: Analyzing "pip._vendor.distlib._backport.shutil"
+2017-04-12T13:26:42: Analyzing "pip._vendor.distlib._backport.sysconfig"
+2017-04-12T13:26:42: Analyzing "pip._vendor.distlib._backport.tarfile"
+2017-04-12T13:26:42: Analyzing "pip._vendor.distlib._backport"
+2017-04-12T13:26:42: Analyzing "pip._vendor.html5lib.constants"
+2017-04-12T13:26:42: Analyzing "pip._vendor.html5lib.html5parser"
+2017-04-12T13:26:42: Analyzing "pip._vendor.html5lib.ihatexml"
+2017-04-12T13:26:42: Analyzing "pip._vendor.html5lib.inputstream"
+2017-04-12T13:26:42: Analyzing "pip._vendor.html5lib.sanitizer"
+2017-04-12T13:26:42: Analyzing "pip._vendor.html5lib.tokenizer"
+2017-04-12T13:26:42: Analyzing "pip._vendor.html5lib.utils"
+2017-04-12T13:26:42: Analyzing "pip._vendor.html5lib"
+2017-04-12T13:26:42: Analyzing "pip._vendor.html5lib.filters.alphabeticalattributes"
+2017-04-12T13:26:42: Analyzing "pip._vendor.html5lib.filters.inject_meta_charset"
+2017-04-12T13:26:42: Analyzing "pip._vendor.html5lib.filters.lint"
+2017-04-12T13:26:42: Analyzing "pip._vendor.html5lib.filters.optionaltags"
+2017-04-12T13:26:42: Analyzing "pip._vendor.html5lib.filters.sanitizer"
+2017-04-12T13:26:42: Analyzing "pip._vendor.html5lib.filters.whitespace"
+2017-04-12T13:26:42: Analyzing "pip._vendor.html5lib.filters._base"
+2017-04-12T13:26:42: Analyzing "pip._vendor.html5lib.filters"
+2017-04-12T13:26:42: Analyzing "pip._vendor.html5lib.serializer.htmlserializer"
+2017-04-12T13:26:42: Analyzing "pip._vendor.html5lib.serializer"
+2017-04-12T13:26:42: Analyzing "pip._vendor.html5lib.treeadapters.sax"
+2017-04-12T13:26:42: Analyzing "pip._vendor.html5lib.treeadapters"
+2017-04-12T13:26:42: Analyzing "pip._vendor.html5lib.treebuilders.dom"
+2017-04-12T13:26:42: Analyzing "pip._vendor.html5lib.treebuilders.etree"
+2017-04-12T13:26:42: Analyzing "pip._vendor.html5lib.treebuilders.etree_lxml"
+2017-04-12T13:26:42: Analyzing "pip._vendor.html5lib.treebuilders._base"
+2017-04-12T13:26:42: Analyzing "pip._vendor.html5lib.treebuilders"
+2017-04-12T13:26:42: Analyzing "pip._vendor.html5lib.treewalkers.dom"
+2017-04-12T13:26:42: Analyzing "pip._vendor.html5lib.treewalkers.etree"
+2017-04-12T13:26:42: Analyzing "pip._vendor.html5lib.treewalkers.genshistream"
+2017-04-12T13:26:42: Analyzing "pip._vendor.html5lib.treewalkers.lxmletree"
+2017-04-12T13:26:42: Analyzing "pip._vendor.html5lib.treewalkers.pulldom"
+2017-04-12T13:26:42: Analyzing "pip._vendor.html5lib.treewalkers._base"
+2017-04-12T13:26:42: Analyzing "pip._vendor.html5lib.treewalkers"
+2017-04-12T13:26:42: Analyzing "pip._vendor.html5lib.trie.datrie"
+2017-04-12T13:26:42: Analyzing "pip._vendor.html5lib.trie.py"
+2017-04-12T13:26:42: Analyzing "pip._vendor.html5lib.trie._base"
+2017-04-12T13:26:42: Analyzing "pip._vendor.html5lib.trie"
+2017-04-12T13:26:42: Analyzing "pip._vendor.lockfile.linklockfile"
+2017-04-12T13:26:42: Analyzing "pip._vendor.lockfile.mkdirlockfile"
+2017-04-12T13:26:42: Analyzing "pip._vendor.lockfile.pidlockfile"
+2017-04-12T13:26:42: Analyzing "pip._vendor.lockfile.sqlitelockfile"
+2017-04-12T13:26:42: Analyzing "pip._vendor.lockfile.symlinklockfile"
+2017-04-12T13:26:42: Analyzing "pip._vendor.lockfile"
+2017-04-12T13:26:42: Analyzing "pip._vendor.packaging.markers"
+2017-04-12T13:26:42: Analyzing "pip._vendor.packaging.requirements"
+2017-04-12T13:26:42: Analyzing "pip._vendor.packaging.specifiers"
+2017-04-12T13:26:42: Analyzing "pip._vendor.packaging.utils"
+2017-04-12T13:26:42: Analyzing "pip._vendor.packaging.version"
+2017-04-12T13:26:42: Analyzing "pip._vendor.packaging._compat"
+2017-04-12T13:26:42: Analyzing "pip._vendor.packaging._structures"
+2017-04-12T13:26:42: Analyzing "pip._vendor.packaging.__about__"
+2017-04-12T13:26:42: Analyzing "pip._vendor.packaging"
+2017-04-12T13:26:42: Analyzing "pip._vendor.pkg_resources"
+2017-04-12T13:26:42: Analyzing "pip._vendor.progress.bar"
+2017-04-12T13:26:42: Analyzing "pip._vendor.progress.counter"
+2017-04-12T13:26:42: Analyzing "pip._vendor.progress.helpers"
+2017-04-12T13:26:42: Analyzing "pip._vendor.progress.spinner"
+2017-04-12T13:26:42: Analyzing "pip._vendor.progress"
+2017-04-12T13:26:42: Analyzing "pip._vendor.requests.adapters"
+2017-04-12T13:26:42: Analyzing "pip._vendor.requests.api"
+2017-04-12T13:26:42: Analyzing "pip._vendor.requests.auth"
+2017-04-12T13:26:42: Analyzing "pip._vendor.requests.certs"
+2017-04-12T13:26:42: Analyzing "pip._vendor.requests.compat"
+2017-04-12T13:26:42: Analyzing "pip._vendor.requests.cookies"
+2017-04-12T13:26:42: Analyzing "pip._vendor.requests.exceptions"
+2017-04-12T13:26:42: Analyzing "pip._vendor.requests.hooks"
+2017-04-12T13:26:42: Analyzing "pip._vendor.requests.models"
+2017-04-12T13:26:42: Analyzing "pip._vendor.requests.sessions"
+2017-04-12T13:26:42: Analyzing "pip._vendor.requests.status_codes"
+2017-04-12T13:26:42: Analyzing "pip._vendor.requests.structures"
+2017-04-12T13:26:42: Analyzing "pip._vendor.requests.utils"
+2017-04-12T13:26:42: Analyzing "pip._vendor.requests"
+2017-04-12T13:26:42: Analyzing "pip._vendor.requests.packages"
+2017-04-12T13:26:42: Analyzing "pip._vendor.requests.packages.chardet.big5freq"
+2017-04-12T13:26:42: Analyzing "pip._vendor.requests.packages.chardet.big5prober"
+2017-04-12T13:26:42: Analyzing "pip._vendor.requests.packages.chardet.chardetect"
+2017-04-12T13:26:42: Analyzing "pip._vendor.requests.packages.chardet.chardistribution"
+2017-04-12T13:26:42: Analyzing "pip._vendor.requests.packages.chardet.charsetgroupprober"
+2017-04-12T13:26:42: Analyzing "pip._vendor.requests.packages.chardet.charsetprober"
+2017-04-12T13:26:42: Analyzing "pip._vendor.requests.packages.chardet.codingstatemachine"
+2017-04-12T13:26:42: Analyzing "pip._vendor.requests.packages.chardet.compat"
+2017-04-12T13:26:42: Analyzing "pip._vendor.requests.packages.chardet.constants"
+2017-04-12T13:26:42: Analyzing "pip._vendor.requests.packages.chardet.cp949prober"
+2017-04-12T13:26:42: Analyzing "pip._vendor.requests.packages.chardet.escprober"
+2017-04-12T13:26:42: Analyzing "pip._vendor.requests.packages.chardet.escsm"
+2017-04-12T13:26:42: Analyzing "pip._vendor.requests.packages.chardet.eucjpprober"
+2017-04-12T13:26:42: Analyzing "pip._vendor.requests.packages.chardet.euckrfreq"
+2017-04-12T13:26:42: Analyzing "pip._vendor.requests.packages.chardet.euckrprober"
+2017-04-12T13:26:42: Analyzing "pip._vendor.requests.packages.chardet.euctwfreq"
+2017-04-12T13:26:42: Analyzing "pip._vendor.requests.packages.chardet.euctwprober"
+2017-04-12T13:26:42: Analyzing "pip._vendor.requests.packages.chardet.gb2312freq"
+2017-04-12T13:26:42: Analyzing "pip._vendor.requests.packages.chardet.gb2312prober"
+2017-04-12T13:26:42: Analyzing "pip._vendor.requests.packages.chardet.hebrewprober"
+2017-04-12T13:26:42: Analyzing "pip._vendor.requests.packages.chardet.jisfreq"
+2017-04-12T13:26:42: Analyzing "pip._vendor.requests.packages.chardet.jpcntx"
+2017-04-12T13:26:42: Analyzing "pip._vendor.requests.packages.chardet.langbulgarianmodel"
+2017-04-12T13:26:42: Analyzing "pip._vendor.requests.packages.chardet.langcyrillicmodel"
+2017-04-12T13:26:42: Analyzing "pip._vendor.requests.packages.chardet.langgreekmodel"
+2017-04-12T13:26:42: Analyzing "pip._vendor.requests.packages.chardet.langhebrewmodel"
+2017-04-12T13:26:42: Analyzing "pip._vendor.requests.packages.chardet.langhungarianmodel"
+2017-04-12T13:26:42: Analyzing "pip._vendor.requests.packages.chardet.langthaimodel"
+2017-04-12T13:26:42: Analyzing "pip._vendor.requests.packages.chardet.latin1prober"
+2017-04-12T13:26:42: Analyzing "pip._vendor.requests.packages.chardet.mbcharsetprober"
+2017-04-12T13:26:42: Analyzing "pip._vendor.requests.packages.chardet.mbcsgroupprober"
+2017-04-12T13:26:42: Analyzing "pip._vendor.requests.packages.chardet.mbcssm"
+2017-04-12T13:26:42: Analyzing "pip._vendor.requests.packages.chardet.sbcharsetprober"
+2017-04-12T13:26:42: Analyzing "pip._vendor.requests.packages.chardet.sbcsgroupprober"
+2017-04-12T13:26:42: Analyzing "pip._vendor.requests.packages.chardet.sjisprober"
+2017-04-12T13:26:42: Analyzing "pip._vendor.requests.packages.chardet.universaldetector"
+2017-04-12T13:26:42: Analyzing "pip._vendor.requests.packages.chardet.utf8prober"
+2017-04-12T13:26:42: Analyzing "pip._vendor.requests.packages.chardet"
+2017-04-12T13:26:42: Analyzing "pip._vendor.requests.packages.urllib3.connection"
+2017-04-12T13:26:42: Analyzing "pip._vendor.requests.packages.urllib3.connectionpool"
+2017-04-12T13:26:42: Analyzing "pip._vendor.requests.packages.urllib3.exceptions"
+2017-04-12T13:26:42: Analyzing "pip._vendor.requests.packages.urllib3.fields"
+2017-04-12T13:26:42: Analyzing "pip._vendor.requests.packages.urllib3.filepost"
+2017-04-12T13:26:42: Analyzing "pip._vendor.requests.packages.urllib3.poolmanager"
+2017-04-12T13:26:42: Analyzing "pip._vendor.requests.packages.urllib3.request"
+2017-04-12T13:26:42: Analyzing "pip._vendor.requests.packages.urllib3.response"
+2017-04-12T13:26:42: Analyzing "pip._vendor.requests.packages.urllib3._collections"
+2017-04-12T13:26:42: Analyzing "pip._vendor.requests.packages.urllib3"
+2017-04-12T13:26:42: Analyzing "pip._vendor.requests.packages.urllib3.contrib.appengine"
+2017-04-12T13:26:42: Analyzing "pip._vendor.requests.packages.urllib3.contrib.ntlmpool"
+2017-04-12T13:26:42: Analyzing "pip._vendor.requests.packages.urllib3.contrib.pyopenssl"
+2017-04-12T13:26:42: Analyzing "pip._vendor.requests.packages.urllib3.contrib"
+2017-04-12T13:26:42: Analyzing "pip._vendor.requests.packages.urllib3.packages.ordered_dict"
+2017-04-12T13:26:42: Analyzing "pip._vendor.requests.packages.urllib3.packages.six"
+2017-04-12T13:26:42: Analyzing "pip._vendor.requests.packages.urllib3.packages"
+2017-04-12T13:26:42: Analyzing "pip._vendor.requests.packages.urllib3.packages.ssl_match_hostname._implementation"
+2017-04-12T13:26:42: Analyzing "pip._vendor.requests.packages.urllib3.packages.ssl_match_hostname"
+2017-04-12T13:26:42: Analyzing "pip._vendor.requests.packages.urllib3.util.connection"
+2017-04-12T13:26:42: Analyzing "pip._vendor.requests.packages.urllib3.util.request"
+2017-04-12T13:26:42: Analyzing "pip._vendor.requests.packages.urllib3.util.response"
+2017-04-12T13:26:42: Analyzing "pip._vendor.requests.packages.urllib3.util.retry"
+2017-04-12T13:26:42: Analyzing "pip._vendor.requests.packages.urllib3.util.ssl_"
+2017-04-12T13:26:42: Analyzing "pip._vendor.requests.packages.urllib3.util.timeout"
+2017-04-12T13:26:42: Analyzing "pip._vendor.requests.packages.urllib3.util.url"
+2017-04-12T13:26:42: Analyzing "pip._vendor.requests.packages.urllib3.util"
+2017-04-12T13:26:42: Analyzing "pip._vendor._markerlib.markers"
+2017-04-12T13:26:42: Analyzing "pip._vendor._markerlib"
+2017-04-12T13:26:42: Starting analysis of 233 modules
+2017-04-12T13:26:59: Analysis complete
+2017-04-12T13:26:59: Saving group "c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip"
+2017-04-12T13:27:05: End of group "c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip"
+2017-04-12T13:27:05: Start group "c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pkg_resources" with 14 files
+2017-04-12T13:27:05: Parsing "pkg_resources" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pkg_resources\__init__.py")
+2017-04-12T13:27:05: Parsing "pkg_resources.extern" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pkg_resources\extern\__init__.py")
+2017-04-12T13:27:05: Parsing "pkg_resources._vendor.pyparsing" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pkg_resources\_vendor\pyparsing.py")
+2017-04-12T13:27:05: Parsing "pkg_resources._vendor.six" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pkg_resources\_vendor\six.py")
+2017-04-12T13:27:05: Parsing "pkg_resources._vendor" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pkg_resources\_vendor\__init__.py")
+2017-04-12T13:27:05: Parsing "pkg_resources._vendor.packaging.markers" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pkg_resources\_vendor\packaging\markers.py")
+2017-04-12T13:27:05: Parsing "pkg_resources._vendor.packaging.requirements" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pkg_resources\_vendor\packaging\requirements.py")
+2017-04-12T13:27:05: Parsing "pkg_resources._vendor.packaging.specifiers" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pkg_resources\_vendor\packaging\specifiers.py")
+2017-04-12T13:27:05: Parsing "pkg_resources._vendor.packaging.utils" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pkg_resources\_vendor\packaging\utils.py")
+2017-04-12T13:27:05: Parsing "pkg_resources._vendor.packaging.version" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pkg_resources\_vendor\packaging\version.py")
+2017-04-12T13:27:05: Parsing "pkg_resources._vendor.packaging._compat" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pkg_resources\_vendor\packaging\_compat.py")
+2017-04-12T13:27:05: Parsing "pkg_resources._vendor.packaging._structures" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pkg_resources\_vendor\packaging\_structures.py")
+2017-04-12T13:27:05: Parsing "pkg_resources._vendor.packaging.__about__" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pkg_resources\_vendor\packaging\__about__.py")
+2017-04-12T13:27:05: Parsing "pkg_resources._vendor.packaging" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pkg_resources\_vendor\packaging\__init__.py")
+2017-04-12T13:27:05: Parsing complete
+2017-04-12T13:27:05: Analyzing "pkg_resources"
+2017-04-12T13:27:05: Analyzing "pkg_resources.extern"
+2017-04-12T13:27:05: Analyzing "pkg_resources._vendor.pyparsing"
+2017-04-12T13:27:05: Analyzing "pkg_resources._vendor.six"
+2017-04-12T13:27:05: Analyzing "pkg_resources._vendor"
+2017-04-12T13:27:05: Analyzing "pkg_resources._vendor.packaging.markers"
+2017-04-12T13:27:05: Analyzing "pkg_resources._vendor.packaging.requirements"
+2017-04-12T13:27:05: Analyzing "pkg_resources._vendor.packaging.specifiers"
+2017-04-12T13:27:05: Analyzing "pkg_resources._vendor.packaging.utils"
+2017-04-12T13:27:05: Analyzing "pkg_resources._vendor.packaging.version"
+2017-04-12T13:27:05: Analyzing "pkg_resources._vendor.packaging._compat"
+2017-04-12T13:27:05: Analyzing "pkg_resources._vendor.packaging._structures"
+2017-04-12T13:27:05: Analyzing "pkg_resources._vendor.packaging.__about__"
+2017-04-12T13:27:05: Analyzing "pkg_resources._vendor.packaging"
+2017-04-12T13:27:05: Starting analysis of 14 modules
+2017-04-12T13:27:10: Analysis complete
+2017-04-12T13:27:10: Saving group "c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pkg_resources"
+2017-04-12T13:27:10: End of group "c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pkg_resources"
+2017-04-12T13:27:10: Start group "c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools" with 41 files
+2017-04-12T13:27:10: Parsing "setuptools.archive_util" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools\archive_util.py")
+2017-04-12T13:27:10: Parsing "setuptools.depends" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools\depends.py")
+2017-04-12T13:27:10: Parsing "setuptools.dist" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools\dist.py")
+2017-04-12T13:27:11: Parsing "setuptools.extension" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools\extension.py")
+2017-04-12T13:27:11: Parsing "setuptools.launch" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools\launch.py")
+2017-04-12T13:27:11: Parsing "setuptools.lib2to3_ex" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools\lib2to3_ex.py")
+2017-04-12T13:27:11: Parsing "setuptools.msvc9_support" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools\msvc9_support.py")
+2017-04-12T13:27:11: Parsing "setuptools.package_index" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools\package_index.py")
+2017-04-12T13:27:11: Parsing "setuptools.py26compat" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools\py26compat.py")
+2017-04-12T13:27:11: Parsing "setuptools.py27compat" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools\py27compat.py")
+2017-04-12T13:27:11: Parsing "setuptools.py31compat" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools\py31compat.py")
+2017-04-12T13:27:11: Parsing "setuptools.sandbox" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools\sandbox.py")
+2017-04-12T13:27:11: Parsing "setuptools.ssl_support" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools\ssl_support.py")
+2017-04-12T13:27:11: Parsing "setuptools.unicode_utils" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools\unicode_utils.py")
+2017-04-12T13:27:11: Parsing "setuptools.utils" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools\utils.py")
+2017-04-12T13:27:11: Parsing "setuptools.version" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools\version.py")
+2017-04-12T13:27:11: Parsing "setuptools.windows_support" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools\windows_support.py")
+2017-04-12T13:27:11: Parsing "setuptools" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools\__init__.py")
+2017-04-12T13:27:11: Parsing "setuptools.command.alias" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools\command\alias.py")
+2017-04-12T13:27:11: Parsing "setuptools.command.bdist_egg" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools\command\bdist_egg.py")
+2017-04-12T13:27:11: Parsing "setuptools.command.bdist_rpm" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools\command\bdist_rpm.py")
+2017-04-12T13:27:11: Parsing "setuptools.command.bdist_wininst" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools\command\bdist_wininst.py")
+2017-04-12T13:27:11: Parsing "setuptools.command.build_ext" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools\command\build_ext.py")
+2017-04-12T13:27:11: Parsing "setuptools.command.build_py" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools\command\build_py.py")
+2017-04-12T13:27:11: Parsing "setuptools.command.develop" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools\command\develop.py")
+2017-04-12T13:27:11: Parsing "setuptools.command.easy_install" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools\command\easy_install.py")
+2017-04-12T13:27:11: Parsing "setuptools.command.egg_info" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools\command\egg_info.py")
+2017-04-12T13:27:11: Parsing "setuptools.command.install" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools\command\install.py")
+2017-04-12T13:27:11: Parsing "setuptools.command.install_egg_info" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools\command\install_egg_info.py")
+2017-04-12T13:27:11: Parsing "setuptools.command.install_lib" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools\command\install_lib.py")
+2017-04-12T13:27:11: Parsing "setuptools.command.install_scripts" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools\command\install_scripts.py")
+2017-04-12T13:27:11: Parsing "setuptools.command.register" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools\command\register.py")
+2017-04-12T13:27:11: Parsing "setuptools.command.rotate" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools\command\rotate.py")
+2017-04-12T13:27:11: Parsing "setuptools.command.saveopts" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools\command\saveopts.py")
+2017-04-12T13:27:11: Parsing "setuptools.command.sdist" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools\command\sdist.py")
+2017-04-12T13:27:11: Parsing "setuptools.command.setopt" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools\command\setopt.py")
+2017-04-12T13:27:11: Parsing "setuptools.command.test" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools\command\test.py")
+2017-04-12T13:27:11: Parsing "setuptools.command.upload" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools\command\upload.py")
+2017-04-12T13:27:11: Parsing "setuptools.command.upload_docs" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools\command\upload_docs.py")
+2017-04-12T13:27:11: Parsing "setuptools.command" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools\command\__init__.py")
+2017-04-12T13:27:11: Parsing "setuptools.extern" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools\extern\__init__.py")
+2017-04-12T13:27:11: Parsing complete
+2017-04-12T13:27:11: Analyzing "setuptools.archive_util"
+2017-04-12T13:27:11: Analyzing "setuptools.depends"
+2017-04-12T13:27:11: Analyzing "setuptools.dist"
+2017-04-12T13:27:11: Analyzing "setuptools.extension"
+2017-04-12T13:27:11: Analyzing "setuptools.launch"
+2017-04-12T13:27:11: Analyzing "setuptools.lib2to3_ex"
+2017-04-12T13:27:11: Analyzing "setuptools.msvc9_support"
+2017-04-12T13:27:11: Analyzing "setuptools.package_index"
+2017-04-12T13:27:11: Analyzing "setuptools.py26compat"
+2017-04-12T13:27:11: Analyzing "setuptools.py27compat"
+2017-04-12T13:27:11: Analyzing "setuptools.py31compat"
+2017-04-12T13:27:11: Analyzing "setuptools.sandbox"
+2017-04-12T13:27:11: Analyzing "setuptools.ssl_support"
+2017-04-12T13:27:11: Analyzing "setuptools.unicode_utils"
+2017-04-12T13:27:11: Analyzing "setuptools.utils"
+2017-04-12T13:27:11: Analyzing "setuptools.version"
+2017-04-12T13:27:11: Analyzing "setuptools.windows_support"
+2017-04-12T13:27:11: Analyzing "setuptools"
+2017-04-12T13:27:11: Analyzing "setuptools.command.alias"
+2017-04-12T13:27:11: Analyzing "setuptools.command.bdist_egg"
+2017-04-12T13:27:11: Analyzing "setuptools.command.bdist_rpm"
+2017-04-12T13:27:11: Analyzing "setuptools.command.bdist_wininst"
+2017-04-12T13:27:11: Analyzing "setuptools.command.build_ext"
+2017-04-12T13:27:11: Analyzing "setuptools.command.build_py"
+2017-04-12T13:27:11: Analyzing "setuptools.command.develop"
+2017-04-12T13:27:11: Analyzing "setuptools.command.easy_install"
+2017-04-12T13:27:11: Analyzing "setuptools.command.egg_info"
+2017-04-12T13:27:11: Analyzing "setuptools.command.install"
+2017-04-12T13:27:11: Analyzing "setuptools.command.install_egg_info"
+2017-04-12T13:27:11: Analyzing "setuptools.command.install_lib"
+2017-04-12T13:27:11: Analyzing "setuptools.command.install_scripts"
+2017-04-12T13:27:11: Analyzing "setuptools.command.register"
+2017-04-12T13:27:11: Analyzing "setuptools.command.rotate"
+2017-04-12T13:27:11: Analyzing "setuptools.command.saveopts"
+2017-04-12T13:27:11: Analyzing "setuptools.command.sdist"
+2017-04-12T13:27:11: Analyzing "setuptools.command.setopt"
+2017-04-12T13:27:11: Analyzing "setuptools.command.test"
+2017-04-12T13:27:11: Analyzing "setuptools.command.upload"
+2017-04-12T13:27:11: Analyzing "setuptools.command.upload_docs"
+2017-04-12T13:27:11: Analyzing "setuptools.command"
+2017-04-12T13:27:11: Analyzing "setuptools.extern"
+2017-04-12T13:27:11: Starting analysis of 41 modules
+2017-04-12T13:27:14: Analysis complete
+2017-04-12T13:27:14: Saving group "c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools"
+2017-04-12T13:27:16: End of group "c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools"
+2017-04-12T13:27:18: Deleting 350 files
+2017-04-12T13:27:20: Scraping builtin modules
+2017-04-12T13:27:20: Command: c:\dev\portfolio\portfolio\portfolioenv\Scripts\python.exe "C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\PythonScraper.py" c:\dev\portfolio\portfolio\portfolioenv\.ptvs\ "C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\\"
+2017-04-12T13:27:22: Output
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\_codecs.idb
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\_collections.idb
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\_functools.idb
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\_heapq.idb
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\_io.idb
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\_locale.idb
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\_md5.idb
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\_random.idb
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\_sha256.idb
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\_sha512.idb
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\_sre.idb
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\_struct.idb
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\_warnings.idb
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\_weakref.idb
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\array.idb
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\binascii.idb
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\cmath.idb
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\errno.idb
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\gc.idb
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\itertools.idb
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\marshal.idb
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\math.idb
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\mmap.idb
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\msvcrt.idb
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\nt.idb
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\sys.idb
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\time.idb
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\xxsubtype.idb
+2017-04-12T13:27:22: Scraped builtin modules
+2017-04-12T13:27:22: Scraping markupsafe._speedups
+2017-04-12T13:27:22: Command: c:\dev\portfolio\portfolio\portfolioenv\Scripts\python.exe "C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\ExtensionScraper.py" scrape markupsafe._speedups c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages c:\dev\portfolio\portfolio\portfolioenv\.ptvs\markupsafe\markupsafe._speedups
+2017-04-12T13:27:23: Scraped 1 files
+2017-04-12T13:27:23: astropy.CallDepth = 0
+2017-04-12T13:27:23: matplotlib.CallDepth = 3
+2017-04-12T13:27:23: pandas.CallDepth = 0
+2017-04-12T13:27:23: sympy.CallDepth = 0
+2017-04-12T13:27:23: Start group "c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages" with 3 files
+2017-04-12T13:27:23: Parsing "easy_install" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\easy_install.py")
+2017-04-12T13:27:23: Parsing "itsdangerous" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\itsdangerous.py")
+2017-04-12T13:27:23: Parsing "six" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\six.py")
+2017-04-12T13:27:23: Parsing complete
+2017-04-12T13:27:23: Analyzing "easy_install"
+2017-04-12T13:27:23: Analyzing "itsdangerous"
+2017-04-12T13:27:23: Analyzing "six"
+2017-04-12T13:27:23: Starting analysis of 3 modules
+2017-04-12T13:27:26: Analysis complete
+2017-04-12T13:27:26: Saving group "c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages"
+2017-04-12T13:27:26: End of group "c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages"
+2017-04-12T13:27:26: Start group "c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\click" with 17 files
+2017-04-12T13:27:26: Parsing "click.core" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\click\core.py")
+2017-04-12T13:27:26: Parsing "click.decorators" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\click\decorators.py")
+2017-04-12T13:27:26: Parsing "click.exceptions" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\click\exceptions.py")
+2017-04-12T13:27:26: Parsing "click.formatting" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\click\formatting.py")
+2017-04-12T13:27:26: Parsing "click.globals" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\click\globals.py")
+2017-04-12T13:27:26: Parsing "click.parser" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\click\parser.py")
+2017-04-12T13:27:26: Parsing "click.termui" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\click\termui.py")
+2017-04-12T13:27:26: Parsing "click.testing" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\click\testing.py")
+2017-04-12T13:27:26: Parsing "click.types" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\click\types.py")
+2017-04-12T13:27:26: Parsing "click.utils" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\click\utils.py")
+2017-04-12T13:27:26: Parsing "click._bashcomplete" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\click\_bashcomplete.py")
+2017-04-12T13:27:26: Parsing "click._compat" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\click\_compat.py")
+2017-04-12T13:27:26: Parsing "click._termui_impl" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\click\_termui_impl.py")
+2017-04-12T13:27:26: Parsing "click._textwrap" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\click\_textwrap.py")
+2017-04-12T13:27:26: Parsing "click._unicodefun" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\click\_unicodefun.py")
+2017-04-12T13:27:26: Parsing "click._winconsole" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\click\_winconsole.py")
+2017-04-12T13:27:26: Parsing "click" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\click\__init__.py")
+2017-04-12T13:27:26: Parsing complete
+2017-04-12T13:27:26: Analyzing "click.core"
+2017-04-12T13:27:26: Analyzing "click.decorators"
+2017-04-12T13:27:26: Analyzing "click.exceptions"
+2017-04-12T13:27:26: Analyzing "click.formatting"
+2017-04-12T13:27:26: Analyzing "click.globals"
+2017-04-12T13:27:26: Analyzing "click.parser"
+2017-04-12T13:27:26: Analyzing "click.termui"
+2017-04-12T13:27:26: Analyzing "click.testing"
+2017-04-12T13:27:26: Analyzing "click.types"
+2017-04-12T13:27:26: Analyzing "click.utils"
+2017-04-12T13:27:26: Analyzing "click._bashcomplete"
+2017-04-12T13:27:26: Analyzing "click._compat"
+2017-04-12T13:27:26: Analyzing "click._termui_impl"
+2017-04-12T13:27:26: Analyzing "click._textwrap"
+2017-04-12T13:27:26: Analyzing "click._unicodefun"
+2017-04-12T13:27:26: Analyzing "click._winconsole"
+2017-04-12T13:27:26: Analyzing "click"
+2017-04-12T13:27:26: Starting analysis of 17 modules
+2017-04-12T13:27:29: Analysis complete
+2017-04-12T13:27:29: Saving group "c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\click"
+2017-04-12T13:27:30: End of group "c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\click"
+2017-04-12T13:27:30: Start group "c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\flask" with 21 files
+2017-04-12T13:27:30: Parsing "flask.app" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\flask\app.py")
+2017-04-12T13:27:30: Parsing "flask.blueprints" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\flask\blueprints.py")
+2017-04-12T13:27:30: Parsing "flask.cli" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\flask\cli.py")
+2017-04-12T13:27:30: Parsing "flask.config" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\flask\config.py")
+2017-04-12T13:27:30: Parsing "flask.ctx" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\flask\ctx.py")
+2017-04-12T13:27:30: Parsing "flask.debughelpers" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\flask\debughelpers.py")
+2017-04-12T13:27:30: Parsing "flask.exthook" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\flask\exthook.py")
+2017-04-12T13:27:30: Parsing "flask.globals" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\flask\globals.py")
+2017-04-12T13:27:30: Parsing "flask.helpers" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\flask\helpers.py")
+2017-04-12T13:27:30: Parsing "flask.json" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\flask\json.py")
+2017-04-12T13:27:30: Parsing "flask.logging" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\flask\logging.py")
+2017-04-12T13:27:30: Parsing "flask.sessions" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\flask\sessions.py")
+2017-04-12T13:27:30: Parsing "flask.signals" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\flask\signals.py")
+2017-04-12T13:27:30: Parsing "flask.templating" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\flask\templating.py")
+2017-04-12T13:27:30: Parsing "flask.testing" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\flask\testing.py")
+2017-04-12T13:27:30: Parsing "flask.views" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\flask\views.py")
+2017-04-12T13:27:30: Parsing "flask.wrappers" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\flask\wrappers.py")
+2017-04-12T13:27:30: Parsing "flask._compat" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\flask\_compat.py")
+2017-04-12T13:27:30: Parsing "flask" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\flask\__init__.py")
+2017-04-12T13:27:30: Parsing "flask.__main__" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\flask\__main__.py")
+2017-04-12T13:27:30: Parsing "flask.ext" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\flask\ext\__init__.py")
+2017-04-12T13:27:30: Parsing complete
+2017-04-12T13:27:30: Analyzing "flask.app"
+2017-04-12T13:27:30: Analyzing "flask.blueprints"
+2017-04-12T13:27:30: Analyzing "flask.cli"
+2017-04-12T13:27:30: Analyzing "flask.config"
+2017-04-12T13:27:30: Analyzing "flask.ctx"
+2017-04-12T13:27:30: Analyzing "flask.debughelpers"
+2017-04-12T13:27:30: Analyzing "flask.exthook"
+2017-04-12T13:27:30: Analyzing "flask.globals"
+2017-04-12T13:27:30: Analyzing "flask.helpers"
+2017-04-12T13:27:30: Analyzing "flask.json"
+2017-04-12T13:27:30: Analyzing "flask.logging"
+2017-04-12T13:27:30: Analyzing "flask.sessions"
+2017-04-12T13:27:30: Analyzing "flask.signals"
+2017-04-12T13:27:30: Analyzing "flask.templating"
+2017-04-12T13:27:30: Analyzing "flask.testing"
+2017-04-12T13:27:30: Analyzing "flask.views"
+2017-04-12T13:27:30: Analyzing "flask.wrappers"
+2017-04-12T13:27:30: Analyzing "flask._compat"
+2017-04-12T13:27:30: Analyzing "flask"
+2017-04-12T13:27:30: Analyzing "flask.__main__"
+2017-04-12T13:27:30: Analyzing "flask.ext"
+2017-04-12T13:27:30: Starting analysis of 21 modules
+2017-04-12T13:27:33: Analysis complete
+2017-04-12T13:27:33: Saving group "c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\flask"
+2017-04-12T13:27:34: End of group "c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\flask"
+2017-04-12T13:27:34: Start group "c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\jinja2" with 26 files
+2017-04-12T13:27:34: Parsing "jinja2.asyncfilters" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\jinja2\asyncfilters.py")
+2017-04-12T13:27:34: [WARNING] File "c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\jinja2\asyncfilters.py" contained parse errors
+2017-04-12T13:27:34: (24,17) - (24,22) 'yield' inside async function
+(112,13) - (112,18) 'yield' inside async function
+2017-04-12T13:27:34: Parsing "jinja2.asyncsupport" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\jinja2\asyncsupport.py")
+2017-04-12T13:27:34: [WARNING] File "c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\jinja2\asyncsupport.py" contained parse errors
+2017-04-12T13:27:34: (35,13) - (35,18) 'yield' inside async function
+(40,5) - (40,10) 'yield' inside async function
+(184,13) - (184,18) 'yield' inside async function
+(187,9) - (187,14) 'yield' inside async function
+2017-04-12T13:27:34: Parsing "jinja2.bccache" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\jinja2\bccache.py")
+2017-04-12T13:27:34: Parsing "jinja2.compiler" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\jinja2\compiler.py")
+2017-04-12T13:27:34: Parsing "jinja2.constants" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\jinja2\constants.py")
+2017-04-12T13:27:34: Parsing "jinja2.debug" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\jinja2\debug.py")
+2017-04-12T13:27:34: Parsing "jinja2.defaults" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\jinja2\defaults.py")
+2017-04-12T13:27:34: Parsing "jinja2.environment" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\jinja2\environment.py")
+2017-04-12T13:27:34: Parsing "jinja2.exceptions" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\jinja2\exceptions.py")
+2017-04-12T13:27:34: Parsing "jinja2.ext" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\jinja2\ext.py")
+2017-04-12T13:27:34: Parsing "jinja2.filters" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\jinja2\filters.py")
+2017-04-12T13:27:34: Parsing "jinja2.idtracking" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\jinja2\idtracking.py")
+2017-04-12T13:27:34: Parsing "jinja2.lexer" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\jinja2\lexer.py")
+2017-04-12T13:27:34: Parsing "jinja2.loaders" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\jinja2\loaders.py")
+2017-04-12T13:27:34: Parsing "jinja2.meta" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\jinja2\meta.py")
+2017-04-12T13:27:34: Parsing "jinja2.nodes" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\jinja2\nodes.py")
+2017-04-12T13:27:34: Parsing "jinja2.optimizer" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\jinja2\optimizer.py")
+2017-04-12T13:27:34: Parsing "jinja2.parser" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\jinja2\parser.py")
+2017-04-12T13:27:34: Parsing "jinja2.runtime" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\jinja2\runtime.py")
+2017-04-12T13:27:34: Parsing "jinja2.sandbox" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\jinja2\sandbox.py")
+2017-04-12T13:27:34: Parsing "jinja2.tests" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\jinja2\tests.py")
+2017-04-12T13:27:34: Parsing "jinja2.utils" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\jinja2\utils.py")
+2017-04-12T13:27:34: Parsing "jinja2.visitor" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\jinja2\visitor.py")
+2017-04-12T13:27:34: Parsing "jinja2._compat" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\jinja2\_compat.py")
+2017-04-12T13:27:34: Parsing "jinja2._stringdefs" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\jinja2\_stringdefs.py")
+2017-04-12T13:27:34: Parsing "jinja2" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\jinja2\__init__.py")
+2017-04-12T13:27:34: Parsing complete
+2017-04-12T13:27:34: Analyzing "jinja2.asyncfilters"
+2017-04-12T13:27:34: Analyzing "jinja2.asyncsupport"
+2017-04-12T13:27:34: Analyzing "jinja2.bccache"
+2017-04-12T13:27:34: Analyzing "jinja2.compiler"
+2017-04-12T13:27:34: Analyzing "jinja2.constants"
+2017-04-12T13:27:34: Analyzing "jinja2.debug"
+2017-04-12T13:27:34: Analyzing "jinja2.defaults"
+2017-04-12T13:27:34: Analyzing "jinja2.environment"
+2017-04-12T13:27:34: Analyzing "jinja2.exceptions"
+2017-04-12T13:27:34: Analyzing "jinja2.ext"
+2017-04-12T13:27:34: Analyzing "jinja2.filters"
+2017-04-12T13:27:34: Analyzing "jinja2.idtracking"
+2017-04-12T13:27:34: Analyzing "jinja2.lexer"
+2017-04-12T13:27:34: Analyzing "jinja2.loaders"
+2017-04-12T13:27:34: Analyzing "jinja2.meta"
+2017-04-12T13:27:34: Analyzing "jinja2.nodes"
+2017-04-12T13:27:34: Analyzing "jinja2.optimizer"
+2017-04-12T13:27:34: Analyzing "jinja2.parser"
+2017-04-12T13:27:34: Analyzing "jinja2.runtime"
+2017-04-12T13:27:34: Analyzing "jinja2.sandbox"
+2017-04-12T13:27:34: Analyzing "jinja2.tests"
+2017-04-12T13:27:34: Analyzing "jinja2.utils"
+2017-04-12T13:27:34: Analyzing "jinja2.visitor"
+2017-04-12T13:27:34: Analyzing "jinja2._compat"
+2017-04-12T13:27:34: Analyzing "jinja2._stringdefs"
+2017-04-12T13:27:34: Analyzing "jinja2"
+2017-04-12T13:27:34: Starting analysis of 26 modules
+2017-04-12T13:27:39: Analysis complete
+2017-04-12T13:27:39: Saving group "c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\jinja2"
+2017-04-12T13:27:40: End of group "c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\jinja2"
+2017-04-12T13:27:40: Start group "c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\markupsafe" with 4 files
+2017-04-12T13:27:40: Parsing "markupsafe._compat" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\markupsafe\_compat.py")
+2017-04-12T13:27:40: Parsing "markupsafe._constants" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\markupsafe\_constants.py")
+2017-04-12T13:27:40: Parsing "markupsafe._native" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\markupsafe\_native.py")
+2017-04-12T13:27:40: Parsing "markupsafe" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\markupsafe\__init__.py")
+2017-04-12T13:27:40: Parsing complete
+2017-04-12T13:27:40: Analyzing "markupsafe._compat"
+2017-04-12T13:27:40: Analyzing "markupsafe._constants"
+2017-04-12T13:27:40: Analyzing "markupsafe._native"
+2017-04-12T13:27:40: Analyzing "markupsafe"
+2017-04-12T13:27:40: Starting analysis of 4 modules
+2017-04-12T13:27:43: Analysis complete
+2017-04-12T13:27:43: Saving group "c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\markupsafe"
+2017-04-12T13:27:43: End of group "c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\markupsafe"
+2017-04-12T13:27:43: Start group "c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip" with 233 files
+2017-04-12T13:27:44: Parsing "pip.basecommand" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\basecommand.py")
+2017-04-12T13:27:44: Parsing "pip.baseparser" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\baseparser.py")
+2017-04-12T13:27:44: Parsing "pip.cmdoptions" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\cmdoptions.py")
+2017-04-12T13:27:44: Parsing "pip.download" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\download.py")
+2017-04-12T13:27:44: Parsing "pip.exceptions" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\exceptions.py")
+2017-04-12T13:27:44: Parsing "pip.index" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\index.py")
+2017-04-12T13:27:44: Parsing "pip.locations" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\locations.py")
+2017-04-12T13:27:44: Parsing "pip.pep425tags" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\pep425tags.py")
+2017-04-12T13:27:44: Parsing "pip.status_codes" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\status_codes.py")
+2017-04-12T13:27:44: Parsing "pip.wheel" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\wheel.py")
+2017-04-12T13:27:44: Parsing "pip" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\__init__.py")
+2017-04-12T13:27:44: Parsing "pip.__main__" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\__main__.py")
+2017-04-12T13:27:44: Parsing "pip.commands.completion" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\commands\completion.py")
+2017-04-12T13:27:44: Parsing "pip.commands.download" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\commands\download.py")
+2017-04-12T13:27:44: Parsing "pip.commands.freeze" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\commands\freeze.py")
+2017-04-12T13:27:44: Parsing "pip.commands.hash" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\commands\hash.py")
+2017-04-12T13:27:44: Parsing "pip.commands.help" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\commands\help.py")
+2017-04-12T13:27:44: Parsing "pip.commands.install" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\commands\install.py")
+2017-04-12T13:27:44: Parsing "pip.commands.list" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\commands\list.py")
+2017-04-12T13:27:44: Parsing "pip.commands.search" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\commands\search.py")
+2017-04-12T13:27:44: Parsing "pip.commands.show" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\commands\show.py")
+2017-04-12T13:27:44: Parsing "pip.commands.uninstall" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\commands\uninstall.py")
+2017-04-12T13:27:44: Parsing "pip.commands.wheel" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\commands\wheel.py")
+2017-04-12T13:27:44: Parsing "pip.commands" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\commands\__init__.py")
+2017-04-12T13:27:44: Parsing "pip.compat.dictconfig" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\compat\dictconfig.py")
+2017-04-12T13:27:44: Parsing "pip.compat.ordereddict" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\compat\ordereddict.py")
+2017-04-12T13:27:44: Parsing "pip.compat" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\compat\__init__.py")
+2017-04-12T13:27:44: Parsing "pip.models.index" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\models\index.py")
+2017-04-12T13:27:44: Parsing "pip.models" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\models\__init__.py")
+2017-04-12T13:27:44: Parsing "pip.operations.freeze" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\operations\freeze.py")
+2017-04-12T13:27:44: Parsing "pip.operations" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\operations\__init__.py")
+2017-04-12T13:27:44: Parsing "pip.req.req_file" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\req\req_file.py")
+2017-04-12T13:27:44: Parsing "pip.req.req_install" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\req\req_install.py")
+2017-04-12T13:27:44: Parsing "pip.req.req_set" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\req\req_set.py")
+2017-04-12T13:27:44: Parsing "pip.req.req_uninstall" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\req\req_uninstall.py")
+2017-04-12T13:27:44: Parsing "pip.req" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\req\__init__.py")
+2017-04-12T13:27:44: Parsing "pip.utils.appdirs" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\utils\appdirs.py")
+2017-04-12T13:27:44: Parsing "pip.utils.build" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\utils\build.py")
+2017-04-12T13:27:44: Parsing "pip.utils.deprecation" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\utils\deprecation.py")
+2017-04-12T13:27:44: Parsing "pip.utils.encoding" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\utils\encoding.py")
+2017-04-12T13:27:44: Parsing "pip.utils.filesystem" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\utils\filesystem.py")
+2017-04-12T13:27:44: Parsing "pip.utils.hashes" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\utils\hashes.py")
+2017-04-12T13:27:44: Parsing "pip.utils.logging" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\utils\logging.py")
+2017-04-12T13:27:44: Parsing "pip.utils.outdated" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\utils\outdated.py")
+2017-04-12T13:27:44: Parsing "pip.utils.setuptools_build" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\utils\setuptools_build.py")
+2017-04-12T13:27:44: Parsing "pip.utils.ui" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\utils\ui.py")
+2017-04-12T13:27:44: Parsing "pip.utils" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\utils\__init__.py")
+2017-04-12T13:27:44: Parsing "pip.vcs.bazaar" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\vcs\bazaar.py")
+2017-04-12T13:27:44: Parsing "pip.vcs.git" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\vcs\git.py")
+2017-04-12T13:27:44: Parsing "pip.vcs.mercurial" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\vcs\mercurial.py")
+2017-04-12T13:27:44: Parsing "pip.vcs.subversion" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\vcs\subversion.py")
+2017-04-12T13:27:44: Parsing "pip.vcs" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\vcs\__init__.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.ipaddress" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\ipaddress.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.pyparsing" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\pyparsing.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.retrying" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\retrying.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.six" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\six.py")
+2017-04-12T13:27:44: Parsing "pip._vendor" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\__init__.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.cachecontrol.adapter" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\cachecontrol\adapter.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.cachecontrol.cache" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\cachecontrol\cache.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.cachecontrol.compat" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\cachecontrol\compat.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.cachecontrol.controller" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\cachecontrol\controller.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.cachecontrol.filewrapper" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\cachecontrol\filewrapper.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.cachecontrol.heuristics" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\cachecontrol\heuristics.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.cachecontrol.serialize" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\cachecontrol\serialize.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.cachecontrol.wrapper" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\cachecontrol\wrapper.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.cachecontrol._cmd" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\cachecontrol\_cmd.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.cachecontrol" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\cachecontrol\__init__.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.cachecontrol.caches.file_cache" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\cachecontrol\caches\file_cache.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.cachecontrol.caches.redis_cache" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\cachecontrol\caches\redis_cache.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.cachecontrol.caches" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\cachecontrol\caches\__init__.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.colorama.ansi" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\colorama\ansi.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.colorama.ansitowin32" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\colorama\ansitowin32.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.colorama.initialise" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\colorama\initialise.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.colorama.win32" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\colorama\win32.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.colorama.winterm" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\colorama\winterm.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.colorama" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\colorama\__init__.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.distlib.compat" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\distlib\compat.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.distlib.database" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\distlib\database.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.distlib.index" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\distlib\index.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.distlib.locators" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\distlib\locators.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.distlib.manifest" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\distlib\manifest.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.distlib.markers" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\distlib\markers.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.distlib.metadata" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\distlib\metadata.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.distlib.resources" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\distlib\resources.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.distlib.scripts" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\distlib\scripts.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.distlib.util" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\distlib\util.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.distlib.version" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\distlib\version.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.distlib.wheel" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\distlib\wheel.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.distlib" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\distlib\__init__.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.distlib._backport.misc" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\distlib\_backport\misc.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.distlib._backport.shutil" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\distlib\_backport\shutil.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.distlib._backport.sysconfig" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\distlib\_backport\sysconfig.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.distlib._backport.tarfile" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\distlib\_backport\tarfile.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.distlib._backport" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\distlib\_backport\__init__.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.html5lib.constants" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\html5lib\constants.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.html5lib.html5parser" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\html5lib\html5parser.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.html5lib.ihatexml" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\html5lib\ihatexml.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.html5lib.inputstream" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\html5lib\inputstream.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.html5lib.sanitizer" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\html5lib\sanitizer.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.html5lib.tokenizer" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\html5lib\tokenizer.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.html5lib.utils" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\html5lib\utils.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.html5lib" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\html5lib\__init__.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.html5lib.filters.alphabeticalattributes" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\html5lib\filters\alphabeticalattributes.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.html5lib.filters.inject_meta_charset" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\html5lib\filters\inject_meta_charset.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.html5lib.filters.lint" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\html5lib\filters\lint.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.html5lib.filters.optionaltags" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\html5lib\filters\optionaltags.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.html5lib.filters.sanitizer" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\html5lib\filters\sanitizer.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.html5lib.filters.whitespace" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\html5lib\filters\whitespace.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.html5lib.filters._base" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\html5lib\filters\_base.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.html5lib.filters" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\html5lib\filters\__init__.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.html5lib.serializer.htmlserializer" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\html5lib\serializer\htmlserializer.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.html5lib.serializer" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\html5lib\serializer\__init__.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.html5lib.treeadapters.sax" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\html5lib\treeadapters\sax.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.html5lib.treeadapters" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\html5lib\treeadapters\__init__.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.html5lib.treebuilders.dom" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\html5lib\treebuilders\dom.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.html5lib.treebuilders.etree" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\html5lib\treebuilders\etree.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.html5lib.treebuilders.etree_lxml" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\html5lib\treebuilders\etree_lxml.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.html5lib.treebuilders._base" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\html5lib\treebuilders\_base.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.html5lib.treebuilders" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\html5lib\treebuilders\__init__.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.html5lib.treewalkers.dom" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\html5lib\treewalkers\dom.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.html5lib.treewalkers.etree" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\html5lib\treewalkers\etree.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.html5lib.treewalkers.genshistream" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\html5lib\treewalkers\genshistream.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.html5lib.treewalkers.lxmletree" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\html5lib\treewalkers\lxmletree.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.html5lib.treewalkers.pulldom" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\html5lib\treewalkers\pulldom.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.html5lib.treewalkers._base" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\html5lib\treewalkers\_base.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.html5lib.treewalkers" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\html5lib\treewalkers\__init__.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.html5lib.trie.datrie" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\html5lib\trie\datrie.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.html5lib.trie.py" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\html5lib\trie\py.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.html5lib.trie._base" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\html5lib\trie\_base.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.html5lib.trie" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\html5lib\trie\__init__.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.lockfile.linklockfile" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\lockfile\linklockfile.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.lockfile.mkdirlockfile" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\lockfile\mkdirlockfile.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.lockfile.pidlockfile" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\lockfile\pidlockfile.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.lockfile.sqlitelockfile" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\lockfile\sqlitelockfile.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.lockfile.symlinklockfile" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\lockfile\symlinklockfile.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.lockfile" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\lockfile\__init__.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.packaging.markers" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\packaging\markers.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.packaging.requirements" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\packaging\requirements.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.packaging.specifiers" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\packaging\specifiers.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.packaging.utils" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\packaging\utils.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.packaging.version" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\packaging\version.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.packaging._compat" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\packaging\_compat.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.packaging._structures" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\packaging\_structures.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.packaging.__about__" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\packaging\__about__.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.packaging" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\packaging\__init__.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.pkg_resources" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\pkg_resources\__init__.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.progress.bar" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\progress\bar.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.progress.counter" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\progress\counter.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.progress.helpers" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\progress\helpers.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.progress.spinner" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\progress\spinner.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.progress" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\progress\__init__.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.requests.adapters" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\adapters.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.requests.api" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\api.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.requests.auth" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\auth.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.requests.certs" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\certs.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.requests.compat" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\compat.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.requests.cookies" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\cookies.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.requests.exceptions" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\exceptions.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.requests.hooks" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\hooks.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.requests.models" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\models.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.requests.sessions" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\sessions.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.requests.status_codes" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\status_codes.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.requests.structures" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\structures.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.requests.utils" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\utils.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.requests" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\__init__.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.requests.packages" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\__init__.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.requests.packages.chardet.big5freq" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\chardet\big5freq.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.requests.packages.chardet.big5prober" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\chardet\big5prober.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.requests.packages.chardet.chardetect" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\chardet\chardetect.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.requests.packages.chardet.chardistribution" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\chardet\chardistribution.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.requests.packages.chardet.charsetgroupprober" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\chardet\charsetgroupprober.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.requests.packages.chardet.charsetprober" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\chardet\charsetprober.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.requests.packages.chardet.codingstatemachine" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\chardet\codingstatemachine.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.requests.packages.chardet.compat" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\chardet\compat.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.requests.packages.chardet.constants" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\chardet\constants.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.requests.packages.chardet.cp949prober" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\chardet\cp949prober.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.requests.packages.chardet.escprober" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\chardet\escprober.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.requests.packages.chardet.escsm" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\chardet\escsm.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.requests.packages.chardet.eucjpprober" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\chardet\eucjpprober.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.requests.packages.chardet.euckrfreq" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\chardet\euckrfreq.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.requests.packages.chardet.euckrprober" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\chardet\euckrprober.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.requests.packages.chardet.euctwfreq" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\chardet\euctwfreq.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.requests.packages.chardet.euctwprober" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\chardet\euctwprober.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.requests.packages.chardet.gb2312freq" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\chardet\gb2312freq.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.requests.packages.chardet.gb2312prober" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\chardet\gb2312prober.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.requests.packages.chardet.hebrewprober" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\chardet\hebrewprober.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.requests.packages.chardet.jisfreq" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\chardet\jisfreq.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.requests.packages.chardet.jpcntx" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\chardet\jpcntx.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.requests.packages.chardet.langbulgarianmodel" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\chardet\langbulgarianmodel.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.requests.packages.chardet.langcyrillicmodel" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\chardet\langcyrillicmodel.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.requests.packages.chardet.langgreekmodel" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\chardet\langgreekmodel.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.requests.packages.chardet.langhebrewmodel" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\chardet\langhebrewmodel.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.requests.packages.chardet.langhungarianmodel" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\chardet\langhungarianmodel.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.requests.packages.chardet.langthaimodel" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\chardet\langthaimodel.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.requests.packages.chardet.latin1prober" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\chardet\latin1prober.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.requests.packages.chardet.mbcharsetprober" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\chardet\mbcharsetprober.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.requests.packages.chardet.mbcsgroupprober" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\chardet\mbcsgroupprober.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.requests.packages.chardet.mbcssm" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\chardet\mbcssm.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.requests.packages.chardet.sbcharsetprober" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\chardet\sbcharsetprober.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.requests.packages.chardet.sbcsgroupprober" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\chardet\sbcsgroupprober.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.requests.packages.chardet.sjisprober" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\chardet\sjisprober.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.requests.packages.chardet.universaldetector" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\chardet\universaldetector.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.requests.packages.chardet.utf8prober" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\chardet\utf8prober.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.requests.packages.chardet" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\chardet\__init__.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.requests.packages.urllib3.connection" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\connection.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.requests.packages.urllib3.connectionpool" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\connectionpool.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.requests.packages.urllib3.exceptions" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\exceptions.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.requests.packages.urllib3.fields" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\fields.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.requests.packages.urllib3.filepost" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\filepost.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.requests.packages.urllib3.poolmanager" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\poolmanager.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.requests.packages.urllib3.request" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\request.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.requests.packages.urllib3.response" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\response.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.requests.packages.urllib3._collections" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\_collections.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.requests.packages.urllib3" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\__init__.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.requests.packages.urllib3.contrib.appengine" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\contrib\appengine.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.requests.packages.urllib3.contrib.ntlmpool" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\contrib\ntlmpool.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.requests.packages.urllib3.contrib.pyopenssl" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\contrib\pyopenssl.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.requests.packages.urllib3.contrib" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\contrib\__init__.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.requests.packages.urllib3.packages.ordered_dict" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\packages\ordered_dict.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.requests.packages.urllib3.packages.six" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\packages\six.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.requests.packages.urllib3.packages" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\packages\__init__.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.requests.packages.urllib3.packages.ssl_match_hostname._implementation" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\packages\ssl_match_hostname\_implementation.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.requests.packages.urllib3.packages.ssl_match_hostname" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\packages\ssl_match_hostname\__init__.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.requests.packages.urllib3.util.connection" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\util\connection.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.requests.packages.urllib3.util.request" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\util\request.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.requests.packages.urllib3.util.response" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\util\response.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.requests.packages.urllib3.util.retry" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\util\retry.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.requests.packages.urllib3.util.ssl_" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\util\ssl_.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.requests.packages.urllib3.util.timeout" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\util\timeout.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.requests.packages.urllib3.util.url" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\util\url.py")
+2017-04-12T13:27:44: Parsing "pip._vendor.requests.packages.urllib3.util" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\requests\packages\urllib3\util\__init__.py")
+2017-04-12T13:27:44: Parsing "pip._vendor._markerlib.markers" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\_markerlib\markers.py")
+2017-04-12T13:27:44: Parsing "pip._vendor._markerlib" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip\_vendor\_markerlib\__init__.py")
+2017-04-12T13:27:44: Parsing complete
+2017-04-12T13:27:44: Analyzing "pip.basecommand"
+2017-04-12T13:27:44: Analyzing "pip.baseparser"
+2017-04-12T13:27:44: Analyzing "pip.cmdoptions"
+2017-04-12T13:27:44: Analyzing "pip.download"
+2017-04-12T13:27:44: Analyzing "pip.exceptions"
+2017-04-12T13:27:44: Analyzing "pip.index"
+2017-04-12T13:27:44: Analyzing "pip.locations"
+2017-04-12T13:27:44: Analyzing "pip.pep425tags"
+2017-04-12T13:27:44: Analyzing "pip.status_codes"
+2017-04-12T13:27:44: Analyzing "pip.wheel"
+2017-04-12T13:27:44: Analyzing "pip"
+2017-04-12T13:27:44: Analyzing "pip.__main__"
+2017-04-12T13:27:44: Analyzing "pip.commands.completion"
+2017-04-12T13:27:44: Analyzing "pip.commands.download"
+2017-04-12T13:27:44: Analyzing "pip.commands.freeze"
+2017-04-12T13:27:44: Analyzing "pip.commands.hash"
+2017-04-12T13:27:44: Analyzing "pip.commands.help"
+2017-04-12T13:27:44: Analyzing "pip.commands.install"
+2017-04-12T13:27:44: Analyzing "pip.commands.list"
+2017-04-12T13:27:44: Analyzing "pip.commands.search"
+2017-04-12T13:27:44: Analyzing "pip.commands.show"
+2017-04-12T13:27:44: Analyzing "pip.commands.uninstall"
+2017-04-12T13:27:44: Analyzing "pip.commands.wheel"
+2017-04-12T13:27:44: Analyzing "pip.commands"
+2017-04-12T13:27:44: Analyzing "pip.compat.dictconfig"
+2017-04-12T13:27:44: Analyzing "pip.compat.ordereddict"
+2017-04-12T13:27:44: Analyzing "pip.compat"
+2017-04-12T13:27:44: Analyzing "pip.models.index"
+2017-04-12T13:27:44: Analyzing "pip.models"
+2017-04-12T13:27:44: Analyzing "pip.operations.freeze"
+2017-04-12T13:27:44: Analyzing "pip.operations"
+2017-04-12T13:27:44: Analyzing "pip.req.req_file"
+2017-04-12T13:27:44: Analyzing "pip.req.req_install"
+2017-04-12T13:27:44: Analyzing "pip.req.req_set"
+2017-04-12T13:27:44: Analyzing "pip.req.req_uninstall"
+2017-04-12T13:27:44: Analyzing "pip.req"
+2017-04-12T13:27:44: Analyzing "pip.utils.appdirs"
+2017-04-12T13:27:44: Analyzing "pip.utils.build"
+2017-04-12T13:27:44: Analyzing "pip.utils.deprecation"
+2017-04-12T13:27:44: Analyzing "pip.utils.encoding"
+2017-04-12T13:27:44: Analyzing "pip.utils.filesystem"
+2017-04-12T13:27:44: Analyzing "pip.utils.hashes"
+2017-04-12T13:27:44: Analyzing "pip.utils.logging"
+2017-04-12T13:27:44: Analyzing "pip.utils.outdated"
+2017-04-12T13:27:44: Analyzing "pip.utils.setuptools_build"
+2017-04-12T13:27:44: Analyzing "pip.utils.ui"
+2017-04-12T13:27:44: Analyzing "pip.utils"
+2017-04-12T13:27:44: Analyzing "pip.vcs.bazaar"
+2017-04-12T13:27:44: Analyzing "pip.vcs.git"
+2017-04-12T13:27:44: Analyzing "pip.vcs.mercurial"
+2017-04-12T13:27:44: Analyzing "pip.vcs.subversion"
+2017-04-12T13:27:44: Analyzing "pip.vcs"
+2017-04-12T13:27:44: Analyzing "pip._vendor.ipaddress"
+2017-04-12T13:27:44: Analyzing "pip._vendor.pyparsing"
+2017-04-12T13:27:44: Analyzing "pip._vendor.retrying"
+2017-04-12T13:27:44: Analyzing "pip._vendor.six"
+2017-04-12T13:27:44: Analyzing "pip._vendor"
+2017-04-12T13:27:44: Analyzing "pip._vendor.cachecontrol.adapter"
+2017-04-12T13:27:44: Analyzing "pip._vendor.cachecontrol.cache"
+2017-04-12T13:27:44: Analyzing "pip._vendor.cachecontrol.compat"
+2017-04-12T13:27:44: Analyzing "pip._vendor.cachecontrol.controller"
+2017-04-12T13:27:44: Analyzing "pip._vendor.cachecontrol.filewrapper"
+2017-04-12T13:27:44: Analyzing "pip._vendor.cachecontrol.heuristics"
+2017-04-12T13:27:44: Analyzing "pip._vendor.cachecontrol.serialize"
+2017-04-12T13:27:44: Analyzing "pip._vendor.cachecontrol.wrapper"
+2017-04-12T13:27:44: Analyzing "pip._vendor.cachecontrol._cmd"
+2017-04-12T13:27:44: Analyzing "pip._vendor.cachecontrol"
+2017-04-12T13:27:44: Analyzing "pip._vendor.cachecontrol.caches.file_cache"
+2017-04-12T13:27:44: Analyzing "pip._vendor.cachecontrol.caches.redis_cache"
+2017-04-12T13:27:44: Analyzing "pip._vendor.cachecontrol.caches"
+2017-04-12T13:27:44: Analyzing "pip._vendor.colorama.ansi"
+2017-04-12T13:27:44: Analyzing "pip._vendor.colorama.ansitowin32"
+2017-04-12T13:27:44: Analyzing "pip._vendor.colorama.initialise"
+2017-04-12T13:27:44: Analyzing "pip._vendor.colorama.win32"
+2017-04-12T13:27:44: Analyzing "pip._vendor.colorama.winterm"
+2017-04-12T13:27:44: Analyzing "pip._vendor.colorama"
+2017-04-12T13:27:44: Analyzing "pip._vendor.distlib.compat"
+2017-04-12T13:27:44: Analyzing "pip._vendor.distlib.database"
+2017-04-12T13:27:44: Analyzing "pip._vendor.distlib.index"
+2017-04-12T13:27:44: Analyzing "pip._vendor.distlib.locators"
+2017-04-12T13:27:44: Analyzing "pip._vendor.distlib.manifest"
+2017-04-12T13:27:44: Analyzing "pip._vendor.distlib.markers"
+2017-04-12T13:27:44: Analyzing "pip._vendor.distlib.metadata"
+2017-04-12T13:27:44: Analyzing "pip._vendor.distlib.resources"
+2017-04-12T13:27:44: Analyzing "pip._vendor.distlib.scripts"
+2017-04-12T13:27:44: Analyzing "pip._vendor.distlib.util"
+2017-04-12T13:27:44: Analyzing "pip._vendor.distlib.version"
+2017-04-12T13:27:44: Analyzing "pip._vendor.distlib.wheel"
+2017-04-12T13:27:44: Analyzing "pip._vendor.distlib"
+2017-04-12T13:27:44: Analyzing "pip._vendor.distlib._backport.misc"
+2017-04-12T13:27:44: Analyzing "pip._vendor.distlib._backport.shutil"
+2017-04-12T13:27:44: Analyzing "pip._vendor.distlib._backport.sysconfig"
+2017-04-12T13:27:44: Analyzing "pip._vendor.distlib._backport.tarfile"
+2017-04-12T13:27:44: Analyzing "pip._vendor.distlib._backport"
+2017-04-12T13:27:44: Analyzing "pip._vendor.html5lib.constants"
+2017-04-12T13:27:44: Analyzing "pip._vendor.html5lib.html5parser"
+2017-04-12T13:27:44: Analyzing "pip._vendor.html5lib.ihatexml"
+2017-04-12T13:27:44: Analyzing "pip._vendor.html5lib.inputstream"
+2017-04-12T13:27:44: Analyzing "pip._vendor.html5lib.sanitizer"
+2017-04-12T13:27:44: Analyzing "pip._vendor.html5lib.tokenizer"
+2017-04-12T13:27:44: Analyzing "pip._vendor.html5lib.utils"
+2017-04-12T13:27:44: Analyzing "pip._vendor.html5lib"
+2017-04-12T13:27:44: Analyzing "pip._vendor.html5lib.filters.alphabeticalattributes"
+2017-04-12T13:27:44: Analyzing "pip._vendor.html5lib.filters.inject_meta_charset"
+2017-04-12T13:27:44: Analyzing "pip._vendor.html5lib.filters.lint"
+2017-04-12T13:27:44: Analyzing "pip._vendor.html5lib.filters.optionaltags"
+2017-04-12T13:27:44: Analyzing "pip._vendor.html5lib.filters.sanitizer"
+2017-04-12T13:27:44: Analyzing "pip._vendor.html5lib.filters.whitespace"
+2017-04-12T13:27:44: Analyzing "pip._vendor.html5lib.filters._base"
+2017-04-12T13:27:44: Analyzing "pip._vendor.html5lib.filters"
+2017-04-12T13:27:44: Analyzing "pip._vendor.html5lib.serializer.htmlserializer"
+2017-04-12T13:27:44: Analyzing "pip._vendor.html5lib.serializer"
+2017-04-12T13:27:44: Analyzing "pip._vendor.html5lib.treeadapters.sax"
+2017-04-12T13:27:44: Analyzing "pip._vendor.html5lib.treeadapters"
+2017-04-12T13:27:44: Analyzing "pip._vendor.html5lib.treebuilders.dom"
+2017-04-12T13:27:44: Analyzing "pip._vendor.html5lib.treebuilders.etree"
+2017-04-12T13:27:44: Analyzing "pip._vendor.html5lib.treebuilders.etree_lxml"
+2017-04-12T13:27:44: Analyzing "pip._vendor.html5lib.treebuilders._base"
+2017-04-12T13:27:44: Analyzing "pip._vendor.html5lib.treebuilders"
+2017-04-12T13:27:44: Analyzing "pip._vendor.html5lib.treewalkers.dom"
+2017-04-12T13:27:44: Analyzing "pip._vendor.html5lib.treewalkers.etree"
+2017-04-12T13:27:44: Analyzing "pip._vendor.html5lib.treewalkers.genshistream"
+2017-04-12T13:27:44: Analyzing "pip._vendor.html5lib.treewalkers.lxmletree"
+2017-04-12T13:27:44: Analyzing "pip._vendor.html5lib.treewalkers.pulldom"
+2017-04-12T13:27:44: Analyzing "pip._vendor.html5lib.treewalkers._base"
+2017-04-12T13:27:44: Analyzing "pip._vendor.html5lib.treewalkers"
+2017-04-12T13:27:44: Analyzing "pip._vendor.html5lib.trie.datrie"
+2017-04-12T13:27:44: Analyzing "pip._vendor.html5lib.trie.py"
+2017-04-12T13:27:44: Analyzing "pip._vendor.html5lib.trie._base"
+2017-04-12T13:27:44: Analyzing "pip._vendor.html5lib.trie"
+2017-04-12T13:27:44: Analyzing "pip._vendor.lockfile.linklockfile"
+2017-04-12T13:27:44: Analyzing "pip._vendor.lockfile.mkdirlockfile"
+2017-04-12T13:27:44: Analyzing "pip._vendor.lockfile.pidlockfile"
+2017-04-12T13:27:44: Analyzing "pip._vendor.lockfile.sqlitelockfile"
+2017-04-12T13:27:44: Analyzing "pip._vendor.lockfile.symlinklockfile"
+2017-04-12T13:27:44: Analyzing "pip._vendor.lockfile"
+2017-04-12T13:27:44: Analyzing "pip._vendor.packaging.markers"
+2017-04-12T13:27:44: Analyzing "pip._vendor.packaging.requirements"
+2017-04-12T13:27:44: Analyzing "pip._vendor.packaging.specifiers"
+2017-04-12T13:27:44: Analyzing "pip._vendor.packaging.utils"
+2017-04-12T13:27:44: Analyzing "pip._vendor.packaging.version"
+2017-04-12T13:27:44: Analyzing "pip._vendor.packaging._compat"
+2017-04-12T13:27:44: Analyzing "pip._vendor.packaging._structures"
+2017-04-12T13:27:44: Analyzing "pip._vendor.packaging.__about__"
+2017-04-12T13:27:44: Analyzing "pip._vendor.packaging"
+2017-04-12T13:27:44: Analyzing "pip._vendor.pkg_resources"
+2017-04-12T13:27:45: Analyzing "pip._vendor.progress.bar"
+2017-04-12T13:27:45: Analyzing "pip._vendor.progress.counter"
+2017-04-12T13:27:45: Analyzing "pip._vendor.progress.helpers"
+2017-04-12T13:27:45: Analyzing "pip._vendor.progress.spinner"
+2017-04-12T13:27:45: Analyzing "pip._vendor.progress"
+2017-04-12T13:27:45: Analyzing "pip._vendor.requests.adapters"
+2017-04-12T13:27:45: Analyzing "pip._vendor.requests.api"
+2017-04-12T13:27:45: Analyzing "pip._vendor.requests.auth"
+2017-04-12T13:27:45: Analyzing "pip._vendor.requests.certs"
+2017-04-12T13:27:45: Analyzing "pip._vendor.requests.compat"
+2017-04-12T13:27:45: Analyzing "pip._vendor.requests.cookies"
+2017-04-12T13:27:45: Analyzing "pip._vendor.requests.exceptions"
+2017-04-12T13:27:45: Analyzing "pip._vendor.requests.hooks"
+2017-04-12T13:27:45: Analyzing "pip._vendor.requests.models"
+2017-04-12T13:27:45: Analyzing "pip._vendor.requests.sessions"
+2017-04-12T13:27:45: Analyzing "pip._vendor.requests.status_codes"
+2017-04-12T13:27:45: Analyzing "pip._vendor.requests.structures"
+2017-04-12T13:27:45: Analyzing "pip._vendor.requests.utils"
+2017-04-12T13:27:45: Analyzing "pip._vendor.requests"
+2017-04-12T13:27:45: Analyzing "pip._vendor.requests.packages"
+2017-04-12T13:27:45: Analyzing "pip._vendor.requests.packages.chardet.big5freq"
+2017-04-12T13:27:45: Analyzing "pip._vendor.requests.packages.chardet.big5prober"
+2017-04-12T13:27:45: Analyzing "pip._vendor.requests.packages.chardet.chardetect"
+2017-04-12T13:27:45: Analyzing "pip._vendor.requests.packages.chardet.chardistribution"
+2017-04-12T13:27:45: Analyzing "pip._vendor.requests.packages.chardet.charsetgroupprober"
+2017-04-12T13:27:45: Analyzing "pip._vendor.requests.packages.chardet.charsetprober"
+2017-04-12T13:27:45: Analyzing "pip._vendor.requests.packages.chardet.codingstatemachine"
+2017-04-12T13:27:45: Analyzing "pip._vendor.requests.packages.chardet.compat"
+2017-04-12T13:27:45: Analyzing "pip._vendor.requests.packages.chardet.constants"
+2017-04-12T13:27:45: Analyzing "pip._vendor.requests.packages.chardet.cp949prober"
+2017-04-12T13:27:45: Analyzing "pip._vendor.requests.packages.chardet.escprober"
+2017-04-12T13:27:45: Analyzing "pip._vendor.requests.packages.chardet.escsm"
+2017-04-12T13:27:45: Analyzing "pip._vendor.requests.packages.chardet.eucjpprober"
+2017-04-12T13:27:45: Analyzing "pip._vendor.requests.packages.chardet.euckrfreq"
+2017-04-12T13:27:45: Analyzing "pip._vendor.requests.packages.chardet.euckrprober"
+2017-04-12T13:27:45: Analyzing "pip._vendor.requests.packages.chardet.euctwfreq"
+2017-04-12T13:27:45: Analyzing "pip._vendor.requests.packages.chardet.euctwprober"
+2017-04-12T13:27:45: Analyzing "pip._vendor.requests.packages.chardet.gb2312freq"
+2017-04-12T13:27:45: Analyzing "pip._vendor.requests.packages.chardet.gb2312prober"
+2017-04-12T13:27:45: Analyzing "pip._vendor.requests.packages.chardet.hebrewprober"
+2017-04-12T13:27:45: Analyzing "pip._vendor.requests.packages.chardet.jisfreq"
+2017-04-12T13:27:45: Analyzing "pip._vendor.requests.packages.chardet.jpcntx"
+2017-04-12T13:27:45: Analyzing "pip._vendor.requests.packages.chardet.langbulgarianmodel"
+2017-04-12T13:27:45: Analyzing "pip._vendor.requests.packages.chardet.langcyrillicmodel"
+2017-04-12T13:27:45: Analyzing "pip._vendor.requests.packages.chardet.langgreekmodel"
+2017-04-12T13:27:45: Analyzing "pip._vendor.requests.packages.chardet.langhebrewmodel"
+2017-04-12T13:27:45: Analyzing "pip._vendor.requests.packages.chardet.langhungarianmodel"
+2017-04-12T13:27:45: Analyzing "pip._vendor.requests.packages.chardet.langthaimodel"
+2017-04-12T13:27:45: Analyzing "pip._vendor.requests.packages.chardet.latin1prober"
+2017-04-12T13:27:45: Analyzing "pip._vendor.requests.packages.chardet.mbcharsetprober"
+2017-04-12T13:27:45: Analyzing "pip._vendor.requests.packages.chardet.mbcsgroupprober"
+2017-04-12T13:27:45: Analyzing "pip._vendor.requests.packages.chardet.mbcssm"
+2017-04-12T13:27:45: Analyzing "pip._vendor.requests.packages.chardet.sbcharsetprober"
+2017-04-12T13:27:45: Analyzing "pip._vendor.requests.packages.chardet.sbcsgroupprober"
+2017-04-12T13:27:45: Analyzing "pip._vendor.requests.packages.chardet.sjisprober"
+2017-04-12T13:27:45: Analyzing "pip._vendor.requests.packages.chardet.universaldetector"
+2017-04-12T13:27:45: Analyzing "pip._vendor.requests.packages.chardet.utf8prober"
+2017-04-12T13:27:45: Analyzing "pip._vendor.requests.packages.chardet"
+2017-04-12T13:27:45: Analyzing "pip._vendor.requests.packages.urllib3.connection"
+2017-04-12T13:27:45: Analyzing "pip._vendor.requests.packages.urllib3.connectionpool"
+2017-04-12T13:27:45: Analyzing "pip._vendor.requests.packages.urllib3.exceptions"
+2017-04-12T13:27:45: Analyzing "pip._vendor.requests.packages.urllib3.fields"
+2017-04-12T13:27:45: Analyzing "pip._vendor.requests.packages.urllib3.filepost"
+2017-04-12T13:27:45: Analyzing "pip._vendor.requests.packages.urllib3.poolmanager"
+2017-04-12T13:27:45: Analyzing "pip._vendor.requests.packages.urllib3.request"
+2017-04-12T13:27:45: Analyzing "pip._vendor.requests.packages.urllib3.response"
+2017-04-12T13:27:45: Analyzing "pip._vendor.requests.packages.urllib3._collections"
+2017-04-12T13:27:45: Analyzing "pip._vendor.requests.packages.urllib3"
+2017-04-12T13:27:45: Analyzing "pip._vendor.requests.packages.urllib3.contrib.appengine"
+2017-04-12T13:27:45: Analyzing "pip._vendor.requests.packages.urllib3.contrib.ntlmpool"
+2017-04-12T13:27:45: Analyzing "pip._vendor.requests.packages.urllib3.contrib.pyopenssl"
+2017-04-12T13:27:45: Analyzing "pip._vendor.requests.packages.urllib3.contrib"
+2017-04-12T13:27:45: Analyzing "pip._vendor.requests.packages.urllib3.packages.ordered_dict"
+2017-04-12T13:27:45: Analyzing "pip._vendor.requests.packages.urllib3.packages.six"
+2017-04-12T13:27:45: Analyzing "pip._vendor.requests.packages.urllib3.packages"
+2017-04-12T13:27:45: Analyzing "pip._vendor.requests.packages.urllib3.packages.ssl_match_hostname._implementation"
+2017-04-12T13:27:45: Analyzing "pip._vendor.requests.packages.urllib3.packages.ssl_match_hostname"
+2017-04-12T13:27:45: Analyzing "pip._vendor.requests.packages.urllib3.util.connection"
+2017-04-12T13:27:45: Analyzing "pip._vendor.requests.packages.urllib3.util.request"
+2017-04-12T13:27:45: Analyzing "pip._vendor.requests.packages.urllib3.util.response"
+2017-04-12T13:27:45: Analyzing "pip._vendor.requests.packages.urllib3.util.retry"
+2017-04-12T13:27:45: Analyzing "pip._vendor.requests.packages.urllib3.util.ssl_"
+2017-04-12T13:27:45: Analyzing "pip._vendor.requests.packages.urllib3.util.timeout"
+2017-04-12T13:27:45: Analyzing "pip._vendor.requests.packages.urllib3.util.url"
+2017-04-12T13:27:45: Analyzing "pip._vendor.requests.packages.urllib3.util"
+2017-04-12T13:27:45: Analyzing "pip._vendor._markerlib.markers"
+2017-04-12T13:27:45: Analyzing "pip._vendor._markerlib"
+2017-04-12T13:27:45: Starting analysis of 233 modules
+2017-04-12T13:27:57: Analysis complete
+2017-04-12T13:27:57: Saving group "c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip"
+2017-04-12T13:27:59: End of group "c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pip"
+2017-04-12T13:27:59: Start group "c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pkg_resources" with 14 files
+2017-04-12T13:27:59: Parsing "pkg_resources" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pkg_resources\__init__.py")
+2017-04-12T13:27:59: Parsing "pkg_resources.extern" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pkg_resources\extern\__init__.py")
+2017-04-12T13:27:59: Parsing "pkg_resources._vendor.pyparsing" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pkg_resources\_vendor\pyparsing.py")
+2017-04-12T13:27:59: Parsing "pkg_resources._vendor.six" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pkg_resources\_vendor\six.py")
+2017-04-12T13:27:59: Parsing "pkg_resources._vendor" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pkg_resources\_vendor\__init__.py")
+2017-04-12T13:27:59: Parsing "pkg_resources._vendor.packaging.markers" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pkg_resources\_vendor\packaging\markers.py")
+2017-04-12T13:27:59: Parsing "pkg_resources._vendor.packaging.requirements" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pkg_resources\_vendor\packaging\requirements.py")
+2017-04-12T13:27:59: Parsing "pkg_resources._vendor.packaging.specifiers" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pkg_resources\_vendor\packaging\specifiers.py")
+2017-04-12T13:27:59: Parsing "pkg_resources._vendor.packaging.utils" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pkg_resources\_vendor\packaging\utils.py")
+2017-04-12T13:27:59: Parsing "pkg_resources._vendor.packaging.version" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pkg_resources\_vendor\packaging\version.py")
+2017-04-12T13:27:59: Parsing "pkg_resources._vendor.packaging._compat" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pkg_resources\_vendor\packaging\_compat.py")
+2017-04-12T13:27:59: Parsing "pkg_resources._vendor.packaging._structures" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pkg_resources\_vendor\packaging\_structures.py")
+2017-04-12T13:27:59: Parsing "pkg_resources._vendor.packaging.__about__" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pkg_resources\_vendor\packaging\__about__.py")
+2017-04-12T13:27:59: Parsing "pkg_resources._vendor.packaging" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pkg_resources\_vendor\packaging\__init__.py")
+2017-04-12T13:27:59: Parsing complete
+2017-04-12T13:27:59: Analyzing "pkg_resources"
+2017-04-12T13:27:59: Analyzing "pkg_resources.extern"
+2017-04-12T13:27:59: Analyzing "pkg_resources._vendor.pyparsing"
+2017-04-12T13:27:59: Analyzing "pkg_resources._vendor.six"
+2017-04-12T13:27:59: Analyzing "pkg_resources._vendor"
+2017-04-12T13:27:59: Analyzing "pkg_resources._vendor.packaging.markers"
+2017-04-12T13:27:59: Analyzing "pkg_resources._vendor.packaging.requirements"
+2017-04-12T13:27:59: Analyzing "pkg_resources._vendor.packaging.specifiers"
+2017-04-12T13:27:59: Analyzing "pkg_resources._vendor.packaging.utils"
+2017-04-12T13:27:59: Analyzing "pkg_resources._vendor.packaging.version"
+2017-04-12T13:27:59: Analyzing "pkg_resources._vendor.packaging._compat"
+2017-04-12T13:27:59: Analyzing "pkg_resources._vendor.packaging._structures"
+2017-04-12T13:27:59: Analyzing "pkg_resources._vendor.packaging.__about__"
+2017-04-12T13:27:59: Analyzing "pkg_resources._vendor.packaging"
+2017-04-12T13:27:59: Starting analysis of 14 modules
+2017-04-12T13:28:03: Analysis complete
+2017-04-12T13:28:03: Saving group "c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pkg_resources"
+2017-04-12T13:28:04: End of group "c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pkg_resources"
+2017-04-12T13:28:04: Start group "c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pyjade" with 21 files
+2017-04-12T13:28:04: Parsing "pyjade.compiler" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pyjade\compiler.py")
+2017-04-12T13:28:04: Parsing "pyjade.convert" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pyjade\convert.py")
+2017-04-12T13:28:04: Parsing "pyjade.exceptions" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pyjade\exceptions.py")
+2017-04-12T13:28:04: Parsing "pyjade.filters" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pyjade\filters.py")
+2017-04-12T13:28:04: Parsing "pyjade.lexer" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pyjade\lexer.py")
+2017-04-12T13:28:04: Parsing "pyjade.nodes" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pyjade\nodes.py")
+2017-04-12T13:28:04: Parsing "pyjade.parser" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pyjade\parser.py")
+2017-04-12T13:28:04: Parsing "pyjade.runtime" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pyjade\runtime.py")
+2017-04-12T13:28:04: Parsing "pyjade.utils" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pyjade\utils.py")
+2017-04-12T13:28:04: Parsing "pyjade" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pyjade\__init__.py")
+2017-04-12T13:28:04: Parsing "pyjade.ext.html" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pyjade\ext\html.py")
+2017-04-12T13:28:04: Parsing "pyjade.ext.jinja" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pyjade\ext\jinja.py")
+2017-04-12T13:28:04: Parsing "pyjade.ext.mako" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pyjade\ext\mako.py")
+2017-04-12T13:28:04: Parsing "pyjade.ext.underscore" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pyjade\ext\underscore.py")
+2017-04-12T13:28:04: Parsing "pyjade.ext" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pyjade\ext\__init__.py")
+2017-04-12T13:28:04: Parsing "pyjade.ext.django.compiler" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pyjade\ext\django\compiler.py")
+2017-04-12T13:28:04: Parsing "pyjade.ext.django.loader" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pyjade\ext\django\loader.py")
+2017-04-12T13:28:04: Parsing "pyjade.ext.django.templatetags" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pyjade\ext\django\templatetags.py")
+2017-04-12T13:28:04: Parsing "pyjade.ext.django" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pyjade\ext\django\__init__.py")
+2017-04-12T13:28:04: Parsing "pyjade.ext.pyramid" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pyjade\ext\pyramid\__init__.py")
+2017-04-12T13:28:04: Parsing "pyjade.ext.tornado" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pyjade\ext\tornado\__init__.py")
+2017-04-12T13:28:04: Parsing complete
+2017-04-12T13:28:04: Analyzing "pyjade.compiler"
+2017-04-12T13:28:04: Analyzing "pyjade.convert"
+2017-04-12T13:28:04: Analyzing "pyjade.exceptions"
+2017-04-12T13:28:04: Analyzing "pyjade.filters"
+2017-04-12T13:28:04: Analyzing "pyjade.lexer"
+2017-04-12T13:28:04: Analyzing "pyjade.nodes"
+2017-04-12T13:28:04: Analyzing "pyjade.parser"
+2017-04-12T13:28:04: Analyzing "pyjade.runtime"
+2017-04-12T13:28:04: Analyzing "pyjade.utils"
+2017-04-12T13:28:04: Analyzing "pyjade"
+2017-04-12T13:28:04: Analyzing "pyjade.ext.html"
+2017-04-12T13:28:04: Analyzing "pyjade.ext.jinja"
+2017-04-12T13:28:04: Analyzing "pyjade.ext.mako"
+2017-04-12T13:28:04: Analyzing "pyjade.ext.underscore"
+2017-04-12T13:28:04: Analyzing "pyjade.ext"
+2017-04-12T13:28:04: Analyzing "pyjade.ext.django.compiler"
+2017-04-12T13:28:04: Analyzing "pyjade.ext.django.loader"
+2017-04-12T13:28:04: Analyzing "pyjade.ext.django.templatetags"
+2017-04-12T13:28:04: Analyzing "pyjade.ext.django"
+2017-04-12T13:28:04: Analyzing "pyjade.ext.pyramid"
+2017-04-12T13:28:04: Analyzing "pyjade.ext.tornado"
+2017-04-12T13:28:04: Starting analysis of 21 modules
+2017-04-12T13:28:08: Analysis complete
+2017-04-12T13:28:08: Saving group "c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pyjade"
+2017-04-12T13:28:08: End of group "c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\pyjade"
+2017-04-12T13:28:08: Start group "c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools" with 41 files
+2017-04-12T13:28:08: Parsing "setuptools.archive_util" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools\archive_util.py")
+2017-04-12T13:28:08: Parsing "setuptools.depends" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools\depends.py")
+2017-04-12T13:28:08: Parsing "setuptools.dist" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools\dist.py")
+2017-04-12T13:28:08: Parsing "setuptools.extension" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools\extension.py")
+2017-04-12T13:28:08: Parsing "setuptools.launch" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools\launch.py")
+2017-04-12T13:28:08: Parsing "setuptools.lib2to3_ex" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools\lib2to3_ex.py")
+2017-04-12T13:28:08: Parsing "setuptools.msvc9_support" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools\msvc9_support.py")
+2017-04-12T13:28:08: Parsing "setuptools.package_index" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools\package_index.py")
+2017-04-12T13:28:08: Parsing "setuptools.py26compat" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools\py26compat.py")
+2017-04-12T13:28:08: Parsing "setuptools.py27compat" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools\py27compat.py")
+2017-04-12T13:28:08: Parsing "setuptools.py31compat" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools\py31compat.py")
+2017-04-12T13:28:08: Parsing "setuptools.sandbox" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools\sandbox.py")
+2017-04-12T13:28:08: Parsing "setuptools.ssl_support" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools\ssl_support.py")
+2017-04-12T13:28:08: Parsing "setuptools.unicode_utils" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools\unicode_utils.py")
+2017-04-12T13:28:08: Parsing "setuptools.utils" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools\utils.py")
+2017-04-12T13:28:08: Parsing "setuptools.version" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools\version.py")
+2017-04-12T13:28:08: Parsing "setuptools.windows_support" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools\windows_support.py")
+2017-04-12T13:28:08: Parsing "setuptools" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools\__init__.py")
+2017-04-12T13:28:08: Parsing "setuptools.command.alias" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools\command\alias.py")
+2017-04-12T13:28:08: Parsing "setuptools.command.bdist_egg" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools\command\bdist_egg.py")
+2017-04-12T13:28:08: Parsing "setuptools.command.bdist_rpm" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools\command\bdist_rpm.py")
+2017-04-12T13:28:08: Parsing "setuptools.command.bdist_wininst" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools\command\bdist_wininst.py")
+2017-04-12T13:28:08: Parsing "setuptools.command.build_ext" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools\command\build_ext.py")
+2017-04-12T13:28:08: Parsing "setuptools.command.build_py" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools\command\build_py.py")
+2017-04-12T13:28:08: Parsing "setuptools.command.develop" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools\command\develop.py")
+2017-04-12T13:28:08: Parsing "setuptools.command.easy_install" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools\command\easy_install.py")
+2017-04-12T13:28:08: Parsing "setuptools.command.egg_info" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools\command\egg_info.py")
+2017-04-12T13:28:08: Parsing "setuptools.command.install" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools\command\install.py")
+2017-04-12T13:28:08: Parsing "setuptools.command.install_egg_info" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools\command\install_egg_info.py")
+2017-04-12T13:28:08: Parsing "setuptools.command.install_lib" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools\command\install_lib.py")
+2017-04-12T13:28:08: Parsing "setuptools.command.install_scripts" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools\command\install_scripts.py")
+2017-04-12T13:28:08: Parsing "setuptools.command.register" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools\command\register.py")
+2017-04-12T13:28:08: Parsing "setuptools.command.rotate" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools\command\rotate.py")
+2017-04-12T13:28:08: Parsing "setuptools.command.saveopts" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools\command\saveopts.py")
+2017-04-12T13:28:08: Parsing "setuptools.command.sdist" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools\command\sdist.py")
+2017-04-12T13:28:08: Parsing "setuptools.command.setopt" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools\command\setopt.py")
+2017-04-12T13:28:08: Parsing "setuptools.command.test" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools\command\test.py")
+2017-04-12T13:28:08: Parsing "setuptools.command.upload" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools\command\upload.py")
+2017-04-12T13:28:08: Parsing "setuptools.command.upload_docs" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools\command\upload_docs.py")
+2017-04-12T13:28:08: Parsing "setuptools.command" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools\command\__init__.py")
+2017-04-12T13:28:08: Parsing "setuptools.extern" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools\extern\__init__.py")
+2017-04-12T13:28:08: Parsing complete
+2017-04-12T13:28:08: Analyzing "setuptools.archive_util"
+2017-04-12T13:28:08: Analyzing "setuptools.depends"
+2017-04-12T13:28:08: Analyzing "setuptools.dist"
+2017-04-12T13:28:08: Analyzing "setuptools.extension"
+2017-04-12T13:28:08: Analyzing "setuptools.launch"
+2017-04-12T13:28:08: Analyzing "setuptools.lib2to3_ex"
+2017-04-12T13:28:08: Analyzing "setuptools.msvc9_support"
+2017-04-12T13:28:08: Analyzing "setuptools.package_index"
+2017-04-12T13:28:08: Analyzing "setuptools.py26compat"
+2017-04-12T13:28:08: Analyzing "setuptools.py27compat"
+2017-04-12T13:28:08: Analyzing "setuptools.py31compat"
+2017-04-12T13:28:08: Analyzing "setuptools.sandbox"
+2017-04-12T13:28:08: Analyzing "setuptools.ssl_support"
+2017-04-12T13:28:08: Analyzing "setuptools.unicode_utils"
+2017-04-12T13:28:08: Analyzing "setuptools.utils"
+2017-04-12T13:28:08: Analyzing "setuptools.version"
+2017-04-12T13:28:08: Analyzing "setuptools.windows_support"
+2017-04-12T13:28:08: Analyzing "setuptools"
+2017-04-12T13:28:08: Analyzing "setuptools.command.alias"
+2017-04-12T13:28:08: Analyzing "setuptools.command.bdist_egg"
+2017-04-12T13:28:08: Analyzing "setuptools.command.bdist_rpm"
+2017-04-12T13:28:08: Analyzing "setuptools.command.bdist_wininst"
+2017-04-12T13:28:08: Analyzing "setuptools.command.build_ext"
+2017-04-12T13:28:08: Analyzing "setuptools.command.build_py"
+2017-04-12T13:28:08: Analyzing "setuptools.command.develop"
+2017-04-12T13:28:08: Analyzing "setuptools.command.easy_install"
+2017-04-12T13:28:08: Analyzing "setuptools.command.egg_info"
+2017-04-12T13:28:08: Analyzing "setuptools.command.install"
+2017-04-12T13:28:08: Analyzing "setuptools.command.install_egg_info"
+2017-04-12T13:28:08: Analyzing "setuptools.command.install_lib"
+2017-04-12T13:28:08: Analyzing "setuptools.command.install_scripts"
+2017-04-12T13:28:08: Analyzing "setuptools.command.register"
+2017-04-12T13:28:08: Analyzing "setuptools.command.rotate"
+2017-04-12T13:28:08: Analyzing "setuptools.command.saveopts"
+2017-04-12T13:28:08: Analyzing "setuptools.command.sdist"
+2017-04-12T13:28:08: Analyzing "setuptools.command.setopt"
+2017-04-12T13:28:08: Analyzing "setuptools.command.test"
+2017-04-12T13:28:08: Analyzing "setuptools.command.upload"
+2017-04-12T13:28:08: Analyzing "setuptools.command.upload_docs"
+2017-04-12T13:28:08: Analyzing "setuptools.command"
+2017-04-12T13:28:08: Analyzing "setuptools.extern"
+2017-04-12T13:28:08: Starting analysis of 41 modules
+2017-04-12T13:28:12: Analysis complete
+2017-04-12T13:28:12: Saving group "c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools"
+2017-04-12T13:28:13: End of group "c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\setuptools"
+2017-04-12T13:28:13: Start group "c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\werkzeug" with 39 files
+2017-04-12T13:28:14: Parsing "werkzeug.datastructures" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\werkzeug\datastructures.py")
+2017-04-12T13:28:14: Parsing "werkzeug.exceptions" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\werkzeug\exceptions.py")
+2017-04-12T13:28:14: Parsing "werkzeug.filesystem" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\werkzeug\filesystem.py")
+2017-04-12T13:28:14: Parsing "werkzeug.formparser" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\werkzeug\formparser.py")
+2017-04-12T13:28:14: Parsing "werkzeug.http" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\werkzeug\http.py")
+2017-04-12T13:28:14: Parsing "werkzeug.local" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\werkzeug\local.py")
+2017-04-12T13:28:14: Parsing "werkzeug.posixemulation" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\werkzeug\posixemulation.py")
+2017-04-12T13:28:14: Parsing "werkzeug.routing" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\werkzeug\routing.py")
+2017-04-12T13:28:14: Parsing "werkzeug.script" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\werkzeug\script.py")
+2017-04-12T13:28:14: Parsing "werkzeug.security" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\werkzeug\security.py")
+2017-04-12T13:28:14: Parsing "werkzeug.serving" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\werkzeug\serving.py")
+2017-04-12T13:28:14: Parsing "werkzeug.test" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\werkzeug\test.py")
+2017-04-12T13:28:14: Parsing "werkzeug.testapp" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\werkzeug\testapp.py")
+2017-04-12T13:28:14: Parsing "werkzeug.urls" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\werkzeug\urls.py")
+2017-04-12T13:28:14: Parsing "werkzeug.useragents" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\werkzeug\useragents.py")
+2017-04-12T13:28:14: Parsing "werkzeug.utils" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\werkzeug\utils.py")
+2017-04-12T13:28:14: Parsing "werkzeug.wrappers" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\werkzeug\wrappers.py")
+2017-04-12T13:28:14: Parsing "werkzeug.wsgi" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\werkzeug\wsgi.py")
+2017-04-12T13:28:14: Parsing "werkzeug._compat" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\werkzeug\_compat.py")
+2017-04-12T13:28:14: Parsing "werkzeug._internal" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\werkzeug\_internal.py")
+2017-04-12T13:28:14: Parsing "werkzeug._reloader" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\werkzeug\_reloader.py")
+2017-04-12T13:28:14: Parsing "werkzeug" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\werkzeug\__init__.py")
+2017-04-12T13:28:14: Parsing "werkzeug.contrib.atom" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\werkzeug\contrib\atom.py")
+2017-04-12T13:28:14: Parsing "werkzeug.contrib.cache" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\werkzeug\contrib\cache.py")
+2017-04-12T13:28:14: Parsing "werkzeug.contrib.fixers" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\werkzeug\contrib\fixers.py")
+2017-04-12T13:28:14: Parsing "werkzeug.contrib.iterio" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\werkzeug\contrib\iterio.py")
+2017-04-12T13:28:14: Parsing "werkzeug.contrib.jsrouting" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\werkzeug\contrib\jsrouting.py")
+2017-04-12T13:28:14: Parsing "werkzeug.contrib.limiter" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\werkzeug\contrib\limiter.py")
+2017-04-12T13:28:14: Parsing "werkzeug.contrib.lint" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\werkzeug\contrib\lint.py")
+2017-04-12T13:28:14: Parsing "werkzeug.contrib.profiler" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\werkzeug\contrib\profiler.py")
+2017-04-12T13:28:14: Parsing "werkzeug.contrib.securecookie" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\werkzeug\contrib\securecookie.py")
+2017-04-12T13:28:14: Parsing "werkzeug.contrib.sessions" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\werkzeug\contrib\sessions.py")
+2017-04-12T13:28:14: Parsing "werkzeug.contrib.testtools" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\werkzeug\contrib\testtools.py")
+2017-04-12T13:28:14: Parsing "werkzeug.contrib.wrappers" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\werkzeug\contrib\wrappers.py")
+2017-04-12T13:28:14: Parsing "werkzeug.contrib" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\werkzeug\contrib\__init__.py")
+2017-04-12T13:28:14: Parsing "werkzeug.debug.console" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\werkzeug\debug\console.py")
+2017-04-12T13:28:14: Parsing "werkzeug.debug.repr" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\werkzeug\debug\repr.py")
+2017-04-12T13:28:14: Parsing "werkzeug.debug.tbtools" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\werkzeug\debug\tbtools.py")
+2017-04-12T13:28:14: Parsing "werkzeug.debug" ("c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\werkzeug\debug\__init__.py")
+2017-04-12T13:28:14: Parsing complete
+2017-04-12T13:28:14: Analyzing "werkzeug.datastructures"
+2017-04-12T13:28:14: Analyzing "werkzeug.exceptions"
+2017-04-12T13:28:14: Analyzing "werkzeug.filesystem"
+2017-04-12T13:28:14: Analyzing "werkzeug.formparser"
+2017-04-12T13:28:14: Analyzing "werkzeug.http"
+2017-04-12T13:28:14: Analyzing "werkzeug.local"
+2017-04-12T13:28:14: Analyzing "werkzeug.posixemulation"
+2017-04-12T13:28:14: Analyzing "werkzeug.routing"
+2017-04-12T13:28:14: Analyzing "werkzeug.script"
+2017-04-12T13:28:14: Analyzing "werkzeug.security"
+2017-04-12T13:28:14: Analyzing "werkzeug.serving"
+2017-04-12T13:28:14: Analyzing "werkzeug.test"
+2017-04-12T13:28:14: Analyzing "werkzeug.testapp"
+2017-04-12T13:28:14: Analyzing "werkzeug.urls"
+2017-04-12T13:28:14: Analyzing "werkzeug.useragents"
+2017-04-12T13:28:14: Analyzing "werkzeug.utils"
+2017-04-12T13:28:14: Analyzing "werkzeug.wrappers"
+2017-04-12T13:28:14: Analyzing "werkzeug.wsgi"
+2017-04-12T13:28:14: Analyzing "werkzeug._compat"
+2017-04-12T13:28:14: Analyzing "werkzeug._internal"
+2017-04-12T13:28:14: Analyzing "werkzeug._reloader"
+2017-04-12T13:28:14: Analyzing "werkzeug"
+2017-04-12T13:28:14: Analyzing "werkzeug.contrib.atom"
+2017-04-12T13:28:14: Analyzing "werkzeug.contrib.cache"
+2017-04-12T13:28:14: Analyzing "werkzeug.contrib.fixers"
+2017-04-12T13:28:14: Analyzing "werkzeug.contrib.iterio"
+2017-04-12T13:28:14: Analyzing "werkzeug.contrib.jsrouting"
+2017-04-12T13:28:14: Analyzing "werkzeug.contrib.limiter"
+2017-04-12T13:28:14: Analyzing "werkzeug.contrib.lint"
+2017-04-12T13:28:14: Analyzing "werkzeug.contrib.profiler"
+2017-04-12T13:28:14: Analyzing "werkzeug.contrib.securecookie"
+2017-04-12T13:28:14: Analyzing "werkzeug.contrib.sessions"
+2017-04-12T13:28:14: Analyzing "werkzeug.contrib.testtools"
+2017-04-12T13:28:14: Analyzing "werkzeug.contrib.wrappers"
+2017-04-12T13:28:14: Analyzing "werkzeug.contrib"
+2017-04-12T13:28:14: Analyzing "werkzeug.debug.console"
+2017-04-12T13:28:14: Analyzing "werkzeug.debug.repr"
+2017-04-12T13:28:14: Analyzing "werkzeug.debug.tbtools"
+2017-04-12T13:28:14: Analyzing "werkzeug.debug"
+2017-04-12T13:28:14: Starting analysis of 39 modules
+2017-04-12T13:28:19: Analysis complete
+2017-04-12T13:28:19: Saving group "c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\werkzeug"
+2017-04-12T13:28:21: End of group "c:\dev\portfolio\portfolio\portfolioenv\Lib\site-packages\werkzeug"
+2017-04-12T13:28:21: Deleting 0 files
+
+2017-04-12T13:28:39: Start analysis
+2017-04-12T13:28:39: [WARNING] Library was set explicitly - skipping path detection
+2017-04-12T13:28:39: IncludeModulesFromModulePath = win32com
+2017-04-12T13:28:41: Deleting 0 files

@@ -1,0 +1,131 @@
+//- from 'mixins.jade' import button with context
+
+extends layout
+
+block content
+    form(id='listform', name='listform',action='./list/', class='form-inline', method='POST', enctype='multipart/form-data')
+        .form-group
+            {{ form.csrf_token }}
+            {{ form.returntype() }}
+            {{ form.ids() }}
+    h1 #{keyword} - #{country}
+    
+    .filters.container-fluid
+        .row
+            .col-md-12
+                a(class=["btn", "btn-primary", "btn-md"], onclick="showitems($(this),'annum');") Annual
+                a(class=["btn", "btn-primary", "btn-md"], onclick="showitems($(this),'day');") Dayly
+                a(class=["btn", "btn-primary", "btn-md"], onclick="showitems($(this),'hour');") Hourly
+                &nbsp;&nbsp;&nbsp;
+                a(class=["btn", "btn-primary", "btn-md"], onclick="showitems($(this),'Permanent');") Permanent
+                a(class=["btn", "btn-primary", "btn-md"], onclick="showitems($(this),'Contract');") Contract
+                a(class=["btn", "btn-primary", "btn-md"], onclick="showitems($(this),'Temporary');") Temporary
+                &nbsp;&nbsp;&nbsp;
+                a(class=["btn", "range0", "btn-md"], onclick="showrange($(this),'ange0');") Poor
+                a(class=["btn", "range1", "btn-md"], onclick="showrange($(this),'ange1');") >>>
+                a(class=["btn", "range2", "btn-md"], onclick="showrange($(this),'ange2');") Average
+                a(class=["btn", "range3", "btn-md"], onclick="showrange($(this),'ange3');") >>>
+                a(class=["btn", "range4", "btn-md"], onclick="showrange($(this),'ange4');") Good
+                &nbsp;&nbsp;&nbsp;
+                a(class=["btn", "btn-primary", "btn-md"], onclick="showselected($(this));", id="counter") Selected: 0
+                a(class=["btn", "btn-default", "btn-md"], onclick="getlist(0);") CSV
+                a(class=["btn", "btn-default", "btn-md"], onclick="getlist(1);") XLS
+                a(class=["btn", "btn-default", "btn-md"], onclick="getlist(2);") PDF
+    for x in data
+        .item(class=["#{x.period}","#{x.jobtype}","#{x.time}","ange%s"%x.startrange])
+            .row
+                .col-md-12
+                    .row
+                        .col-md-12.row-hdr.alert-info
+                            h3
+                                a(href="#{x.link}") #{x.title}
+                                span(class=["pull-right"])
+                                    a(class=["text-danger"], onclick="$(this).parentsUntil('.item').hide();")
+                                        .glyphicon.glyphicon-remove
+                                    &nbsp;
+                                    a(class=["text-success"])
+                                        .glyphicon.glyphicon-plus(onclick="additem($(this),%s);"%x.id)
+                    .row
+                        .col-md-2 #{x.dt} (#{x.applicants})
+                        .col-md-2 #{x.location}
+                        .col-md-3 
+                            a(href="#{x.website}") #{x.company}
+                        .col-md-5.text-right
+                            .col-md-2
+                                #{x.period}
+                            .col-md-5(class="range%s"%x.startrange)
+                                strong
+                                    #{x.currency}#{x.minsalary}
+                                sup
+                                    $#{x.minusdsalary}
+                            .col-md-5(class="range%s"%x.toprange)
+                                strong
+                                    #{x.currency}#{x.maxsalary} 
+                                sup
+                                    $#{x.maxusdsalary}
+                    .row
+                        .col-md-12
+                            p #{x.description|safe}
+
+block scripts
+    script
+        var selected=[];
+        var filters0=[];
+        var filters1=[];
+        applyfilters();
+        function showselected(obj) {
+            if (obj.hasClass("btn-warning")) {
+                applyfilters();
+            } else {
+                $( ".item" ).hide();
+                $( ".selected" ).show();
+            }
+            obj.toggleClass("btn-warning btn-primary");
+        }
+        function additem(obj,id) {
+            if ($.inArray(id,selected)>-1) {
+                selected.splice($.inArray(id, selected),1);
+                obj.closest('.item').removeClass("selected")
+            } else {
+                selected.push(id);
+                obj.closest('.item').addClass("selected")
+            }
+            $("#counter").text("Selected: "+selected.length);
+            obj.toggleClass('glyphicon-plus glyphicon-minus');
+        }
+        function showitems(obj,txt) {
+            if (obj.hasClass("btn-warning")) {
+                $( "."+txt ).hide();
+                filters0.splice($.inArray("."+txt, filters0),1);
+            } else {
+                $( "."+txt ).show();
+                filters0.push("."+txt);
+            }
+            obj.toggleClass("btn-warning btn-primary");
+            applyfilters();
+        }
+        function showrange(obj,txt) {
+            if (obj.hasClass("btn-warning")) {
+                $( "."+txt ).hide();
+                filters1.splice($.inArray("."+txt, filters1),1);
+            } else {
+                $( "."+txt ).show();
+                filters1.push("."+txt);
+            }
+            obj.toggleClass("btn-warning r" + txt);
+            applyfilters();
+        }
+        function applyfilters() {
+            var i;
+            $( ".item" ).hide();
+            for (i = 0; i < filters0.length; ++i) {
+                for (j = 0; j < filters1.length; ++j) {
+                    $( filters0[i]+filters1[j] ).show();
+                }
+            }
+        }        
+        function getlist(t) {
+            $("#returntype").val(t);
+            $("#ids").val(selected)            ;
+            $("#listform").submit();
+        }

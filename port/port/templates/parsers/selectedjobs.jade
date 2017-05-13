@@ -1,0 +1,34 @@
+//- from 'mixins.jade' import button with context
+
+extends layout
+
+block content
+    for x in data
+        .item(class=["#{x.period}","#{x.jobtype}","#{x.time}","ange%s"%x.startrange])
+            .row
+                .col-md-12
+                    .row
+                        .col-md-12.alert-info
+                            h2
+                                a(href="#{x.link}") #{x.title}
+                    .row
+                        .col-md-2 #{x.dt} (#{x.applicants})
+                        .col-md-2 #{x.location}
+                        .col-md-3 
+                            a(href="#{x.website}") #{x.company}
+                        .col-md-5.text-right
+                            .col-md-2
+                                #{x.period}
+                            .col-md-5(class="range%s"%x.startrange)
+                                strong
+                                    #{x.currency}#{x.minsalary}
+                                sup
+                                    $#{x.minusdsalary}
+                            .col-md-5(class="range%s"%x.toprange)
+                                strong
+                                    #{x.currency}#{x.maxsalary} 
+                                sup
+                                    $#{x.maxusdsalary}
+                    .row
+                        .col-md-12
+                            #{x.description|safe}

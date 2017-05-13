@@ -1,0 +1,13 @@
+ToyFontFace
+FONT_TYPE_TO_CLASS
+_encode_string
+ScaledFont
+xrange
+constants
+FontOptions
+_keepref
+ffi
+cairo
+Matrix
+_check_status
+FontFace

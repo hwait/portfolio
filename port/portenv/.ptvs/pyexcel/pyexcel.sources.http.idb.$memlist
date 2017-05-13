@@ -1,0 +1,9 @@
+PY2
+_xlsx
+Source
+HttpSource
+request
+_get_file_type_from_url
+FILE_TYPE_MIME_TABLE
+params
+get_data

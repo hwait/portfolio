@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>bc6d49c9-97f5-493c-983f-b6fcb1072241</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <ProjectTypeGuids>{789894c7-04a9-4a11-a6b5-3f4435165112};{1b580a1a-fdb3-4b32-83e1-6407eb2722e6};{349c5851-65df-11da-9384-00065b846f21};{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <StartupFile>runserver.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <LaunchProvider>Web launcher</LaunchProvider>
+    <OutputPath>.</OutputPath>
+    <StaticUriPattern>^/static/.*</StaticUriPattern>
+    <StaticUriRewrite>^/$(MSBuildProjectName)/static/.*</StaticUriRewrite>
+    <PythonWsgiHandler>$(MSBuildProjectName).app</PythonWsgiHandler>
+    <Name>port</Name>
+    <RootNamespace>port</RootNamespace>
+    <InterpreterId>{0ef65708-e076-4d22-8c82-792f12ecc520}</InterpreterId>
+    <InterpreterVersion>2.7</InterpreterVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="port\mod_parser\business\AUSCrawler.py" />
+    <Compile Include="port\mod_parser\business\DataKeeper.py" />
+    <Compile Include="port\mod_parser\business\NZCrawler.py" />
+    <Compile Include="port\mod_parser\business\GBCrawler.py" />
+    <Compile Include="port\mod_parser\business\JobData.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="port\mod_parser\business\__init__.py" />
+    <Compile Include="port\mod_parser\business\JobCrawler.py" />
+    <Compile Include="port\mod_parser\forms.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="port\mod_parser\utils.py" />
+    <Compile Include="port\mod_parser\models.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="port\mod_parser\views.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="port\mod_parser\__init__.py" />
+    <Compile Include="port\config.py" />
+    <Compile Include="runserver.py" />
+    <Compile Include="port\__init__.py" />
+    <Compile Include="port\views.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="port\" />
+    <Folder Include="port\mod_parser\" />
+    <Folder Include="port\mod_parser\business\" />
+    <Folder Include="port\static\" />
+    <Folder Include="port\static\content\" />
+    <Folder Include="port\static\fonts\" />
+    <Folder Include="port\static\img\" />
+    <Folder Include="port\static\scripts\" />
+    <Folder Include="port\templates\" />
+    <Folder Include="port\templates\parsers\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="port\static\img\chart.png" />
+    <Content Include="port\templates\mixins.jade" />
+    <Content Include="port\templates\parsers\graph.jade" />
+    <Content Include="port\templates\parsers\selectedjobs.jade" />
+    <Content Include="port\templates\parsers\searchform.jade" />
+    <Content Include="port\templates\parsers\alljobs.jade" />
+    <Content Include="requirements.txt" />
+    <Content Include="port\static\content\bootstrap.css" />
+    <Content Include="port\static\content\bootstrap.min.css" />
+    <Content Include="port\static\content\site.css" />
+    <Content Include="port\static\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="port\static\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="port\static\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="port\static\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="port\static\scripts\bootstrap.js" />
+    <Content Include="port\static\scripts\bootstrap.min.js" />
+    <Content Include="port\static\scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="port\static\scripts\jquery-1.10.2.js" />
+    <Content Include="port\static\scripts\jquery-1.10.2.min.js" />
+    <Content Include="port\static\scripts\jquery-1.10.2.min.map" />
+    <Content Include="port\static\scripts\jquery.validate-vsdoc.js" />
+    <Content Include="port\static\scripts\jquery.validate.js" />
+    <Content Include="port\static\scripts\jquery.validate.min.js" />
+    <Content Include="port\static\scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="port\static\scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="port\static\scripts\modernizr-2.6.2.js" />
+    <Content Include="port\static\scripts\respond.js" />
+    <Content Include="port\static\scripts\respond.min.js" />
+    <Content Include="port\static\scripts\_references.js" />
+    <Content Include="port\templates\about.jade" />
+    <Content Include="port\templates\contact.jade" />
+    <Content Include="port\templates\index.jade" />
+    <Content Include="port\templates\layout.jade" />
+  </ItemGroup>
+  <ItemGroup>
+    <Interpreter Include="portenv\">
+      <Id>{0ef65708-e076-4d22-8c82-792f12ecc520}</Id>
+      <BaseInterpreter>{a88e1571-ad56-40d2-bd19-79c73b1246c4}</BaseInterpreter>
+      <Version>2.7</Version>
+      <Description>portenv (Python 2.7)</Description>
+      <InterpreterPath>Scripts\python.exe</InterpreterPath>
+      <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
+      <LibraryPath>Lib\</LibraryPath>
+      <PathEnvironmentVariable>
+      </PathEnvironmentVariable>
+      <Architecture>X86</Architecture>
+    </Interpreter>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Web.targets" />
+  <!-- Specify pre- and post-build commands in the BeforeBuild and 
+       AfterBuild targets below. -->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <AutoAssignPort>True</AutoAssignPort>
+          <UseCustomServer>True</UseCustomServer>
+          <CustomServerUrl>http://localhost</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+        <WebProjectProperties>
+          <StartPageUrl>
+          </StartPageUrl>
+          <StartAction>CurrentPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>False</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>False</EnableENC>
+          <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

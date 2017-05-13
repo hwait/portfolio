@@ -1,0 +1,17 @@
+sys
+Pyphen
+unicode_literals
+unichr
+pkg_resources
+re
+os
+DataInt
+dictionaries_roots
+HyphDict
+parse_hex
+__all__
+AlternativeParser
+parse
+hdcache
+language_fallback
+LANGUAGES

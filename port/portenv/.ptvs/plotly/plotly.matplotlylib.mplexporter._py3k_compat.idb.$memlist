@@ -1,0 +1,10 @@
+itertools
+PY3K
+zip
+xrange
+builtins
+map
+functools
+__builtin__
+sys
+reduce

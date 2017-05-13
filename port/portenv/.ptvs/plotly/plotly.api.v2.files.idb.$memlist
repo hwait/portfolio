@@ -1,0 +1,11 @@
+retrieve
+permanent_delete
+make_params
+RESOURCE
+absolute_import
+request
+build_url
+lookup
+update
+trash
+restore

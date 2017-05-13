@@ -1,0 +1,6 @@
+hsl_to_rgb
+test_hsl
+pytest
+unicode_literals
+test_color
+parse_color_string

@@ -1,0 +1,28 @@
+//- from 'mixins.jade' import button with context
+
+extends layout
+
+block content
+    if msg==''
+        form(id='searchform', name='searchform',action='.', class='form-inline', method='POST', enctype='multipart/form-data')
+            .form-group
+                {{ form.csrf_token }}
+                {{ form.keyword(placeholder="%s"%prevkey) }}
+                {{ form.country() }}
+                button(type="submit", value="Go", class="btn btn-default") Go
+    else
+        p
+            #{msg}
+    p You can use one of previous searches:
+        for x in logs
+            .row
+                .col-md-3
+                    a(class=["btn", "btn-md"], href="/jobs/search/graph/?k=%s"%x.keyword) 
+                        img(src='/static/img/chart.png')
+                    a(class=["btn", "btn-md"], href="/jobs/search?k=%s&c=%s"%(x.keyword,x.country)) #{x.keyword}
+                .col-md-3
+                    a(class=["btn", "btn-md"], href="/jobs/search/graph/?c=%s"%(x.country)) 
+                        img(src='/static/img/chart.png')
+                    #{countries[x.country]}
+                .col-md-3
+                    #{x.dt.strftime('%Y-%m-%d %H:%M')}

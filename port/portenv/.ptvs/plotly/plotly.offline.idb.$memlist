@@ -1,0 +1,8 @@
+offline
+iplot
+download_plotlyjs
+plot_mpl
+init_notebook_mode
+enable_mpl_offline
+iplot_mpl
+plot

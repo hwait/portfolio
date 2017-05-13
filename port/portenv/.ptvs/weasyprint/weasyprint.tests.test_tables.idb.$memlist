@@ -1,0 +1,16 @@
+test_inline_table
+unicode_literals
+test_auto_layout_table
+assert_no_logs
+assert_pixels
+test_table_wrapper
+test_implicit_width_table
+test_table_column_width
+requires
+parse
+division
+test_table_row_height
+test_table_vertical_align
+test_table_page_breaks
+capture_logs
+test_fixed_layout_table

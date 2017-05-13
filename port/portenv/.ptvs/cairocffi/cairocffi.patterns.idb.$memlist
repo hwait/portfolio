@@ -1,0 +1,15 @@
+PATTERN_TYPE_TO_CLASS
+LinearGradient
+SolidPattern
+Matrix
+Pattern
+xrange
+constants
+_keepref
+ffi
+Gradient
+cairo
+Surface
+_check_status
+RadialGradient
+SurfacePattern

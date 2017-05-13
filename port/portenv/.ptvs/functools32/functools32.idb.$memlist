@@ -1,0 +1,16 @@
+Lock
+partial
+lru_cache
+cmp_to_key
+_dummy_thread32
+functools32
+WRAPPER_UPDATES
+OrderedDict
+namedtuple
+update_wrapper
+reduce
+total_ordering
+wraps
+MutableMapping
+WRAPPER_ASSIGNMENTS
+reprlib32

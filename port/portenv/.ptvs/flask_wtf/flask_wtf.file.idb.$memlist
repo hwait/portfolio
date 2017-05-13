@@ -1,0 +1,12 @@
+file_allowed
+file_required
+FileField
+FileAllowed
+Iterable
+StopValidation
+FileRequired
+DataRequired
+FlaskWTFDeprecationWarning
+_FileField
+FileStorage
+warnings

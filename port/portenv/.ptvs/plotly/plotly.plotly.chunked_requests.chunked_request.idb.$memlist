@@ -1,0 +1,8 @@
+urlparse
+six
+os
+time
+Stream
+ssl
+_FakeSocket
+http_client

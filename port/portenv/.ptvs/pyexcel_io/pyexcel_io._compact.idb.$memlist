@@ -1,0 +1,15 @@
+PY2
+text_type
+StringIO
+NullHandler
+BytesIO
+logging
+isstream
+Iterator
+PY26
+is_generator
+irange
+types
+OrderedDict
+sys
+is_string

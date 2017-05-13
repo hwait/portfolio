@@ -1,0 +1,11 @@
+Slicer
+unhexlify
+Slice
+operator
+unicode_literals
+try_encoding
+ENCODING_MAGIC_NUMBERS
+decode
+hex2re
+__all__
+re
