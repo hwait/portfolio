@@ -69,7 +69,7 @@ class GBCrawler(JobCrawler):
             salary0,salary1,period=self.ParseSalary(salarytext.replace('&#163;','').replace('&#128;','').replace('&#36;',''))
             if salary0=='':
                 salary0,salary1,period=self.ParseSalary(title.replace('&#163;','').replace('&#128;','').replace('&#36;',''), ishdr=True)
-            if salary0=='':
+            if salary0=='' or int(salary0)<10 or int(salary0)>500000:
                 continue
             jobtype=self.pv(r'<span property="employmentType" title="employment type">([^<]+)', block)[0]
             time='full-time'
@@ -139,7 +139,7 @@ class GBCrawler(JobCrawler):
             salary0,salary1,period=self.ParseSalary(salarytext)
             if salary0=='':
                 salary0,salary1,period=self.ParseSalary(title, ishdr=True)
-            if salary0=='':
+            if salary0=='' or int(salary0)<10 or int(salary0)>500000:
                 continue
             applicants = self.pv(r'<li class="applications">(\d+) applications?</li>', block)[0]
             bs='<div class="description hidden-xs" itemprop="description">'

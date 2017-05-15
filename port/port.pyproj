@@ -70,6 +70,7 @@
   <ItemGroup>
     <Content Include="port\static\img\chart.png" />
     <Content Include="port\templates\mixins.jade" />
+    <Content Include="port\templates\parsers\maps.jade" />
     <Content Include="port\templates\parsers\graph.jade" />
     <Content Include="port\templates\parsers\selectedjobs.jade" />
     <Content Include="port\templates\parsers\searchform.jade" />

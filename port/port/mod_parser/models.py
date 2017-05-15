@@ -27,6 +27,7 @@ class Stat(db.Entity):
     total=orm.Required(int)
     days=orm.Required(int)
 
+
 class JobEntity(db.Entity):
     _table_ = 'Jobs'
     keyword=orm.Required(str)
@@ -76,3 +77,22 @@ class JobEntity(db.Entity):
         yield 'period',      self.period
         yield 'applicants',  self.applicants
         yield 'description', self.description
+
+class Airport(db.Entity):
+    _table_ = 'Airports'
+    country = orm.Required(str)
+    iso3 = orm.Required(str)
+    city=orm.Required(str)
+    code=orm.Required(str)
+    short=orm.Required(bool)
+    directions = orm.Set('Direction', reverse='destination')
+    departures = orm.Set('Direction', reverse='departure')
+
+class Direction(db.Entity):
+    _table_ = 'Directions'
+    departure=orm.Required(Airport, reverse='departures')
+    destination = orm.Required(Airport, reverse='directions')
+    cost = orm.Required(int)
+    duration=orm.Required(int)
+    distance=orm.Required(int)
+    dt = orm.Required(datetime)

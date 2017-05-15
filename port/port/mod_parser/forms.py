@@ -15,3 +15,6 @@ class SearchForm(FlaskForm):
 class ListForm(FlaskForm):
     returntype = HiddenField('t', validators=[DataRequired()])
     ids = HiddenField('ids', validators=[DataRequired()])
+
+class AirportsForm(FlaskForm):
+    airports = SelectField('airports', coerce=int, validators=[DataRequired()])

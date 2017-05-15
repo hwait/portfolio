@@ -20470,3 +20470,71 @@ System.FormatException: Input string was not in a correct format.
 2017-05-13T14:22:06: Saving group "C:\dev\portfolio\port\portenv\Lib\site-packages\wtforms"
 2017-05-13T14:22:07: End of group "C:\dev\portfolio\port\portenv\Lib\site-packages\wtforms"
 2017-05-13T14:22:45: Deleting 0 files
+
+2017-05-15T16:50:10: Start analysis
+2017-05-15T16:50:10: [WARNING] Library was set explicitly - skipping path detection
+2017-05-15T16:50:10: IncludeModulesFromModulePath = win32com
+2017-05-15T16:50:27: Deleting 0 files
+2017-05-15T16:50:27: astropy.CallDepth = 0
+2017-05-15T16:50:27: matplotlib.CallDepth = 3
+2017-05-15T16:50:27: pandas.CallDepth = 0
+2017-05-15T16:50:27: sympy.CallDepth = 0
+2017-05-15T16:50:27: Start group "C:\dev\portfolio\port\portenv\Lib\site-packages\backports" with 2 files
+2017-05-15T16:51:17: Parsing "backports" ("C:\dev\portfolio\port\portenv\Lib\site-packages\backports\__init__.py")
+2017-05-15T16:51:17: Parsing "backports.ssl_match_hostname" ("C:\dev\portfolio\port\portenv\Lib\site-packages\backports\ssl_match_hostname\__init__.py")
+2017-05-15T16:51:17: Parsing complete
+2017-05-15T16:51:17: Analyzing "backports"
+2017-05-15T16:51:17: Analyzing "backports.ssl_match_hostname"
+2017-05-15T16:51:17: Starting analysis of 2 modules
+2017-05-15T16:51:18: Analysis complete
+2017-05-15T16:51:18: Saving group "C:\dev\portfolio\port\portenv\Lib\site-packages\backports"
+2017-05-15T16:51:18: End of group "C:\dev\portfolio\port\portenv\Lib\site-packages\backports"
+2017-05-15T16:51:18: Start group "C:\dev\portfolio\port\portenv\Lib\site-packages\rapidconnect" with 4 files
+2017-05-15T16:51:21: Parsing "rapidconnect.listen" ("C:\dev\portfolio\port\portenv\Lib\site-packages\rapidconnect\listen.py")
+2017-05-15T16:51:21: Parsing "rapidconnect.request" ("C:\dev\portfolio\port\portenv\Lib\site-packages\rapidconnect\request.py")
+2017-05-15T16:51:21: Parsing "rapidconnect.settings" ("C:\dev\portfolio\port\portenv\Lib\site-packages\rapidconnect\settings.py")
+2017-05-15T16:51:21: Parsing "rapidconnect" ("C:\dev\portfolio\port\portenv\Lib\site-packages\rapidconnect\__init__.py")
+2017-05-15T16:51:21: Parsing complete
+2017-05-15T16:51:21: Analyzing "rapidconnect.listen"
+2017-05-15T16:51:21: Analyzing "rapidconnect.request"
+2017-05-15T16:51:21: Analyzing "rapidconnect.settings"
+2017-05-15T16:51:21: Analyzing "rapidconnect"
+2017-05-15T16:51:21: Starting analysis of 4 modules
+2017-05-15T16:51:21: Analysis complete
+2017-05-15T16:51:21: Saving group "C:\dev\portfolio\port\portenv\Lib\site-packages\rapidconnect"
+2017-05-15T16:51:21: End of group "C:\dev\portfolio\port\portenv\Lib\site-packages\rapidconnect"
+2017-05-15T16:51:21: Start group "C:\dev\portfolio\port\portenv\Lib\site-packages\websocket" with 14 files
+2017-05-15T16:51:24: Parsing "websocket._abnf" ("C:\dev\portfolio\port\portenv\Lib\site-packages\websocket\_abnf.py")
+2017-05-15T16:51:24: Parsing "websocket._app" ("C:\dev\portfolio\port\portenv\Lib\site-packages\websocket\_app.py")
+2017-05-15T16:51:24: Parsing "websocket._core" ("C:\dev\portfolio\port\portenv\Lib\site-packages\websocket\_core.py")
+2017-05-15T16:51:24: Parsing "websocket._exceptions" ("C:\dev\portfolio\port\portenv\Lib\site-packages\websocket\_exceptions.py")
+2017-05-15T16:51:24: Parsing "websocket._handshake" ("C:\dev\portfolio\port\portenv\Lib\site-packages\websocket\_handshake.py")
+2017-05-15T16:51:24: Parsing "websocket._http" ("C:\dev\portfolio\port\portenv\Lib\site-packages\websocket\_http.py")
+2017-05-15T16:51:24: Parsing "websocket._logging" ("C:\dev\portfolio\port\portenv\Lib\site-packages\websocket\_logging.py")
+2017-05-15T16:51:24: Parsing "websocket._socket" ("C:\dev\portfolio\port\portenv\Lib\site-packages\websocket\_socket.py")
+2017-05-15T16:51:24: Parsing "websocket._ssl_compat" ("C:\dev\portfolio\port\portenv\Lib\site-packages\websocket\_ssl_compat.py")
+2017-05-15T16:51:24: Parsing "websocket._url" ("C:\dev\portfolio\port\portenv\Lib\site-packages\websocket\_url.py")
+2017-05-15T16:51:24: Parsing "websocket._utils" ("C:\dev\portfolio\port\portenv\Lib\site-packages\websocket\_utils.py")
+2017-05-15T16:51:24: Parsing "websocket" ("C:\dev\portfolio\port\portenv\Lib\site-packages\websocket\__init__.py")
+2017-05-15T16:51:24: Parsing "websocket.tests.test_websocket" ("C:\dev\portfolio\port\portenv\Lib\site-packages\websocket\tests\test_websocket.py")
+2017-05-15T16:51:24: Parsing "websocket.tests" ("C:\dev\portfolio\port\portenv\Lib\site-packages\websocket\tests\__init__.py")
+2017-05-15T16:51:24: Parsing complete
+2017-05-15T16:51:24: Analyzing "websocket._abnf"
+2017-05-15T16:51:24: Analyzing "websocket._app"
+2017-05-15T16:51:24: Analyzing "websocket._core"
+2017-05-15T16:51:24: Analyzing "websocket._exceptions"
+2017-05-15T16:51:24: Analyzing "websocket._handshake"
+2017-05-15T16:51:24: Analyzing "websocket._http"
+2017-05-15T16:51:24: Analyzing "websocket._logging"
+2017-05-15T16:51:24: Analyzing "websocket._socket"
+2017-05-15T16:51:24: Analyzing "websocket._ssl_compat"
+2017-05-15T16:51:24: Analyzing "websocket._url"
+2017-05-15T16:51:24: Analyzing "websocket._utils"
+2017-05-15T16:51:24: Analyzing "websocket"
+2017-05-15T16:51:24: Analyzing "websocket.tests.test_websocket"
+2017-05-15T16:51:24: Analyzing "websocket.tests"
+2017-05-15T16:51:24: Starting analysis of 14 modules
+2017-05-15T16:51:25: Analysis complete
+2017-05-15T16:51:25: Saving group "C:\dev\portfolio\port\portenv\Lib\site-packages\websocket"
+2017-05-15T16:51:25: End of group "C:\dev\portfolio\port\portenv\Lib\site-packages\websocket"
+2017-05-15T16:51:27: Deleting 0 files

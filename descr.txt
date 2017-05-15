@@ -1,0 +1,20 @@
+https://rapidapi.com/package/GoogleFlightsAPI/functions?utm_source=Blog&utm_campaign=12DaysOfAPIs&utm_medium=Link%203&utm_content=12Days_GoogleFlights_GoogleFlightsFunctions
+
+pip install rapidconnect
+
+from rapidconnect import RapidConnect
+rapid = RapidConnect("flight-167611", "12489be9-a1b2-442f-9f98-77609a7d6a9d")
+
+result = rapid.call('GoogleFlightsAPI', 'searchSingleTrip', { 
+	'apiKey': 'AIzaSyCpwveOqrybDi5itOEQax84QWGgxmKaVoM',
+	'origin': 'SYD',
+	'destination': 'BKK',
+	'passengersAdultCount': '1',
+	'passengersChildCount': '0',
+	'fromDate': '2017-07-20',
+	'toDate': '2017-07-30',
+	'maxPrice': '',
+	'refundable': '',
+	'solutions': '20'
+ 
+})

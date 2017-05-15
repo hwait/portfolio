@@ -1,0 +1,128 @@
+id,iso_country,municipality,iata_code,cost,duration,distance,country,iso3
+5235,AE,Dubai,DXB,1,38,6965,United Arab Emirates,ARE
+6446,AM,Yerevan,EVN,2,35,7554,Armenia,ARM
+5781,AR,Buenos Aires,EZE,4,57,2167,Argentina,ARG
+4434,AT,Vienna,VIE,7,2,9266,Austria,AUT
+27145,AU,Sydney,SYD,19,32,4079,Australia,AUS
+6440,AZ,Baku,GYD,9,87,1052,Azerbaijan,AZE
+2155,BE,Brussels,BRU,1,30,5916,Belgium,BEL
+3977,BG,Sofia,SOF,0,93,6194,Bulgaria,BGR
+5079,BH,Manama,BAH,8,40,2709,Bahrain,BHR
+5872,BR,Brasilia,BSB,17,83,837,Brazil,BRA
+5906,BR,Rio De Janeiro,GIG,4,7,565,Brazil,BRA
+6501,BY,Minsk,MSQ,0,39,1457,Belarus,BLR
+1928,CA,Montreal,YUL,3,79,2713,Canada,CAN
+1941,CA,Vancouver,YVR,2,38,7651,Canada,CAN
+1990,CA,Toronto,YYZ,2,100,6548,Canada,CAN
+4505,CH,Zurich,ZRH,19,67,4377,Switzerland,CHE
+6015,CL,Santiago,SCL,4,23,8788,Chile,CHL
+27188,CN,Beijing,PEK,16,69,2757,China,CHN
+27194,CN,Guangzhou,CAN,0,17,3405,China,CHN
+27198,CN,Shenzhen,SZX,0,5,9645,China,CHN
+27223,CN,Shanghai,PVG,18,2,7150,China,CHN
+27225,CN,Shanghai,SHA,10,28,5404,China,CHN
+6104,CO,Bogota,BOG,3,44,8575,Colombia,COL
+4839,CU,Havana,HAV,13,63,7813,Cuba,CUB
+4408,CZ,Prague,PRG,10,19,181,Czechia,CZE
+2209,DE,Berlin,SXF,5,45,8222,Germany,DEU
+2212,DE,Frankfurt-am-Main,FRA,1,37,6325,Germany,DEU
+2214,DE,Hamburg,HAM,12,66,1347,Germany,DEU
+2218,DE,Munich,MUC,8,68,8819,Germany,DEU
+2222,DE,Stuttgart,STR,4,100,935,Germany,DEU
+2224,DE,Hannover,HAJ,12,33,631,Germany,DEU
+2542,DK,Copenhagen,CPH,7,58,2760,Denmark,DNK
+308273,EC,Quito,UIO,9,27,9658,Ecuador,ECU
+2301,EE,Tallinn,TLL,7,94,1192,Estonia,EST
+3183,EG,Cairo,CAI,12,65,670,Egypt,EGY
+4004,ES,Barcelona,BCN,20,95,1290,Spain,ESP
+4019,ES,Madrid,MAD,5,99,5233,Spain,ESP
+2307,FI,Helsinki,HEL,15,16,9519,Finland,FIN
+4156,FR,Nice,NCE,4,7,3749,France,FRA
+4185,FR,Paris,CDG,2,5,3370,France,FRA
+2429,GB,London,LGW,11,54,1801,United Kingdom,GBR
+2434,GB,London,LHR,15,83,2884,United Kingdom,GBR
+26535,HK,Hong Kong,HKG,13,69,5773,Hong Kong,HKG
+3993,HR,Zagreb,ZAG,1,11,1806,Croatia,HRV
+4296,HU,Budapest,BUD,3,91,667,Hungary,HUN
+26835,ID,Jakarta,CGK,15,38,2755,Indonesia,IDN
+2533,IE,Dublin,DUB,1,14,3269,Ireland,IRL
+4411,IL,Tel Aviv,TLV,8,42,7957,Israel,ISR
+26434,IN,Mumbai,BOM,17,80,4492,India,IND
+26496,IN,Kolkata,CCU,8,99,6132,India,IND
+26555,IN,New Delhi,DEL,7,100,1361,India,IND
+5166,IR,Tehran,IKA,19,11,4703,"Iran, Islamic Republic of",IRN
+5168,IR,Tehran,THR,0,55,8091,"Iran, Islamic Republic of",IRN
+4340,IT,Milan,MXP,14,58,2751,Italy,ITA
+4370,IT,Roma,CIA,19,27,9172,Italy,ITA
+4372,IT,Rome,FCO,13,77,4157,Italy,ITA
+5531,JP,Tokyo,NRT,20,69,7463,Japan,JPN
+5536,JP,Osaka,KIX,2,43,5100,Japan,JPN
+5598,JP,Osaka,ITM,11,60,3082,Japan,JPN
+5627,JP,Tokyo,HND,2,51,1467,Japan,JPN
+3206,KE,Nairobi,NBO,19,48,8732,Kenya,KEN
+26475,KH,Phnom Penh,PNH,12,71,7549,Cambodia,KHM
+5653,KR,Seoul,ICN,20,3,8764,Republic of Korea,KOR
+5656,KR,Seoul,GMP,16,62,2108,Republic of Korea,KOR
+6421,KZ,Almaty,ALA,16,64,8056,Kazakhstan,KAZ
+6423,KZ,Astana,TSE,18,24,8778,Kazakhstan,KAZ
+26463,LK,Colombo,CMB,11,62,373,Sri Lanka,LKA
+2766,LT,Vilnius,VNO,11,28,839,Lithuania,LTU
+2758,LV,Riga,RIX,9,48,5547,Latvia,LVA
+3113,MA,Casablanca,CMN,7,3,9060,Morocco,MAR
+26727,MM,Mandalay,MDL,9,43,4177,Myanmar,MMR
+26744,MM,Yangon,RGN,19,68,9318,Myanmar,MMR
+4731,MX,Mexico City,MEX,0,61,2837,Mexico,MEX
+4732,MX,Monterrey,MTY,4,91,3522,Mexico,MEX
+26874,MY,Kuala Lumpur,KUL,5,82,1164,Malaysia,MYS
+2118,NG,Lagos,LOS,9,92,3429,Nigeria,NGA
+2513,NL,Amsterdam,AMS,14,59,8206,Netherlands,NLD
+2578,NO,Oslo,OSL,7,3,487,Norway,NOR
+5023,NZ,Auckland,AKL,10,69,8137,New Zealand,NZL
+5063,NZ,Wellington,WLG,20,56,5799,New Zealand,NZL
+6217,PE,Lima,LIM,9,10,2944,Peru,PER
+5689,PH,Manila,MNL,15,74,8589,Philippines,PHL
+5274,PK,Islamabad,ISB,9,76,5088,Pakistan,PAK
+2609,PL,Krakow,KRK,10,77,1733,Poland,POL
+2622,PL,Warsaw,WMI,17,20,8412,Poland,POL
+2637,PL,Warsaw,WAW,11,76,4686,Poland,POL
+6384,PR,San Juan,SJU,5,96,4452,Puerto Rico,PRI
+4459,PT,Porto,OPO,6,25,2614,Portugal,PRT
+4461,PT,Lisbon,LIS,8,82,8303,Portugal,PRT
+4482,RO,Bucharest,OTP,7,15,1952,Romania,ROU
+4610,RS,Belgrade,BEG,15,50,7186,Serbia,SRB
+6455,RU,Khabarovsk,KHV,4,55,9035,Russian Federation,RUS
+6506,RU,Krasnoyarsk,KJA,1,24,1516,Russian Federation,RUS
+6507,RU,Novosibirsk,OVB,10,76,2594,Russian Federation,RUS
+26378,RU,Yekaterinburg,SVX,4,72,802,Russian Federation,RUS
+26394,RU,Moscow,DME,1,20,7281,Russian Federation,RUS
+26396,RU,Moscow,SVO,10,83,4627,Russian Federation,RUS
+5101,SA,Medina,MED,2,21,1296,Saudi Arabia,SAU
+2701,SE,Stockholm,ARN,5,46,2655,Sweden,SWE
+26887,SG,Singapore,SIN,4,28,8979,Singapore,SGP
+4386,SI,Ljubljana,LJU,10,6,9360,Slovenia,SVN
+4617,SK,Bratislava,BTS,19,81,5775,Slovakia,SVK
+3125,SN,Dakar,DKR,10,3,8498,Senegal,SEN
+4820,SV,Santa Clara,SAL,3,12,2591,El Salvador,SLV
+6406,SX,Saint Martin,SXM,10,98,5279,Sint Maarten (Dutch part),SXM
+26638,TH,Bangkok,DMK,7,39,9155,Thailand,THA
+28118,TH,Bangkok,BKK,17,48,4863,Thailand,THA
+26674,TH,Phuket,HKT,15,79,9782,Thailand,THA
+2133,TN,Tunis,TUN,10,22,114,Tunisia,TUN
+4509,TR,Ankara,ESB,5,41,2663,Turkey,TUR
+4528,TR,Istanbul,IST,16,71,5700,Turkey,TUR
+4569,TR,Istanbul,SAW,14,16,8946,Turkey,TUR
+5528,TW,Taipei,TPE,12,92,3442,Taiwan,TWN
+6467,UA,Kiev,KBP,12,73,8973,Ukraine,UKR
+3521,US,Newark,EWR,3,29,6632,United States,USA
+3602,US,Washington,IAD,6,5,5501,United States,USA
+3622,US,New York,JFK,15,94,3808,United States,USA
+3632,US,Los Angeles,LAX,2,16,2246,United States,USA
+3771,US,Philadelphia,PHL,19,47,9189,United States,USA
+3878,US,San Francisco,SFO,8,79,6711,United States,USA
+6247,UY,Montevideo,MVD,12,34,4941,Uruguay,URY
+26392,UZ,Tashkent,TAS,1,59,3659,Uzbekistan,UZB
+26700,VN,Hanoi,HAN,11,16,7225,Viet Nam,VNM
+26708,VN,Ho Chi Minh City,SGN,20,54,424,Viet Nam,VNM
+2775,ZA,Cape Town,CPT,1,25,544,South Africa,ZAF
+2792,ZA,Johannesburg,JNB,12,73,2160,South Africa,ZAF
+2894,ZM,Lusaka,LUN,2,80,992,Zambia,ZMB

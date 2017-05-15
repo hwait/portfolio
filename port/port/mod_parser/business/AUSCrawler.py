@@ -72,7 +72,7 @@ class AUSCrawler(JobCrawler):
             salary0,salary1,period=self.ParseSalary(salarytext)
             if salary0=='':
                 salary0,salary1,period=self.ParseSalary(title)
-            if salary0=='' or int(salary0)<10:
+            if salary0=='' or int(salary0)<10 or int(salary0)>500000:
                 continue
 
             applicants=0
@@ -118,7 +118,7 @@ class AUSCrawler(JobCrawler):
             salary0,salary1,period=self.ParseSalary(salarytext)
             if salary0=='':
                 salary0,salary1,period=self.ParseSalary(title)
-            if salary0=='' or int(salary0)>500000:
+            if salary0=='' or int(salary0)<10 or int(salary0)>500000:
                 continue
             jobtype='Permanent'
             time='full-time'
