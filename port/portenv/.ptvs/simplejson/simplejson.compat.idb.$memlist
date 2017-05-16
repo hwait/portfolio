@@ -1,0 +1,15 @@
+codecs
+integer_types
+u
+text_type
+PY3
+b
+reload_module
+unichr
+binary_type
+StringIO
+BytesIO
+string_types
+io
+sys
+long_type

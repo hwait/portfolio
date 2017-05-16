@@ -84,7 +84,7 @@ class Airport(db.Entity):
     iso3 = orm.Required(str)
     city=orm.Required(str)
     code=orm.Required(str)
-    short=orm.Required(bool)
+    iteration=orm.Required(int)
     directions = orm.Set('Direction', reverse='destination')
     departures = orm.Set('Direction', reverse='departure')
 
@@ -93,6 +93,8 @@ class Direction(db.Entity):
     departure=orm.Required(Airport, reverse='departures')
     destination = orm.Required(Airport, reverse='directions')
     cost = orm.Required(int)
+    currency = orm.Required(str)
     duration=orm.Required(int)
     distance=orm.Required(int)
+    iteration=orm.Required(int)
     dt = orm.Required(datetime)

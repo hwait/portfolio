@@ -20538,3 +20538,118 @@ System.FormatException: Input string was not in a correct format.
 2017-05-15T16:51:25: Saving group "C:\dev\portfolio\port\portenv\Lib\site-packages\websocket"
 2017-05-15T16:51:25: End of group "C:\dev\portfolio\port\portenv\Lib\site-packages\websocket"
 2017-05-15T16:51:27: Deleting 0 files
+
+2017-05-16T13:01:13: Start analysis
+2017-05-16T13:01:13: [WARNING] Library was set explicitly - skipping path detection
+2017-05-16T13:01:13: IncludeModulesFromModulePath = win32com
+2017-05-16T13:01:33: Deleting 0 files
+2017-05-16T13:01:33: Scraping simplejson._speedups
+2017-05-16T13:01:33: Command: C:\dev\portfolio\port\portenv\Scripts\python.exe "C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\ExtensionScraper.py" scrape simplejson._speedups C:\dev\portfolio\port\portenv\Lib\site-packages C:\dev\portfolio\port\portenv\.ptvs\simplejson\simplejson._speedups
+2017-05-16T13:01:33: Scraped 1 files
+2017-05-16T13:01:34: astropy.CallDepth = 0
+2017-05-16T13:01:34: matplotlib.CallDepth = 3
+2017-05-16T13:01:34: pandas.CallDepth = 0
+2017-05-16T13:01:34: sympy.CallDepth = 0
+2017-05-16T13:01:34: Start group "C:\dev\portfolio\port\portenv\Lib\site-packages\docs" with 1 files
+2017-05-16T13:02:18: Parsing "docs" ("C:\dev\portfolio\port\portenv\Lib\site-packages\docs\__init__.py")
+2017-05-16T13:02:18: Parsing complete
+2017-05-16T13:02:18: Analyzing "docs"
+2017-05-16T13:02:18: Starting analysis of 1 modules
+2017-05-16T13:02:18: Analysis complete
+2017-05-16T13:02:18: Saving group "C:\dev\portfolio\port\portenv\Lib\site-packages\docs"
+2017-05-16T13:02:18: End of group "C:\dev\portfolio\port\portenv\Lib\site-packages\docs"
+2017-05-16T13:02:18: Start group "C:\dev\portfolio\port\portenv\Lib\site-packages\forex_python" with 3 files
+2017-05-16T13:02:21: Parsing "forex_python.bitcoin" ("C:\dev\portfolio\port\portenv\Lib\site-packages\forex_python\bitcoin.py")
+2017-05-16T13:02:21: Parsing "forex_python.converter" ("C:\dev\portfolio\port\portenv\Lib\site-packages\forex_python\converter.py")
+2017-05-16T13:02:21: Parsing "forex_python" ("C:\dev\portfolio\port\portenv\Lib\site-packages\forex_python\__init__.py")
+2017-05-16T13:02:21: Parsing complete
+2017-05-16T13:02:21: Analyzing "forex_python.bitcoin"
+2017-05-16T13:02:21: Analyzing "forex_python.converter"
+2017-05-16T13:02:21: Analyzing "forex_python"
+2017-05-16T13:02:21: Starting analysis of 3 modules
+2017-05-16T13:02:21: Analysis complete
+2017-05-16T13:02:21: Saving group "C:\dev\portfolio\port\portenv\Lib\site-packages\forex_python"
+2017-05-16T13:02:22: End of group "C:\dev\portfolio\port\portenv\Lib\site-packages\forex_python"
+2017-05-16T13:02:22: Start group "C:\dev\portfolio\port\portenv\Lib\site-packages\simplejson" with 38 files
+2017-05-16T13:02:25: Parsing "simplejson.compat" ("C:\dev\portfolio\port\portenv\Lib\site-packages\simplejson\compat.py")
+2017-05-16T13:02:25: Parsing "simplejson.decoder" ("C:\dev\portfolio\port\portenv\Lib\site-packages\simplejson\decoder.py")
+2017-05-16T13:02:25: Parsing "simplejson.encoder" ("C:\dev\portfolio\port\portenv\Lib\site-packages\simplejson\encoder.py")
+2017-05-16T13:02:25: Parsing "simplejson.ordered_dict" ("C:\dev\portfolio\port\portenv\Lib\site-packages\simplejson\ordered_dict.py")
+2017-05-16T13:02:25: Parsing "simplejson.scanner" ("C:\dev\portfolio\port\portenv\Lib\site-packages\simplejson\scanner.py")
+2017-05-16T13:02:25: Parsing "simplejson.tool" ("C:\dev\portfolio\port\portenv\Lib\site-packages\simplejson\tool.py")
+2017-05-16T13:02:25: Parsing "simplejson" ("C:\dev\portfolio\port\portenv\Lib\site-packages\simplejson\__init__.py")
+2017-05-16T13:02:25: Parsing "simplejson.tests.test_bigint_as_string" ("C:\dev\portfolio\port\portenv\Lib\site-packages\simplejson\tests\test_bigint_as_string.py")
+2017-05-16T13:02:26: Parsing "simplejson.tests.test_bitsize_int_as_string" ("C:\dev\portfolio\port\portenv\Lib\site-packages\simplejson\tests\test_bitsize_int_as_string.py")
+2017-05-16T13:02:26: Parsing "simplejson.tests.test_check_circular" ("C:\dev\portfolio\port\portenv\Lib\site-packages\simplejson\tests\test_check_circular.py")
+2017-05-16T13:02:27: Parsing "simplejson.tests.test_decimal" ("C:\dev\portfolio\port\portenv\Lib\site-packages\simplejson\tests\test_decimal.py")
+2017-05-16T13:02:27: Parsing "simplejson.tests.test_decode" ("C:\dev\portfolio\port\portenv\Lib\site-packages\simplejson\tests\test_decode.py")
+2017-05-16T13:02:27: Parsing "simplejson.tests.test_default" ("C:\dev\portfolio\port\portenv\Lib\site-packages\simplejson\tests\test_default.py")
+2017-05-16T13:02:27: Parsing "simplejson.tests.test_dump" ("C:\dev\portfolio\port\portenv\Lib\site-packages\simplejson\tests\test_dump.py")
+2017-05-16T13:02:27: Parsing "simplejson.tests.test_encode_basestring_ascii" ("C:\dev\portfolio\port\portenv\Lib\site-packages\simplejson\tests\test_encode_basestring_ascii.py")
+2017-05-16T13:02:27: Parsing "simplejson.tests.test_encode_for_html" ("C:\dev\portfolio\port\portenv\Lib\site-packages\simplejson\tests\test_encode_for_html.py")
+2017-05-16T13:02:27: Parsing "simplejson.tests.test_errors" ("C:\dev\portfolio\port\portenv\Lib\site-packages\simplejson\tests\test_errors.py")
+2017-05-16T13:02:27: Parsing "simplejson.tests.test_fail" ("C:\dev\portfolio\port\portenv\Lib\site-packages\simplejson\tests\test_fail.py")
+2017-05-16T13:02:27: Parsing "simplejson.tests.test_float" ("C:\dev\portfolio\port\portenv\Lib\site-packages\simplejson\tests\test_float.py")
+2017-05-16T13:02:27: Parsing "simplejson.tests.test_for_json" ("C:\dev\portfolio\port\portenv\Lib\site-packages\simplejson\tests\test_for_json.py")
+2017-05-16T13:02:27: Parsing "simplejson.tests.test_indent" ("C:\dev\portfolio\port\portenv\Lib\site-packages\simplejson\tests\test_indent.py")
+2017-05-16T13:02:27: Parsing "simplejson.tests.test_item_sort_key" ("C:\dev\portfolio\port\portenv\Lib\site-packages\simplejson\tests\test_item_sort_key.py")
+2017-05-16T13:02:27: Parsing "simplejson.tests.test_iterable" ("C:\dev\portfolio\port\portenv\Lib\site-packages\simplejson\tests\test_iterable.py")
+2017-05-16T13:02:27: Parsing "simplejson.tests.test_namedtuple" ("C:\dev\portfolio\port\portenv\Lib\site-packages\simplejson\tests\test_namedtuple.py")
+2017-05-16T13:02:27: Parsing "simplejson.tests.test_pass1" ("C:\dev\portfolio\port\portenv\Lib\site-packages\simplejson\tests\test_pass1.py")
+2017-05-16T13:02:27: Parsing "simplejson.tests.test_pass2" ("C:\dev\portfolio\port\portenv\Lib\site-packages\simplejson\tests\test_pass2.py")
+2017-05-16T13:02:27: Parsing "simplejson.tests.test_pass3" ("C:\dev\portfolio\port\portenv\Lib\site-packages\simplejson\tests\test_pass3.py")
+2017-05-16T13:02:27: Parsing "simplejson.tests.test_raw_json" ("C:\dev\portfolio\port\portenv\Lib\site-packages\simplejson\tests\test_raw_json.py")
+2017-05-16T13:02:27: Parsing "simplejson.tests.test_recursion" ("C:\dev\portfolio\port\portenv\Lib\site-packages\simplejson\tests\test_recursion.py")
+2017-05-16T13:02:27: Parsing "simplejson.tests.test_scanstring" ("C:\dev\portfolio\port\portenv\Lib\site-packages\simplejson\tests\test_scanstring.py")
+2017-05-16T13:02:27: Parsing "simplejson.tests.test_separators" ("C:\dev\portfolio\port\portenv\Lib\site-packages\simplejson\tests\test_separators.py")
+2017-05-16T13:02:27: Parsing "simplejson.tests.test_speedups" ("C:\dev\portfolio\port\portenv\Lib\site-packages\simplejson\tests\test_speedups.py")
+2017-05-16T13:02:27: Parsing "simplejson.tests.test_str_subclass" ("C:\dev\portfolio\port\portenv\Lib\site-packages\simplejson\tests\test_str_subclass.py")
+2017-05-16T13:02:27: Parsing "simplejson.tests.test_subclass" ("C:\dev\portfolio\port\portenv\Lib\site-packages\simplejson\tests\test_subclass.py")
+2017-05-16T13:02:27: Parsing "simplejson.tests.test_tool" ("C:\dev\portfolio\port\portenv\Lib\site-packages\simplejson\tests\test_tool.py")
+2017-05-16T13:02:27: Parsing "simplejson.tests.test_tuple" ("C:\dev\portfolio\port\portenv\Lib\site-packages\simplejson\tests\test_tuple.py")
+2017-05-16T13:02:27: Parsing "simplejson.tests.test_unicode" ("C:\dev\portfolio\port\portenv\Lib\site-packages\simplejson\tests\test_unicode.py")
+2017-05-16T13:02:27: Parsing "simplejson.tests" ("C:\dev\portfolio\port\portenv\Lib\site-packages\simplejson\tests\__init__.py")
+2017-05-16T13:02:27: Parsing complete
+2017-05-16T13:02:27: Analyzing "simplejson.compat"
+2017-05-16T13:02:27: Analyzing "simplejson.decoder"
+2017-05-16T13:02:27: Analyzing "simplejson.encoder"
+2017-05-16T13:02:27: Analyzing "simplejson.ordered_dict"
+2017-05-16T13:02:27: Analyzing "simplejson.scanner"
+2017-05-16T13:02:27: Analyzing "simplejson.tool"
+2017-05-16T13:02:27: Analyzing "simplejson"
+2017-05-16T13:02:27: Analyzing "simplejson.tests.test_bigint_as_string"
+2017-05-16T13:02:27: Analyzing "simplejson.tests.test_bitsize_int_as_string"
+2017-05-16T13:02:27: Analyzing "simplejson.tests.test_check_circular"
+2017-05-16T13:02:27: Analyzing "simplejson.tests.test_decimal"
+2017-05-16T13:02:27: Analyzing "simplejson.tests.test_decode"
+2017-05-16T13:02:27: Analyzing "simplejson.tests.test_default"
+2017-05-16T13:02:27: Analyzing "simplejson.tests.test_dump"
+2017-05-16T13:02:27: Analyzing "simplejson.tests.test_encode_basestring_ascii"
+2017-05-16T13:02:27: Analyzing "simplejson.tests.test_encode_for_html"
+2017-05-16T13:02:27: Analyzing "simplejson.tests.test_errors"
+2017-05-16T13:02:27: Analyzing "simplejson.tests.test_fail"
+2017-05-16T13:02:27: Analyzing "simplejson.tests.test_float"
+2017-05-16T13:02:27: Analyzing "simplejson.tests.test_for_json"
+2017-05-16T13:02:27: Analyzing "simplejson.tests.test_indent"
+2017-05-16T13:02:27: Analyzing "simplejson.tests.test_item_sort_key"
+2017-05-16T13:02:27: Analyzing "simplejson.tests.test_iterable"
+2017-05-16T13:02:27: Analyzing "simplejson.tests.test_namedtuple"
+2017-05-16T13:02:27: Analyzing "simplejson.tests.test_pass1"
+2017-05-16T13:02:27: Analyzing "simplejson.tests.test_pass2"
+2017-05-16T13:02:27: Analyzing "simplejson.tests.test_pass3"
+2017-05-16T13:02:27: Analyzing "simplejson.tests.test_raw_json"
+2017-05-16T13:02:27: Analyzing "simplejson.tests.test_recursion"
+2017-05-16T13:02:27: Analyzing "simplejson.tests.test_scanstring"
+2017-05-16T13:02:27: Analyzing "simplejson.tests.test_separators"
+2017-05-16T13:02:27: Analyzing "simplejson.tests.test_speedups"
+2017-05-16T13:02:27: Analyzing "simplejson.tests.test_str_subclass"
+2017-05-16T13:02:27: Analyzing "simplejson.tests.test_subclass"
+2017-05-16T13:02:27: Analyzing "simplejson.tests.test_tool"
+2017-05-16T13:02:27: Analyzing "simplejson.tests.test_tuple"
+2017-05-16T13:02:27: Analyzing "simplejson.tests.test_unicode"
+2017-05-16T13:02:27: Analyzing "simplejson.tests"
+2017-05-16T13:02:27: Starting analysis of 38 modules
+2017-05-16T13:02:31: Analysis complete
+2017-05-16T13:02:31: Saving group "C:\dev\portfolio\port\portenv\Lib\site-packages\simplejson"
+2017-05-16T13:02:32: End of group "C:\dev\portfolio\port\portenv\Lib\site-packages\simplejson"
+2017-05-16T13:02:34: Deleting 0 files

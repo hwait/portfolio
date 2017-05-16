@@ -2,25 +2,33 @@ extends layout
 
 block content
     script(src="https://cdn.plot.ly/plotly-latest.min.js")
-    if departure!=None
-        h1 #{departure.country} - #{departure.code}, #{departure.city}
-     elif msg==''
+    br
+    if msg==''
         form(id='airportsform', name='airportsform',action='.', class='form-inline', method='POST', enctype='multipart/form-data')
             .form-group
                 {{ form.csrf_token }}
                 {{ form.airports() }}
                 button(type="submit", value="Go", class="btn btn-default") Go
     else
-        h3 #{msg}
-    table(class='table' cellpadding='5')
-        tr
-            td(class='col-md-4', valign='top')
-                table(class='table')
-                    for x in previous
-                        tr
-                            td
-                                a(href='?did=%s'%x[0].id) #{x[0].country} - #{x[0].code}
-                            td
-                                #{x[1]}
+        #{msg}
+    inline You can use previous results:
+    select(id="prevmaps")
+        for x in previous
+            option(value='%s'%x[0].id) #{x[0].country} - #{x[0].code}, #{x[0].city}
+    if departure!=None
+        h1 #{departure.country} - #{departure.code}, #{departure.city}
+    #{mapcost|safe} 
+    #{mapduration|safe} 
+    #{mapeasiness|safe}
 
-            td(class='col-md-8') #{mapcost|safe} #{mapduration|safe} #{mapeasiness|safe}    
+block scripts
+    script
+        $(function(){
+            $('#prevmaps').on('change', function () {
+                var id = $(this).val();
+                if (id) {
+                    window.location = '/jobs/maps/?did='+id;
+                }
+                return false;
+            });
+        });

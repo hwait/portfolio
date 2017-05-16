@@ -14,15 +14,22 @@ block content
         p
             #{msg}
     p You can use one of previous searches:
-        for x in logs
-            .row
-                .col-md-3
-                    a(class=["btn", "btn-md"], href="/jobs/search/graph/?k=%s"%x.keyword) 
-                        img(src='/static/img/chart.png')
-                    a(class=["btn", "btn-md"], href="/jobs/search?k=%s&c=%s"%(x.keyword,x.country)) #{x.keyword}
-                .col-md-3
-                    a(class=["btn", "btn-md"], href="/jobs/search/graph/?c=%s"%(x.country)) 
-                        img(src='/static/img/chart.png')
-                    #{countries[x.country]}
-                .col-md-3
-                    #{x.dt.strftime('%Y-%m-%d %H:%M')}
+    for x in logs
+        .row
+            .col-md-3
+                a(class=["btn", "btn-md"], href="/jobs/search/graph/?k=%s"%x.keyword) 
+                    img(src='/static/img/chart.png')
+                a(class=["btn", "btn-md"], href="/jobs/search?k=%s&c=%s"%(x.keyword,x.country)) #{x.keyword}
+            .col-md-3
+                a(class=["btn", "btn-md"], href="/jobs/search/graph/?c=%s"%(x.country)) 
+                    img(src='/static/img/chart.png')
+                #{countries[x.country]}
+            .col-md-3
+                #{x.dt.strftime('%Y-%m-%d %H:%M')}
+    p As a part of my investigation I made a search of world availability from certain airport. Yo can see the representation of previous searches:
+    for x in prevmaps
+        .row
+            .col-md-3
+                a(href='/jobs/maps/?did=%s'%x[0].id) #{x[0].country} - #{x[0].code}
+            .col-md-3
+                #{x[1]}

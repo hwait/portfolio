@@ -12,6 +12,7 @@ from plotly.offline.offline import _plot_html
 from plotly.graph_objs import Box, Layout, Bar
 import csv
 from rapidconnect import RapidConnect
+from forex_python.converter import CurrencyRates
 
 #from flask_weasyprint import HTML, render_pdf
 
@@ -25,6 +26,8 @@ colors1=['rgb(216,27,96)',  'rgb(142,36,170)', 'rgb(57,73,171)',  'rgb(3,155,229
 def maps():
     form = AirportsForm(request.form)
     departure=None
+    rate=1
+    iteration=2
     mapcost=''
     mapduration=''
     mapeasiness=''
@@ -44,24 +47,29 @@ def maps():
     if request.method == 'GET':
         did=request.values.get('did','')
         if did!='':
+            cr = CurrencyRates()
             with orm.db_session:
                 departure=Airport.get(id=int(did))
-                directions=Direction.select(lambda p: p.departure==departure).prefetch(Airport)[:]
+                #directions=Direction.select(lambda p: p.departure==departure).prefetch(Airport)[:]
+                directions=Direction.select_by_sql('select d0.* from Directions d0 join Airports a0 on a0.id=d0.destination where d0.cost=(select min(d.cost) from Directions d join Airports a on a.id=d.destination where a.country=a0.country and d.departure=d0.departure) and departure=%s'%departure.id)
+                rate=cr.get_rate(directions[0].currency, 'USD')
                 locations=[d.destination.iso3 for d in directions]
                 texts=[d.destination.country for d in directions]
-                vals=[d.cost for d in directions]
-                times=[d.duration for d in directions]
-                mapcost=makemap('title','bartitle',locations,vals,texts)
-                mapduration=makemap('mapduration','bartitle',locations,times,texts)
+                vals=[int(d.cost*rate) for d in directions]
+                costperm=[int(d.cost*rate*d.duration/float(d.distance)) for d in directions]
+                times=[d.duration//60 for d in directions]
+                mapcost=makemap('Flight cost from %s to some countries.'%departure.code,'Cost, USD',locations,vals,texts)
+                mapduration=makemap('Total flight duration, best from 3 most cheap flight.','Duration, hours',locations,times,texts)
+                mapeasiness=makemap('Easiness (cost * duration / distance).','Easiness, $*h/mi',locations,costperm,texts)
     elif form.validate_on_submit() and msg=='':
         with orm.db_session:
             dtstr=(datetime.now()+timedelta(days=30)).strftime('%Y-%m-%d')
             departure=Airport.get(id=int(request.form.get('airports')))
-            Direction.select(lambda p: p.departure==departure).delete(bulk=True)
-            portstodo=Airport.select(lambda p: p.short and p.code!=departure.code)[:]
+            Direction.select(lambda p: p.departure==departure and iteration==iteration).delete(bulk=True)
+            portstodo=Airport.select(lambda p: p.iteration==iteration and p.code!=departure.code)[:]
             rapid = RapidConnect("flight-167611", "12489be9-a1b2-442f-9f98-77609a7d6a9d")
             for x in portstodo:
-                processdestination(rapid,departure,x,dtstr)
+                processdestination(rapid,departure,x,dtstr, iteration)
     return render_template('parsers/maps.jade',form=form,msg=msg,departure=departure,previous=previous,mapcost=mapcost,mapduration=mapduration,mapeasiness=mapeasiness)
 
 def makemap(title,bartitle,locations,z,text):
@@ -70,8 +78,8 @@ def makemap(title,bartitle,locations,z,text):
         locations = locations,
         z = z,
         text = text,
-        colorscale = [[0,"rgb(5, 10, 172)"],[0.35,"rgb(40, 60, 190)"],[0.5,"rgb(70, 100, 245)"],\
-            [0.6,"rgb(90, 120, 245)"],[0.7,"rgb(106, 137, 247)"],[1,"rgb(220, 220, 220)"]],
+        colorscale = [[0,"rgb(198, 40, 40)"],[0.35,"rgb(239, 108, 0)"],[0.5,"rgb(249, 168, 37)"],\
+            [0.6,"rgb(158, 157, 36)"],[0.7,"rgb(85, 139, 47)"],[1,"rgb(27, 94, 32)"]],
         autocolorscale = False,
         reversescale = True,
         marker = dict(
@@ -81,25 +89,28 @@ def makemap(title,bartitle,locations,z,text):
             ) ),
         colorbar = dict(
             autotick = False,
-            tickprefix = '$',
-            title = title),
+            tickprefix = '',
+            title = bartitle),
       ) ]
     layout = dict(title = title,  geo = dict(showframe = False,showcoastlines = True, projection = dict(type = 'Mercator')))
     return getplotly(data, layout)
 
-def processdestination(rapid,departure,destination, dt):
+def processdestination(rapid,departure,destination, dt,iteration):
     result = rapid.call('GoogleFlightsAPI', 'searchSingleTrip', { 
         'apiKey': 'AIzaSyCpwveOqrybDi5itOEQax84QWGgxmKaVoM',
         'origin': departure.code, 
         'destination': destination.code,
-        'passengersAdultCount': '1','passengersChildCount': '0','fromDate': dt,	'toDate': '','maxPrice': '','refundable': '','solutions': '1'})
-    saletotal=result['trips']['tripOption'][0]['saleTotal']
+        'passengersAdultCount': '1','passengersChildCount': '0','fromDate': dt,	'toDate': '','maxPrice': '','refundable': '','solutions': '3'})
+    solutions=result['trips']['tripOption']
+    saletotal=solutions[0]['saleTotal']
     cost=int(saletotal[3:].split('.')[0])
-    duration=int(result['trips']['tripOption'][0]['slice'][0]['duration'])
+    currency=saletotal[:3]
+    duration=min(int(x['slice'][0]['duration']) for x in solutions)
     distance=0
-    for x in result['trips']['tripOption'][0]['slice'][0]['segment']:
+    for x in solutions[0]['slice'][0]['segment']:
         distance+=int(x['leg'][0]['mileage'])
-    obj=Direction(departure=departure,destination=destination,dt=dt,cost=cost,duration=duration,distance=distance)
+    obj=Direction(departure=departure,destination=destination,dt=dt,cost=cost,duration=duration,distance=distance,currency=currency,iteration=iteration)
+    orm.commit()
 
 @mod_parser.route('/search/graph/', methods=['GET'], endpoint='graph')
 def jobsanalysis():
@@ -195,11 +206,12 @@ def jobsearch():
     form = SearchForm(request.form)
     with orm.db_session:
         logs=Log.select(lambda p: p.country!='AIR').order_by(orm.desc(Log.id))[:]
+        prevmaps=orm.select((c.departure, c.dt) for c in Direction).prefetch(Airport)[:]
     if request.method == 'GET':
         keyword = request.args.get('k', '')
         country = request.args.get('c', '')
         if keyword=='':
-            return renderform(form,logs)
+            return renderform(form,logs,prevmaps)
         else:
             return renderjobs(kw=keyword,country=country)
     else:
@@ -212,9 +224,9 @@ def jobsearch():
             else:
                 return renderjobs(kw=keyword,country=country,isrefresh=True)
         else:
-            return renderform(form,logs)
+            return renderform(form,logs,prevmaps)
 
-def renderform(form, logs=[]):
+def renderform(form, logs=[], prevmaps=[]):
     message=''
     prevkw=''
     if len(logs)>0:
@@ -224,7 +236,7 @@ def renderform(form, logs=[]):
         #if prevdt+timedelta(hours=1)>datetime.now():
         if prevdt+timedelta(seconds=1)>datetime.now():
             message='Previous search "%s" for %s was completed less then an hour. New search will be available in %s minutes' % (prevkw,allcountries[prevcountry],((prevdt+timedelta(hours=1)-datetime.now()).seconds//60)%60)
-    return render_template('parsers/searchform.jade', msg=message, form=form,prevkey=prevkw,logs=logs,countries=allcountries)
+    return render_template('parsers/searchform.jade', msg=message, form=form,prevkey=prevkw,logs=logs,countries=allcountries,prevmaps=prevmaps)
 
 def renderjobs( kw='', country='', isrefresh=False):
     form = ListForm()
