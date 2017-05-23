@@ -30,6 +30,4 @@ block content
     for x in prevmaps
         .row
             .col-md-3
-                a(href='/jobs/maps/?did=%s'%x[0].id) #{x[0].country} - #{x[0].code}
-            .col-md-3
-                #{x[1]}
+                a(href='/jobs/maps/?did=%s'%x.id) #{x.country} - #{x.code}

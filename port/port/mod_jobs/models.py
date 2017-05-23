@@ -1,6 +1,6 @@
 from pony import orm
 from datetime import datetime, date
-from port.mod_parser.utils import convertCurrency
+from port.mod_jobs.utils import convertCurrency
 
 db = orm.Database()
 

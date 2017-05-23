@@ -1,4 +1,4 @@
-from port.mod_parser.utils import convertCurrency
+from port.mod_jobs.utils import convertCurrency
 
 class JobData:
     def __init__(self,host,link,title,date,website,company,location,time,jobtype,currency,minsalary,maxsalary,period,applicants,description):

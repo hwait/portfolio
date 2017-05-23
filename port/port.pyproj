@@ -30,26 +30,26 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="port\mod_parser\business\AUSCrawler.py" />
-    <Compile Include="port\mod_parser\business\DataKeeper.py" />
-    <Compile Include="port\mod_parser\business\NZCrawler.py" />
-    <Compile Include="port\mod_parser\business\GBCrawler.py" />
-    <Compile Include="port\mod_parser\business\JobData.py">
+    <Compile Include="port\mod_jobs\business\AUSCrawler.py" />
+    <Compile Include="port\mod_jobs\business\DataKeeper.py" />
+    <Compile Include="port\mod_jobs\business\NZCrawler.py" />
+    <Compile Include="port\mod_jobs\business\GBCrawler.py" />
+    <Compile Include="port\mod_jobs\business\JobData.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="port\mod_parser\business\__init__.py" />
-    <Compile Include="port\mod_parser\business\JobCrawler.py" />
-    <Compile Include="port\mod_parser\forms.py">
+    <Compile Include="port\mod_jobs\business\__init__.py" />
+    <Compile Include="port\mod_jobs\business\JobCrawler.py" />
+    <Compile Include="port\mod_jobs\forms.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="port\mod_parser\utils.py" />
-    <Compile Include="port\mod_parser\models.py">
+    <Compile Include="port\mod_jobs\utils.py" />
+    <Compile Include="port\mod_jobs\models.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="port\mod_parser\views.py">
+    <Compile Include="port\mod_jobs\views.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="port\mod_parser\__init__.py" />
+    <Compile Include="port\mod_jobs\__init__.py" />
     <Compile Include="port\config.py" />
     <Compile Include="runserver.py" />
     <Compile Include="port\__init__.py" />
@@ -57,8 +57,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="port\" />
-    <Folder Include="port\mod_parser\" />
-    <Folder Include="port\mod_parser\business\" />
+    <Folder Include="port\mod_jobs\" />
+    <Folder Include="port\mod_jobs\business\" />
     <Folder Include="port\static\" />
     <Folder Include="port\static\content\" />
     <Folder Include="port\static\fonts\" />
@@ -68,6 +68,7 @@
     <Folder Include="port\templates\parsers\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="port\port.db" />
     <Content Include="port\static\img\chart.png" />
     <Content Include="port\templates\mixins.jade" />
     <Content Include="port\templates\parsers\maps.jade" />

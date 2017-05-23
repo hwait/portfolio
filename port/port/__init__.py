@@ -14,10 +14,10 @@ csrf.init_app(app)
 
 
 import port.views
-from port.mod_parser.views import mod_parser
-from port.mod_parser.models import *
+from port.mod_jobs.views import mod_jobs
+from port.mod_jobs.models import *
 
 db.bind('sqlite', 'port.db', create_db=True)
 db.generate_mapping(create_tables=True)
 
-app.register_blueprint(mod_parser)
+app.register_blueprint(mod_jobs)

@@ -1,6 +1,6 @@
-from port.mod_parser.business.JobData import JobData
-from port.mod_parser.business.DataKeeper import DataKeeper
-from port.mod_parser.business.JobCrawler import JobCrawler
+from port.mod_jobs.business.JobData import JobData
+from port.mod_jobs.business.DataKeeper import DataKeeper
+from port.mod_jobs.business.JobCrawler import JobCrawler
 import json
 import requests
 from requests.exceptions import RequestException

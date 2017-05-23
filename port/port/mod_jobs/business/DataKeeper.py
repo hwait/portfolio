@@ -1,6 +1,6 @@
 import os
 from pony import orm
-from port.mod_parser.models import *
+from port.mod_jobs.models import *
 
 class DataKeeper: 
     def __init__(self, keyword='', country=''):

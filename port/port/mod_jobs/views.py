@@ -1,10 +1,10 @@
-from flask import Blueprint, render_template, url_for,request
-from port.mod_parser.business.GBCrawler import GBCrawler
-from port.mod_parser.business.AUSCrawler import AUSCrawler
-from port.mod_parser.business.NZCrawler import NZCrawler
+from flask import Blueprint, render_template, url_for,request, redirect
+from port.mod_jobs.business.GBCrawler import GBCrawler
+from port.mod_jobs.business.AUSCrawler import AUSCrawler
+from port.mod_jobs.business.NZCrawler import NZCrawler
 from pony import orm
-from port.mod_parser.models import *
-from port.mod_parser.forms import SearchForm,ListForm,AnalyticForm,AirportsForm
+from port.mod_jobs.models import *
+from port.mod_jobs.forms import SearchForm,ListForm,AnalyticForm,AirportsForm
 import flask_excel as excel
 from datetime import date,timedelta,datetime
 import plotly 
@@ -12,29 +12,29 @@ from plotly.offline.offline import _plot_html
 from plotly.graph_objs import Box, Layout, Bar
 import csv
 from rapidconnect import RapidConnect
-from forex_python.converter import CurrencyRates
+from forex_python.converter import CurrencyRates,RatesNotAvailableError
 
 #from flask_weasyprint import HTML, render_pdf
 
-mod_parser=Blueprint('parsers', __name__, url_prefix='/jobs')
+mod_jobs=Blueprint('jobs', __name__, url_prefix='/jobs')
 
 allcountries={'AUS': 'Australia', 'CAN': 'Canada', 'GB': 'Great Britain', 'NZ': 'New Zealand', 'POR': 'Portugal', 'USCAL': 'USA / Caligornia', 'USMIA': 'USA / Miami'}
 colors0=['rgb(240,98,146)', 'rgb(186,104,200)','rgb(121,134,203)','rgb(79,195,247)', 'rgb(77,182,172)', 'rgb(129,199,132)','rgb(220,231,117)','rgb(255,213,79)', 'rgb(255,138,101)','rgb(161,136,127)']
 colors1=['rgb(216,27,96)',  'rgb(142,36,170)', 'rgb(57,73,171)',  'rgb(3,155,229)',  'rgb(0,137,123)',  'rgb(67,160,71)',  'rgb(192,202,51)', 'rgb(253,216,53)', 'rgb(244,81,30)',  'rgb(109,76,65)']
 
-@mod_parser.route('/maps/', methods=['GET','POST'], endpoint='maps')
+@mod_jobs.route('/maps/', methods=['GET','POST'], endpoint='maps')
 def maps():
     form = AirportsForm(request.form)
     departure=None
     rate=1
-    iteration=2
     mapcost=''
     mapduration=''
     mapeasiness=''
     msg=''
+    did=''
     with orm.db_session:
         logs=Log.select(lambda p: p.country=='AIR').order_by(orm.desc(Log.id))[:]
-        previous=orm.select((c.departure, c.dt) for c in Direction).prefetch(Airport)[:]
+        previous=orm.select(c.departure for c in Direction).prefetch(Airport)[:]
         
         if logs[0].dt+timedelta(days=1)>datetime.now():
             delta=(logs[0].dt+timedelta(days=1)-datetime.now()).seconds
@@ -46,30 +46,47 @@ def maps():
             form.airports.choices = [(x.id, '%s - %s, %s'%(x.country,x.code, x.city)) for x in airports]
     if request.method == 'GET':
         did=request.values.get('did','')
+        currency='USD'
         if did!='':
             cr = CurrencyRates()
             with orm.db_session:
                 departure=Airport.get(id=int(did))
                 #directions=Direction.select(lambda p: p.departure==departure).prefetch(Airport)[:]
                 directions=Direction.select_by_sql('select d0.* from Directions d0 join Airports a0 on a0.id=d0.destination where d0.cost=(select min(d.cost) from Directions d join Airports a on a.id=d.destination where a.country=a0.country and d.departure=d0.departure) and departure=%s'%departure.id)
-                rate=cr.get_rate(directions[0].currency, 'USD')
+                try:
+                    rate=cr.get_rate(directions[0].currency, 'USD')
+                except RatesNotAvailableError:
+                    if directions[0].currency=='KZT':
+                        rate=0.0032
+                    else:
+                        rate=1
+                        currency=directions[0].currency
                 locations=[d.destination.iso3 for d in directions]
-                texts=[d.destination.country for d in directions]
+                texts=['%s - %s, %s'%(d.destination.country,d.destination.code,d.destination.city) for d in directions]
                 vals=[int(d.cost*rate) for d in directions]
                 costperm=[int(d.cost*rate*d.duration/float(d.distance)) for d in directions]
                 times=[d.duration//60 for d in directions]
-                mapcost=makemap('Flight cost from %s to some countries.'%departure.code,'Cost, USD',locations,vals,texts)
+                mapcost=makemap('Flight cost from %s to some countries.'%departure.code,'Cost, %s'%currency,locations,vals,texts)
                 mapduration=makemap('Total flight duration, best from 3 most cheap flight.','Duration, hours',locations,times,texts)
                 mapeasiness=makemap('Easiness (cost * duration / distance).','Easiness, $*h/mi',locations,costperm,texts)
     elif form.validate_on_submit() and msg=='':
         with orm.db_session:
             dtstr=(datetime.now()+timedelta(days=30)).strftime('%Y-%m-%d')
             departure=Airport.get(id=int(request.form.get('airports')))
-            Direction.select(lambda p: p.departure==departure and iteration==iteration).delete(bulk=True)
+            iteration=orm.max(p.iteration for p in Direction if p.departure==departure)
+            if iteration==None:
+                iteration=0
+            if iteration<3:
+                iteration+=1
+            else:
+                iteration=1
+            dirs=Direction.select(lambda p: p.departure==departure and p.iteration==iteration).delete(bulk=True)
             portstodo=Airport.select(lambda p: p.iteration==iteration and p.code!=departure.code)[:]
             rapid = RapidConnect("flight-167611", "12489be9-a1b2-442f-9f98-77609a7d6a9d")
             for x in portstodo:
                 processdestination(rapid,departure,x,dtstr, iteration)
+            log = Log(keyword='none', dt=datetime.now(),country='AIR')
+            return redirect('%s?did=%s'%(url_for('maps'),departure.id))
     return render_template('parsers/maps.jade',form=form,msg=msg,departure=departure,previous=previous,mapcost=mapcost,mapduration=mapduration,mapeasiness=mapeasiness)
 
 def makemap(title,bartitle,locations,z,text):
@@ -101,6 +118,8 @@ def processdestination(rapid,departure,destination, dt,iteration):
         'origin': departure.code, 
         'destination': destination.code,
         'passengersAdultCount': '1','passengersChildCount': '0','fromDate': dt,	'toDate': '','maxPrice': '','refundable': '','solutions': '3'})
+    if not 'tripOption' in result['trips']:
+        return
     solutions=result['trips']['tripOption']
     saletotal=solutions[0]['saleTotal']
     cost=int(saletotal[3:].split('.')[0])
@@ -112,7 +131,7 @@ def processdestination(rapid,departure,destination, dt,iteration):
     obj=Direction(departure=departure,destination=destination,dt=dt,cost=cost,duration=duration,distance=distance,currency=currency,iteration=iteration)
     orm.commit()
 
-@mod_parser.route('/search/graph/', methods=['GET'], endpoint='graph')
+@mod_jobs.route('/search/graph/', methods=['GET'], endpoint='graph')
 def jobsanalysis():
     with orm.db_session:
         countriesset=set(orm.select((c.country) for c in Stat)[:])
@@ -177,7 +196,7 @@ def getplotly(dataseries,layout):
     graph = ''.join([plot_html, resize_script])
     return graph
 
-@mod_parser.route('/search/list/', methods=['POST'], endpoint='list')
+@mod_jobs.route('/search/list/', methods=['POST'], endpoint='list')
 def jobslist():
     data=[]
     country=''
@@ -201,12 +220,12 @@ def jobslist():
             #return render_pdf(HTML(string=html))
     return ('', 204)
 
-@mod_parser.route('/search/', methods=['GET','POST'])
+@mod_jobs.route('/search/', methods=['GET','POST'])
 def jobsearch():
     form = SearchForm(request.form)
     with orm.db_session:
         logs=Log.select(lambda p: p.country!='AIR').order_by(orm.desc(Log.id))[:]
-        prevmaps=orm.select((c.departure, c.dt) for c in Direction).prefetch(Airport)[:]
+        prevmaps=orm.select(c.departure for c in Direction).prefetch(Airport)[:]
     if request.method == 'GET':
         keyword = request.args.get('k', '')
         country = request.args.get('c', '')

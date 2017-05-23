@@ -13,8 +13,13 @@ block content
         #{msg}
     inline You can use previous results:
     select(id="prevmaps")
+        if departure==None
+            option(value='0' selected='selected') 
         for x in previous
-            option(value='%s'%x[0].id) #{x[0].country} - #{x[0].code}, #{x[0].city}
+            if departure!=None and departure.id==x.id
+                option(value='%s'%x.id, selected='selected') #{x.country} - #{x.code}
+            else
+                option(value='%s'%x.id) #{x.country} - #{x.code}
     if departure!=None
         h1 #{departure.country} - #{departure.code}, #{departure.city}
     #{mapcost|safe} 

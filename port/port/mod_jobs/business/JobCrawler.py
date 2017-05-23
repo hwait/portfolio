@@ -1,5 +1,5 @@
-from port.mod_parser.business.JobData import JobData
-from port.mod_parser.business.DataKeeper import DataKeeper
+from port.mod_jobs.business.JobData import JobData
+from port.mod_jobs.business.DataKeeper import DataKeeper
 import json
 import requests
 from requests.exceptions import RequestException
@@ -7,7 +7,7 @@ import re
 from datetime import date,timedelta
 import codecs
 import sys
-from port.mod_parser.utils import convertCurrency
+from port.mod_jobs.utils import convertCurrency
 
 
 reload(sys)

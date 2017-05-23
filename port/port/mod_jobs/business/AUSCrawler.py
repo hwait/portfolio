@@ -1,6 +1,6 @@
-from port.mod_parser.business.JobData import JobData
-from port.mod_parser.business.DataKeeper import DataKeeper
-from port.mod_parser.business.JobCrawler import JobCrawler
+from port.mod_jobs.business.JobData import JobData
+from port.mod_jobs.business.DataKeeper import DataKeeper
+from port.mod_jobs.business.JobCrawler import JobCrawler
 import json
 import requests
 from requests.exceptions import RequestException
@@ -11,16 +11,16 @@ import sys
 reload(sys)
 sys.setdefaultencoding("utf-8")
 
-class NZCrawler(JobCrawler):
+class AUSCrawler(JobCrawler):
     def __init__(self, keyword=''):
-        return super(NZCrawler, self).__init__(keyword=keyword, country='NZ')
+        return super(AUSCrawler, self).__init__(keyword=keyword, country='AUS')
 
     def Start(self):
-        self.currency='NZ$'
+        self.currency='AU$'
         self.total=0
         self.GetSeek(islocal=True,issave=True)
-        self.dk.total=self.total
-        self.dk.RangeItems(days=4, total=self.total)
+        self.dk.AddItems(self.ParseAdzuna(islocal=True,issave=True))
+        self.dk.RangeItems(days=2, total=self.total)
         return '%d total, %d declined' % (self.dk.total,self.dk.declined)
 
     def GetSeek(self, islocal=False, issave=False): 
@@ -31,11 +31,11 @@ class NZCrawler(JobCrawler):
             c+=1
 
     def ParseSeek(self, n, islocal=False, issave=False): 
-        host='www.seek.co.nz'
+        host='www.seek.com.au'
         if islocal:
             html=self.GetFile(host+str(n))
         else:
-            html=self.GetPage(host, 'https://www.seek.co.nz/%s-jobs?daterange=7&page=%d&sortmode=ListedDate' % (self.keyword, n))
+            html=self.GetPage(host, 'https://www.seek.com.au/%s-jobs?daterange=3&page=%d&sortmode=ListedDate' % (self.keyword, n))
             if issave:
                 self.SaveFile('%s%s.html'%(host,n), html)
         blockstart='<article '
@@ -54,12 +54,6 @@ class NZCrawler(JobCrawler):
             elif 'one day ago' in block:
                 ds = date.today()-timedelta(days=1)
             elif 'two days ago' in block:
-                ds = date.today()-timedelta(days=2)
-            elif 'three days ago' in block:
-                ds = date.today()-timedelta(days=3)
-            elif 'four days ago' in block:
-                ds = date.today()-timedelta(days=4)
-            elif 'five days ago' in block or 'six days ago' in block:
                 self.stopflag=True
                 return jobs
             company=self.pv(r'<span data-automation="jobAdvertiser" data-reactid="\d+">([^<]+)', block)[0]
@@ -80,6 +74,7 @@ class NZCrawler(JobCrawler):
                 salary0,salary1,period=self.ParseSalary(title)
             if salary0=='' or int(salary0)<10 or int(salary0)>500000:
                 continue
+
             applicants=0
             website=' '           
             bs='</p></span>'
@@ -88,7 +83,6 @@ class NZCrawler(JobCrawler):
             end_pos=block.find(be)
             part=block[start_pos+11:end_pos]
             part=re.sub(r'(</?span[^>]*>)', '',part)
-            part=re.sub(r'(</?strong[^>]*>)', '',part)
             part=re.sub(r'(<ul[^>]*>)', '<ul>',part)
             part=re.sub(r'(<li[^>]*>)', '<li>',part)
             part=re.sub(r'(<p[^>]*>)', '<p>',part)
@@ -98,8 +92,61 @@ class NZCrawler(JobCrawler):
             jobs.append(data)
         return jobs
 
+    def ParseAdzuna(self, islocal=False, issave=False): 
+        host='www.adzuna.com.au' # Single page only 
+        if islocal:
+            html=self.GetFile(host)
+        else:
+            html=self.GetPage(host, 'https://www.adzuna.com.au/search?f=3&loc=105392&pp=50&sb=date&sd=down&q=%s' % self.keyword)
+            if issave:
+                self.SaveFile('%s.html'%host, html)
+        blockstart='<h2><a'
+        blockend='<a href="#" class="t_s">Share</a>'
+        jobs=[]
+        parts=html.split(blockstart)
+        for block in parts:
+            if '<html lang="en-AU">' in block:
+                continue
+            self.total+=1
+            block=block[:block.find(blockend)]
+            title = self.pv(r'<span itemprop="title">([^<]+)', block)[0]
+            link = self.pv(r'<a href="(https://www.adzuna.com.au/land/ad/\d+)', block)[0]
+            if link=='':
+                link = self.pv(r'href="(https://www.adzuna.com.au/details/[^"]+)', block)[0]
+            location=company=self.pv(r'<span itemprop="addressLocality">([^<]+)', block)[0]
+            salarytext=self.pv(r'<span itemprop="baseSalary" class="at_sl">([^<]+)', block)[0].replace(',','').replace('.00','').replace('AU$','').replace('AUD','')
+            salary0,salary1,period=self.ParseSalary(salarytext)
+            if salary0=='':
+                salary0,salary1,period=self.ParseSalary(title)
+            if salary0=='' or int(salary0)<10 or int(salary0)>500000:
+                continue
+            jobtype='Permanent'
+            time='full-time'
+            company=self.pv(r'<span itemprop="name">([^<]+)', block)[0]
+            applicants=0
+            website=' '
+            ds = date.today()
+            block=re.sub(r'(</?strong>)', '',block)
+            description=self.pv(r'<span class="at_tr">([^<]+)', block)[0].strip().replace('&nbsp;',' ')
+            data=JobData(host,link,title,ds,website,company,location,time,jobtype,self.currency,salary0,salary1,period,applicants,description)
+            jobs.append(data)
+        return jobs
+
+    def ParseAdzunaPage(self, link): 
+        host='www.adzuna.com.au'
+        html=self.GetPage(host, link)
+        parts=html.split('Apply for this job</a>')
+        #parts=html.split('<a target="_blank"')
+        if len(parts)<2:
+            return ''
+        part=parts[1]
+        part=re.sub(r'(</?div[^>]*>)', '',part)
+        part=part.replace('</p><h2>Description</h2>','').replace('<p>Salary comparison:</p>','').replace('<p><a','<a')
+        part=re.sub(r'(<a[^>]*>)', '',part)
+        return part
+
     def ParseSeekPage(self, link): 
-        host='www.seek.co.nz'
+        host='www.seek.com.au'
         html=self.GetPage(host, link)
         bs='<div id="jobTemplate">'
         be='<!-- START: Apply section below template -->'
