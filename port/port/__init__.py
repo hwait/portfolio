@@ -15,9 +15,16 @@ csrf.init_app(app)
 
 import port.views
 from port.mod_jobs.views import mod_jobs
+from port.mod_ccm.views import mod_ccm
 from port.mod_jobs.models import *
+from port.mod_ccm.models import *
+
+
+app.register_blueprint(mod_jobs)
+app.register_blueprint(mod_ccm)
+
 
 db.bind('sqlite', 'port.db', create_db=True)
 db.generate_mapping(create_tables=True)
-
-app.register_blueprint(mod_jobs)
+db1.bind('sqlite', 'port.db', create_db=True)
+db1.generate_mapping(create_tables=True)

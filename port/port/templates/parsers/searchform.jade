@@ -17,9 +17,9 @@ block content
     for x in logs
         .row
             .col-md-3
-                a(class=["btn", "btn-md"], href="/jobs/search/graph/?k=%s"%x.keyword) 
+                a(class=["btn", "btn-md", "btn-default"], href="/jobs/search/graph/?k=%s"%x.keyword) 
                     img(src='/static/img/chart.png')
-                a(class=["btn", "btn-md"], href="/jobs/search?k=%s&c=%s"%(x.keyword,x.country)) #{x.keyword}
+                a(class=["btn", "btn-md", "btn-primary"], href="/jobs/search?k=%s&c=%s"%(x.keyword,x.country)) #{x.keyword}
             .col-md-3
                 a(class=["btn", "btn-md"], href="/jobs/search/graph/?c=%s"%(x.country)) 
                     img(src='/static/img/chart.png')

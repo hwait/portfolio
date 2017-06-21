@@ -30,8 +30,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="port\mod_ccm\models.py" />
+    <Compile Include="port\mod_ccm\logic.py" />
+    <Compile Include="port\mod_ccm\views.py" />
+    <Compile Include="port\mod_ccm\__init__.py" />
     <Compile Include="port\mod_jobs\business\AUSCrawler.py" />
     <Compile Include="port\mod_jobs\business\DataKeeper.py" />
+    <Compile Include="port\mod_jobs\business\RMCrawler.py" />
     <Compile Include="port\mod_jobs\business\NZCrawler.py" />
     <Compile Include="port\mod_jobs\business\GBCrawler.py" />
     <Compile Include="port\mod_jobs\business\JobData.py">
@@ -59,17 +64,23 @@
     <Folder Include="port\" />
     <Folder Include="port\mod_jobs\" />
     <Folder Include="port\mod_jobs\business\" />
+    <Folder Include="port\mod_ccm\" />
     <Folder Include="port\static\" />
     <Folder Include="port\static\content\" />
     <Folder Include="port\static\fonts\" />
     <Folder Include="port\static\img\" />
     <Folder Include="port\static\scripts\" />
     <Folder Include="port\templates\" />
+    <Folder Include="port\templates\ccm\" />
     <Folder Include="port\templates\parsers\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="port\port.db" />
     <Content Include="port\static\img\chart.png" />
+    <Content Include="port\templates\ccm\mining.jade" />
+    <Content Include="port\templates\ccm\exrates.jade" />
+    <Content Include="port\templates\ccm\gpu.jade" />
+    <Content Include="port\templates\ccm\ccm.jade" />
     <Content Include="port\templates\mixins.jade" />
     <Content Include="port\templates\parsers\maps.jade" />
     <Content Include="port\templates\parsers\graph.jade" />

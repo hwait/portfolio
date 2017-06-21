@@ -224,8 +224,8 @@ def jobslist():
 def jobsearch():
     form = SearchForm(request.form)
     with orm.db_session:
-        logs=Log.select(lambda p: p.country!='AIR').order_by(orm.desc(Log.id))[:]
         prevmaps=orm.select(c.departure for c in Direction).prefetch(Airport)[:]
+        logs=Log.select(lambda p: p.country!='AIR').order_by(orm.desc(Log.id))[:]
     if request.method == 'GET':
         keyword = request.args.get('k', '')
         country = request.args.get('c', '')
