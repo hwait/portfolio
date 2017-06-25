@@ -2,22 +2,10 @@ extends layout
 
 block content
     script(src="https://cdn.plot.ly/plotly-latest.min.js")
-    if country!=''
-        h1 #{country}
-     elif keyword!=''
-        h1 #{keyword}
-    h5 Choose a currency or a GPU:
-        for gpu in gpus
-            a(class=["btn", "btn-md"], href="/ccm/gpu/%s"%(gpu)) #{gpu}
-    table(class='table' cellpadding='5')
+    #{menu|safe}
+    br
+    h1 #{title}
+    table
         tr
-            td(class='col-md-3')
-                    for x in resources
-                        .col-md-12 
-                            a(class=["btn", "btn-md"], href="/ccm/mine/%s"%(x.sname), title="Productivity")
-                                    .glyphicon.glyphicon-flash
-                            a(class=["btn", "btn-md"], href="/ccm/exrt/%s"%(x.sname), title="Exchange Rates")
-                                img(src='/static/img/chart.png')
-                            #{x.name}
-            td(class='col-md-9') #{graph|safe}
+            td  #{graphavg|safe} #{graph|safe} #{grapher|safe}
     

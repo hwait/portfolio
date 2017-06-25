@@ -77,6 +77,7 @@
   <ItemGroup>
     <Content Include="port\port.db" />
     <Content Include="port\static\img\chart.png" />
+    <Content Include="port\templates\ccm\menu.jade" />
     <Content Include="port\templates\ccm\mining.jade" />
     <Content Include="port\templates\ccm\exrates.jade" />
     <Content Include="port\templates\ccm\gpu.jade" />

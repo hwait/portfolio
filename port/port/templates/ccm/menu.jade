@@ -1,0 +1,17 @@
+ul(class=["nav navbar-nav"])
+    li(class=["dropdown"])
+        a(class=["dropdown-toggle"],data-toggle="dropdown",role="button",aria-haspopup="true",aria-expanded="true"], href="#",id="menu1") GPU
+            .caret
+        ul(class=["dropdown-menu"],aria-labelledby="menu1")
+            for gpu in gpus
+                li
+                    a(class=["btn", "btn-md"], href="/ccm/gpu/%s"%(gpu)) #{gpu}
+    li(class=["dropdown"])
+        a(class=["dropdown-toggle"],data-toggle="dropdown",role="button",aria-haspopup="true",aria-expanded="true"], href="#",id="menu2") Currencies
+            .caret
+        ul(class=["dropdown-menu"],aria-labelledby="menu2")
+            for x in currencies
+                li
+                    a(class=["btn", "btn-md"], href="/ccm/currency/%s"%(x.sname), title="Productivity") #{x.name}
+
+    

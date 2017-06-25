@@ -22,7 +22,8 @@ class WTMCrawler(JobCrawler):
         self.snames={"Nicehash-NeoScrypt" : "NH-NS","Nicehash-Lyra2REv2" : "NH-Lyra","Nicehash-Blake (2b)" : "NH-B2b",
             "Nicehash-Blake (14r)" : "NH-B14r","Nicehash-CryptoNight" : "NH-CN","Nicehash-Pascal" : "NH-P",
             "Nicehash-LBRY" : "NH-LBRY","Nicehash-X11Gost" : "NH-X11","Nicehash-Ethash" : "NH-Et",
-            "Nicehash-Equihash" : "NH-Eq",  }
+            "Nicehash-Equihash" : "NH-Eq","Nicehash-SHA" : "NH-SHA","Nicehash-Qubit" : "NH-Qubit",  
+            "Nicehash-Quark" : "NH-Quark","Nicehash-Scrypt" : "NH-Scrypt","Nicehash-X11" : "NH-X11"  }
         curdate=date.today()
         #curdate=date.today()-timedelta(days=1)
         with orm.db_session:
@@ -34,7 +35,10 @@ class WTMCrawler(JobCrawler):
     def GetGPU(self, gpu, curdate, islocal=False, issave=False): 
         host='whattomine.com'
         if islocal:
-            html=self.GetFile(host+gpu.name)
+            try:
+                html=self.GetFile(host+gpu.name)
+            except:
+                return
         else:
             html=self.GetPage(host, gpu.link)
             if issave:
@@ -74,7 +78,7 @@ class WTMCrawler(JobCrawler):
             s=self.pv(r'<br>([^<]+)', blocks[3])[0].strip().replace(',','')
             rew24 = float(s)
             s=self.pv(r'<div class="text-center">([^<]+)', blocks[4])[0].strip()
-            erbtc = float(s)
+            erbtc = 1 if sname=='BTC' else float(s)
             #$([^<]+)<br>\s*<strong>\s*$([^<]+)
             parts=self.pv(r'<td>\s*([^<]+)<br>\s*<strong>\s*([^<]+)', blocks[7],2)
             cost0=float(parts[0].replace('$',''))
